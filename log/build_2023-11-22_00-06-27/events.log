@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.001720] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.002388] (-) JobUnselected: {'identifier': 'cv_stuff'}
+[0.002480] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.002756] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.002917] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.002998] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.003316] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.003411] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.003489] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.003577] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.003741] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.003837] (opencv_tests) JobQueued: {'identifier': 'opencv_tests', 'dependencies': OrderedDict([('cv_bridge', '/home/ros2/turtlebot3_ws/install/cv_bridge')])}
+[0.003988] (opencv_tests) JobStarted: {'identifier': 'opencv_tests'}
+[0.099452] (-) TimerEvent: {}
+[0.200680] (-) TimerEvent: {}
+[0.301417] (-) TimerEvent: {}
+[0.402502] (-) TimerEvent: {}
+[0.503230] (-) TimerEvent: {}
+[0.604004] (-) TimerEvent: {}
+[0.704727] (-) TimerEvent: {}
+[0.805384] (-) TimerEvent: {}
+[0.906098] (-) TimerEvent: {}
+[1.006756] (-) TimerEvent: {}
+[1.107419] (-) TimerEvent: {}
+[1.208153] (-) TimerEvent: {}
+[1.308823] (-) TimerEvent: {}
+[1.409529] (-) TimerEvent: {}
+[1.510326] (-) TimerEvent: {}
+[1.611869] (-) TimerEvent: {}
+[1.713475] (-) TimerEvent: {}
+[1.814164] (-) TimerEvent: {}
+[1.914852] (-) TimerEvent: {}
+[2.015671] (-) TimerEvent: {}
+[2.116438] (-) TimerEvent: {}
+[2.217103] (-) TimerEvent: {}
+[2.317779] (-) TimerEvent: {}
+[2.418411] (-) TimerEvent: {}
+[2.519091] (-) TimerEvent: {}
+[2.619874] (-) TimerEvent: {}
+[2.720758] (-) TimerEvent: {}
+[2.821433] (-) TimerEvent: {}
+[2.922428] (-) TimerEvent: {}
+[3.018791] (opencv_tests) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/opencv_tests', 'build', '--build-base', '/home/ros2/turtlebot3_ws/build/opencv_tests/build', 'install', '--record', '/home/ros2/turtlebot3_ws/build/opencv_tests/install.log', '--single-version-externally-managed'], 'cwd': '/home/ros2/turtlebot3_ws/src/vision_opencv/opencv_tests', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_SG:en', 'USER': 'ros2', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros2/turtlebot3_ws/install/cv_bridge/lib:/home/ros2/turtlebot3_ws/install/image_geometry/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ros2', 'OLDPWD': '/home/ros2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1521', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ros2/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ros2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros2-desktop:@/tmp/.ICE-unix/1202,unix/ros2-desktop:/tmp/.ICE-unix/1202', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/762ddf56_a664_4591_8875_13b823f54a61', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.P2RQE2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.115', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ros2/turtlebot3_ws/install/vision_opencv:/home/ros2/turtlebot3_ws/install/opencv_tests:/home/ros2/turtlebot3_ws/install/cv_bridge:/home/ros2/turtlebot3_ws/install/turtlebot3:/home/ros2/turtlebot3_ws/install/turtlebot3_teleop:/home/ros2/turtlebot3_ws/install/turtlebot3_bringup:/home/ros2/turtlebot3_ws/install/turtlebot3_node:/home/ros2/turtlebot3_ws/install/turtlebot3_example:/home/ros2/turtlebot3_ws/install/turtlebot3_description:/home/ros2/turtlebot3_ws/install/ld08_driver:/home/ros2/turtlebot3_ws/install/image_geometry:/home/ros2/turtlebot3_ws/install/cv_stuff:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros2/turtlebot3_ws/build/opencv_tests', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2/turtlebot3_ws/build/opencv_tests/prefix_override:/home/ros2/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:/home/ros2/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:/home/ros2/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/ros2/turtlebot3_ws/build/turtlebot3_teleop:/home/ros2/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ros2/turtlebot3_ws/build/turtlebot3_example:/home/ros2/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ros2/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/ros2/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ros2/turtlebot3_ws/install/cv_bridge:/home/ros2/turtlebot3_ws/install/vision_opencv:/home/ros2/turtlebot3_ws/install/turtlebot3:/home/ros2/turtlebot3_ws/install/turtlebot3_bringup:/home/ros2/turtlebot3_ws/install/turtlebot3_node:/home/ros2/turtlebot3_ws/install/turtlebot3_description:/home/ros2/turtlebot3_ws/install/ld08_driver:/home/ros2/turtlebot3_ws/install/image_geometry'}, 'shell': False}
+[3.023659] (-) TimerEvent: {}
+[3.124582] (-) TimerEvent: {}
+[3.225330] (-) TimerEvent: {}
+[3.326035] (-) TimerEvent: {}
+[3.426823] (-) TimerEvent: {}
+[3.527916] (-) TimerEvent: {}
+[3.628582] (-) TimerEvent: {}
+[3.729240] (-) TimerEvent: {}
+[3.829920] (-) TimerEvent: {}
+[3.930576] (-) TimerEvent: {}
+[4.001293] (opencv_tests) StdoutLine: {'line': b'running egg_info\n'}
+[4.004062] (opencv_tests) StdoutLine: {'line': b'writing ../../../build/opencv_tests/opencv_tests.egg-info/PKG-INFO\n'}
+[4.005197] (opencv_tests) StdoutLine: {'line': b'writing dependency_links to ../../../build/opencv_tests/opencv_tests.egg-info/dependency_links.txt\n'}
+[4.006113] (opencv_tests) StdoutLine: {'line': b'writing entry points to ../../../build/opencv_tests/opencv_tests.egg-info/entry_points.txt\n'}
+[4.006873] (opencv_tests) StdoutLine: {'line': b'writing requirements to ../../../build/opencv_tests/opencv_tests.egg-info/requires.txt\n'}
+[4.007420] (opencv_tests) StdoutLine: {'line': b'writing top-level names to ../../../build/opencv_tests/opencv_tests.egg-info/top_level.txt\n'}
+[4.015374] (opencv_tests) StdoutLine: {'line': b"reading manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'\n"}
+[4.020494] (opencv_tests) StdoutLine: {'line': b"writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'\n"}
+[4.022827] (opencv_tests) StdoutLine: {'line': b'running build\n'}
+[4.023395] (opencv_tests) StdoutLine: {'line': b'running build_py\n'}
+[4.023925] (opencv_tests) StdoutLine: {'line': b'copying opencv_tests/rosfacedetect.py -> /home/ros2/turtlebot3_ws/build/opencv_tests/build/lib/opencv_tests\n'}
+[4.026980] (opencv_tests) StdoutLine: {'line': b'running install\n'}
+[4.029173] (opencv_tests) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.029820] (opencv_tests) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.030604] (opencv_tests) StdoutLine: {'line': b'running install_lib\n'}
+[4.031065] (-) TimerEvent: {}
+[4.034796] (opencv_tests) StdoutLine: {'line': b'copying /home/ros2/turtlebot3_ws/build/opencv_tests/build/lib/opencv_tests/rosfacedetect.py -> /home/ros2/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests\n'}
+[4.039928] (opencv_tests) StdoutLine: {'line': b'byte-compiling /home/ros2/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/rosfacedetect.py to rosfacedetect.cpython-310.pyc\n'}
+[4.046076] (opencv_tests) StdoutLine: {'line': b'running install_data\n'}
+[4.048303] (opencv_tests) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.055384] (opencv_tests) StdoutLine: {'line': b"removing '/home/ros2/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests-3.4.0-py3.10.egg-info' (and everything under it)\n"}
+[4.056953] (opencv_tests) StdoutLine: {'line': b'Copying ../../../build/opencv_tests/opencv_tests.egg-info to /home/ros2/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests-3.4.0-py3.10.egg-info\n'}
+[4.065682] (opencv_tests) StdoutLine: {'line': b'running install_scripts\n'}
+[4.131284] (-) TimerEvent: {}
+[4.152344] (opencv_tests) StdoutLine: {'line': b'Installing broadcast script to /home/ros2/turtlebot3_ws/install/opencv_tests/lib/opencv_tests\n'}
+[4.153244] (opencv_tests) StdoutLine: {'line': b'Installing rosfacedetect script to /home/ros2/turtlebot3_ws/install/opencv_tests/lib/opencv_tests\n'}
+[4.154227] (opencv_tests) StdoutLine: {'line': b'Installing source script to /home/ros2/turtlebot3_ws/install/opencv_tests/lib/opencv_tests\n'}
+[4.156078] (opencv_tests) StdoutLine: {'line': b"writing list of installed files to '/home/ros2/turtlebot3_ws/build/opencv_tests/install.log'\n"}
+[4.231598] (-) TimerEvent: {}
+[4.295863] (opencv_tests) CommandEnded: {'returncode': 0}
+[4.331934] (-) TimerEvent: {}
+[4.432762] (-) TimerEvent: {}
+[4.518288] (opencv_tests) JobEnded: {'identifier': 'opencv_tests', 'rc': 0}
+[4.522623] (-) EventReactorShutdown: {}

@@ -1,0 +1,27 @@
+[9.224s] Invoking command in '/home/ros2/turtlebot3_ws/src/cv_stuff': CMAKE_PREFIX_PATH=/home/ros2/turtlebot3_ws/install/cv_bridge:/home/ros2/turtlebot3_ws/install/vision_opencv:/home/ros2/turtlebot3_ws/install/turtlebot3:/home/ros2/turtlebot3_ws/install/turtlebot3_bringup:/home/ros2/turtlebot3_ws/install/turtlebot3_node:/home/ros2/turtlebot3_ws/install/turtlebot3_description:/home/ros2/turtlebot3_ws/install/ld08_driver:/home/ros2/turtlebot3_ws/install/image_geometry PYTHONPATH=/home/ros2/turtlebot3_ws/build/cv_stuff/prefix_override:/home/ros2/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_stuff build --build-base /home/ros2/turtlebot3_ws/build/cv_stuff/build install --record /home/ros2/turtlebot3_ws/build/cv_stuff/install.log --single-version-externally-managed
+[12.274s] running egg_info
+[12.281s] writing ../../build/cv_stuff/cv_stuff.egg-info/PKG-INFO
+[12.285s] writing dependency_links to ../../build/cv_stuff/cv_stuff.egg-info/dependency_links.txt
+[12.288s] writing entry points to ../../build/cv_stuff/cv_stuff.egg-info/entry_points.txt
+[12.294s] writing requirements to ../../build/cv_stuff/cv_stuff.egg-info/requires.txt
+[12.296s] writing top-level names to ../../build/cv_stuff/cv_stuff.egg-info/top_level.txt
+[12.323s] reading manifest file '../../build/cv_stuff/cv_stuff.egg-info/SOURCES.txt'
+[12.332s] writing manifest file '../../build/cv_stuff/cv_stuff.egg-info/SOURCES.txt'
+[12.336s] running build
+[12.337s] running build_py
+[12.339s] copying cv_stuff/webcam_pub.py -> /home/ros2/turtlebot3_ws/build/cv_stuff/build/lib/cv_stuff
+[12.348s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[12.349s]   warnings.warn(
+[12.350s] running install
+[12.352s] running install_lib
+[12.360s] copying /home/ros2/turtlebot3_ws/build/cv_stuff/build/lib/cv_stuff/webcam_pub.py -> /home/ros2/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff
+[12.371s] byte-compiling /home/ros2/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff/webcam_pub.py to webcam_pub.cpython-310.pyc
+[12.379s] running install_data
+[12.384s] running install_egg_info
+[12.406s] removing '/home/ros2/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff-0.0.0-py3.10.egg-info' (and everything under it)
+[12.411s] Copying ../../build/cv_stuff/cv_stuff.egg-info to /home/ros2/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff-0.0.0-py3.10.egg-info
+[12.424s] running install_scripts
+[12.655s] Installing img_publisher script to /home/ros2/turtlebot3_ws/install/cv_stuff/lib/cv_stuff
+[12.665s] Installing img_subscriber script to /home/ros2/turtlebot3_ws/install/cv_stuff/lib/cv_stuff
+[12.681s] writing list of installed files to '/home/ros2/turtlebot3_ws/build/cv_stuff/install.log'
+[12.960s] Invoked command in '/home/ros2/turtlebot3_ws/src/cv_stuff' returned '0': CMAKE_PREFIX_PATH=/home/ros2/turtlebot3_ws/install/cv_bridge:/home/ros2/turtlebot3_ws/install/vision_opencv:/home/ros2/turtlebot3_ws/install/turtlebot3:/home/ros2/turtlebot3_ws/install/turtlebot3_bringup:/home/ros2/turtlebot3_ws/install/turtlebot3_node:/home/ros2/turtlebot3_ws/install/turtlebot3_description:/home/ros2/turtlebot3_ws/install/ld08_driver:/home/ros2/turtlebot3_ws/install/image_geometry PYTHONPATH=/home/ros2/turtlebot3_ws/build/cv_stuff/prefix_override:/home/ros2/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_stuff build --build-base /home/ros2/turtlebot3_ws/build/cv_stuff/build install --record /home/ros2/turtlebot3_ws/build/cv_stuff/install.log --single-version-externally-managed

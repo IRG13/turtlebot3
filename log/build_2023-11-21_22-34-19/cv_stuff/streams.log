@@ -1,0 +1,27 @@
+[5.489s] Invoking command in '/home/ros2/turtlebot3_ws/build/cv_stuff': PYTHONPATH=/home/ros2/turtlebot3_ws/build/cv_stuff/prefix_override:/home/ros2/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros2/turtlebot3_ws/build/cv_stuff/build --no-deps install_data
+[6.852s] running develop
+[6.853s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.854s]   warnings.warn(
+[6.862s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.863s]   warnings.warn(
+[7.600s] running egg_info
+[7.601s] creating cv_stuff.egg-info
+[7.602s] writing cv_stuff.egg-info/PKG-INFO
+[7.604s] writing dependency_links to cv_stuff.egg-info/dependency_links.txt
+[7.605s] writing entry points to cv_stuff.egg-info/entry_points.txt
+[7.606s] writing requirements to cv_stuff.egg-info/requires.txt
+[7.607s] writing top-level names to cv_stuff.egg-info/top_level.txt
+[7.609s] writing manifest file 'cv_stuff.egg-info/SOURCES.txt'
+[7.612s] reading manifest file 'cv_stuff.egg-info/SOURCES.txt'
+[7.614s] writing manifest file 'cv_stuff.egg-info/SOURCES.txt'
+[7.621s] running build_ext
+[7.623s] Creating /home/ros2/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv-stuff.egg-link (link to .)
+[7.627s] 
+[7.628s] Installed /home/ros2/turtlebot3_ws/build/cv_stuff
+[7.630s] running install_data
+[7.635s] creating /home/ros2/turtlebot3_ws/install/cv_stuff/share/ament_index
+[7.638s] creating /home/ros2/turtlebot3_ws/install/cv_stuff/share/ament_index/resource_index
+[7.641s] creating /home/ros2/turtlebot3_ws/install/cv_stuff/share/ament_index/resource_index/packages
+[7.645s] copying resource/cv_stuff -> /home/ros2/turtlebot3_ws/install/cv_stuff/share/ament_index/resource_index/packages
+[7.648s] copying package.xml -> /home/ros2/turtlebot3_ws/install/cv_stuff/share/cv_stuff
+[7.835s] Invoked command in '/home/ros2/turtlebot3_ws/build/cv_stuff' returned '0': PYTHONPATH=/home/ros2/turtlebot3_ws/build/cv_stuff/prefix_override:/home/ros2/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros2/turtlebot3_ws/build/cv_stuff/build --no-deps install_data

@@ -1,0 +1,26 @@
+[2.990s] Invoking command in '/home/ros2/turtlebot3_ws/src/cv_stuff': PYTHONPATH=/home/ros2/turtlebot3_ws/build/cv_stuff/prefix_override:/home/ros2/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_stuff build --build-base /home/ros2/turtlebot3_ws/build/cv_stuff/build install --record /home/ros2/turtlebot3_ws/build/cv_stuff/install.log --single-version-externally-managed
+[3.943s] running egg_info
+[3.945s] writing ../../build/cv_stuff/cv_stuff.egg-info/PKG-INFO
+[3.946s] writing dependency_links to ../../build/cv_stuff/cv_stuff.egg-info/dependency_links.txt
+[3.947s] writing entry points to ../../build/cv_stuff/cv_stuff.egg-info/entry_points.txt
+[3.948s] writing requirements to ../../build/cv_stuff/cv_stuff.egg-info/requires.txt
+[3.949s] writing top-level names to ../../build/cv_stuff/cv_stuff.egg-info/top_level.txt
+[3.957s] reading manifest file '../../build/cv_stuff/cv_stuff.egg-info/SOURCES.txt'
+[3.962s] writing manifest file '../../build/cv_stuff/cv_stuff.egg-info/SOURCES.txt'
+[3.962s] running build
+[3.963s] running build_py
+[3.963s] copying cv_stuff/webcam_pub.py -> /home/ros2/turtlebot3_ws/build/cv_stuff/build/lib/cv_stuff
+[3.965s] running install
+[3.966s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.967s]   warnings.warn(
+[3.968s] running install_lib
+[3.971s] copying /home/ros2/turtlebot3_ws/build/cv_stuff/build/lib/cv_stuff/webcam_pub.py -> /home/ros2/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff
+[3.974s] byte-compiling /home/ros2/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff/webcam_pub.py to webcam_pub.cpython-310.pyc
+[3.977s] running install_data
+[3.979s] running install_egg_info
+[3.986s] removing '/home/ros2/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff-0.0.0-py3.10.egg-info' (and everything under it)
+[3.988s] Copying ../../build/cv_stuff/cv_stuff.egg-info to /home/ros2/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff-0.0.0-py3.10.egg-info
+[3.993s] running install_scripts
+[4.080s] Installing img_publisher script to /home/ros2/turtlebot3_ws/install/cv_stuff/lib/cv_stuff
+[4.082s] writing list of installed files to '/home/ros2/turtlebot3_ws/build/cv_stuff/install.log'
+[4.218s] Invoked command in '/home/ros2/turtlebot3_ws/src/cv_stuff' returned '0': PYTHONPATH=/home/ros2/turtlebot3_ws/build/cv_stuff/prefix_override:/home/ros2/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_stuff build --build-base /home/ros2/turtlebot3_ws/build/cv_stuff/build install --record /home/ros2/turtlebot3_ws/build/cv_stuff/install.log --single-version-externally-managed

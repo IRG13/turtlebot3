@@ -1,0 +1,73 @@
+[0.991s] Invoking command in '/home/ros2/turtlebot3_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/turtlebot3_ws/install/cv_stuff:/home/ros2/turtlebot3_ws/install/turtlebot3_teleop:/home/ros2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ros2/turtlebot3_ws/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/turtlebot3_ws/install/cv_bridge
+[2.117s] -- The C compiler identification is GNU 11.4.0
+[2.927s] -- The CXX compiler identification is GNU 11.4.0
+[2.963s] -- Detecting C compiler ABI info
+[3.391s] -- Detecting C compiler ABI info - done
+[3.419s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.423s] -- Detecting C compile features
+[3.426s] -- Detecting C compile features - done
+[3.441s] -- Detecting CXX compiler ABI info
+[3.905s] -- Detecting CXX compiler ABI info - done
+[3.933s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.934s] -- Detecting CXX compile features
+[3.936s] -- Detecting CXX compile features - done
+[3.972s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.168s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.693s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.927s] -- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[9.060s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: python310 
+[9.111s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[9.600s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.664s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.750s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.860s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.025s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.751s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.827s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.948s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[12.382s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.865s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.155s] -- Looking for pthread.h
+[14.019s] -- Looking for pthread.h - found
+[14.022s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.016s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.019s] -- Found Threads: TRUE  
+[17.212s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[19.275s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[20.805s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[20.811s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[22.450s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[22.466s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[23.620s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[23.736s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[25.770s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[42.508s] -- Configuring done
+[42.699s] -- Generating done
+[42.712s] -- Build files have been written to: /home/ros2/turtlebot3_ws/build/cv_bridge
+[42.786s] Invoked command in '/home/ros2/turtlebot3_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/turtlebot3_ws/install/cv_stuff:/home/ros2/turtlebot3_ws/install/turtlebot3_teleop:/home/ros2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ros2/turtlebot3_ws/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/turtlebot3_ws/install/cv_bridge
+[42.795s] Invoking command in '/home/ros2/turtlebot3_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/turtlebot3_ws/install/cv_stuff:/home/ros2/turtlebot3_ws/install/turtlebot3_teleop:/home/ros2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ros2/turtlebot3_ws/build/cv_bridge -- -j4 -l4
+[43.095s] [  0%] Built target ament_cmake_python_symlink_cv_bridge
+[43.188s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[62.801s] [ 11%] [32m[1mLinking CXX static library libgtest.a[0m
+[63.172s] [ 11%] Built target gtest
+[64.546s] running egg_info
+[64.549s] creating cv_bridge.egg-info
+[64.551s] writing cv_bridge.egg-info/PKG-INFO
+[64.552s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[64.553s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[64.554s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[64.570s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[64.573s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[64.729s] [ 11%] Built target ament_cmake_python_build_cv_bridge_egg
+[64.825s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[69.610s] [ 22%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[69.751s] [ 22%] Built target gtest_main
+[69.839s] [ 27%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[88.540s] [ 33%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[88.546s] [ 38%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_mat_sensor_msgs_image_type_adapter.cpp.o[0m
+[98.903s] [ 44%] [32m[1mLinking CXX shared library libcv_bridge.so[0m
+[100.092s] [ 44%] Built target cv_bridge
+[100.191s] [ 50%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[100.194s] [ 55%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv4.cpp.o[0m
+[100.200s] [ 61%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o[0m
+[100.217s] [ 66%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o[0m
