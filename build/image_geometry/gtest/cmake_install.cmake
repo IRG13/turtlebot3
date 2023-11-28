@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros2/turtlebot3_ws/install/image_geometry")
+  set(CMAKE_INSTALL_PREFIX "/home/maddy/turtlebot3_ws/install/image_geometry")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

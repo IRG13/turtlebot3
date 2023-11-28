@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros2/turtlebot3_ws/src/vision_opencv/cv_bridge/src
+# Install script for directory: /home/maddy/turtlebot3_ws/src/vision_opencv/cv_bridge/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros2/turtlebot3_ws/install/cv_bridge")
+  set(CMAKE_INSTALL_PREFIX "/home/maddy/turtlebot3_ws/install/cv_bridge")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcv_bridge.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ros2/turtlebot3_ws/build/cv_bridge/src/libcv_bridge.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/maddy/turtlebot3_ws/build/cv_bridge/src/libcv_bridge.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcv_bridge.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcv_bridge.so")
     file(RPATH_CHANGE

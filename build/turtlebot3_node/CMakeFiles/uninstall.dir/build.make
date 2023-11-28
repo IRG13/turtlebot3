@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros2/turtlebot3_ws/src/turtlebot3/turtlebot3_node
+CMAKE_SOURCE_DIR = /home/maddy/turtlebot3_ws/src/turtlebot3/turtlebot3_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros2/turtlebot3_ws/build/turtlebot3_node
+CMAKE_BINARY_DIR = /home/maddy/turtlebot3_ws/build/turtlebot3_node
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/ros2/turtlebot3_ws/build/turtlebot3_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros2/turtlebot3_ws/src/turtlebot3/turtlebot3_node /home/ros2/turtlebot3_ws/src/turtlebot3/turtlebot3_node /home/ros2/turtlebot3_ws/build/turtlebot3_node /home/ros2/turtlebot3_ws/build/turtlebot3_node /home/ros2/turtlebot3_ws/build/turtlebot3_node/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maddy/turtlebot3_ws/build/turtlebot3_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maddy/turtlebot3_ws/src/turtlebot3/turtlebot3_node /home/maddy/turtlebot3_ws/src/turtlebot3/turtlebot3_node /home/maddy/turtlebot3_ws/build/turtlebot3_node /home/maddy/turtlebot3_ws/build/turtlebot3_node /home/maddy/turtlebot3_ws/build/turtlebot3_node/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

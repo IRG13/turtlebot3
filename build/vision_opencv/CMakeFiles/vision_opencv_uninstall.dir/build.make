@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros2/turtlebot3_ws/src/vision_opencv/vision_opencv
+CMAKE_SOURCE_DIR = /home/maddy/turtlebot3_ws/src/vision_opencv/vision_opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros2/turtlebot3_ws/build/vision_opencv
+CMAKE_BINARY_DIR = /home/maddy/turtlebot3_ws/build/vision_opencv
 
 # Utility rule file for vision_opencv_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/vision_opencv_uninstall.dir/compiler_depend.make
 include CMakeFiles/vision_opencv_uninstall.dir/progress.make
 
 CMakeFiles/vision_opencv_uninstall:
-	/usr/bin/cmake -P /home/ros2/turtlebot3_ws/build/vision_opencv/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/maddy/turtlebot3_ws/build/vision_opencv/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 vision_opencv_uninstall: CMakeFiles/vision_opencv_uninstall
 vision_opencv_uninstall: CMakeFiles/vision_opencv_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/vision_opencv_uninstall.dir/clean:
 .PHONY : CMakeFiles/vision_opencv_uninstall.dir/clean
 
 CMakeFiles/vision_opencv_uninstall.dir/depend:
-	cd /home/ros2/turtlebot3_ws/build/vision_opencv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros2/turtlebot3_ws/src/vision_opencv/vision_opencv /home/ros2/turtlebot3_ws/src/vision_opencv/vision_opencv /home/ros2/turtlebot3_ws/build/vision_opencv /home/ros2/turtlebot3_ws/build/vision_opencv /home/ros2/turtlebot3_ws/build/vision_opencv/CMakeFiles/vision_opencv_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maddy/turtlebot3_ws/build/vision_opencv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maddy/turtlebot3_ws/src/vision_opencv/vision_opencv /home/maddy/turtlebot3_ws/src/vision_opencv/vision_opencv /home/maddy/turtlebot3_ws/build/vision_opencv /home/maddy/turtlebot3_ws/build/vision_opencv /home/maddy/turtlebot3_ws/build/vision_opencv/CMakeFiles/vision_opencv_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/vision_opencv_uninstall.dir/depend
 

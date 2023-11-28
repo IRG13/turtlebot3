@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros2/turtlebot3_ws/src/vision_opencv/cv_bridge/test
+# Install script for directory: /home/maddy/turtlebot3_ws/src/vision_opencv/cv_bridge/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros2/turtlebot3_ws/install/cv_bridge")
+  set(CMAKE_INSTALL_PREFIX "/home/maddy/turtlebot3_ws/install/cv_bridge")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/ros2/turtlebot3_ws/build/cv_bridge/gtest/cmake_install.cmake")
+  include("/home/maddy/turtlebot3_ws/build/cv_bridge/gtest/cmake_install.cmake")
 endif()
 

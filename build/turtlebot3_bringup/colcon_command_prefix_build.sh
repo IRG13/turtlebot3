@@ -1,3 +1,5 @@
 # generated from colcon_core/shell/template/command_prefix.sh.em
-. "/home/ros2/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.sh"
-. "/home/ros2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.sh"
+. "/home/maddy/turtlebot3_ws/install/image_pub/share/image_pub/package.sh"
+. "/home/maddy/turtlebot3_ws/install/sound_player/share/sound_player/package.sh"
+. "/home/maddy/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.sh"
+. "/home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.sh"

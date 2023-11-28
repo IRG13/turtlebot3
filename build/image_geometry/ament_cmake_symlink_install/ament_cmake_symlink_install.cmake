@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ros2/turtlebot3_ws/install/image_geometry/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/maddy/turtlebot3_ws/install/image_geometry/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ros2/turtlebot3_ws/install/image_geometry/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/maddy/turtlebot3_ws/install/image_geometry/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ros2/turtlebot3_ws/install/image_geometry/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/maddy/turtlebot3_ws/install/image_geometry/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/ros2/turtlebot3_ws/install/image_geometry/${destination}")
+      set(destination "/home/maddy/turtlebot3_ws/install/image_geometry/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,65 +310,65 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/image_geometry/environment")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/image_geometry/environment")
+# install(FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/image_geometry/environment")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/image_geometry/environment")
 
-# install(FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/image_geometry/environment")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/image_geometry/environment")
+# install(FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/image_geometry/environment")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/image_geometry/environment")
 
-# install(DIRECTORY "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_python/image_geometry/image_geometry.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/image_geometry-3.4.0-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" DIRECTORY "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_python/image_geometry/image_geometry.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/image_geometry-3.4.0-py3.10.egg-info")
+# install(DIRECTORY "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_python/image_geometry/image_geometry.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/image_geometry-3.4.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" DIRECTORY "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_python/image_geometry/image_geometry.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/image_geometry-3.4.0-py3.10.egg-info")
 
-# install(DIRECTORY "/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry/image_geometry/" "DESTINATION" "local/lib/python3.10/dist-packages/image_geometry" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" DIRECTORY "/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry/image_geometry/" "DESTINATION" "local/lib/python3.10/dist-packages/image_geometry" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry/image_geometry/" "DESTINATION" "local/lib/python3.10/dist-packages/image_geometry" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" DIRECTORY "/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry/image_geometry/" "DESTINATION" "local/lib/python3.10/dist-packages/image_geometry" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
 # install(DIRECTORY "include/" "DESTINATION" "include/image_geometry")
-ament_cmake_symlink_install_directory("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" DIRECTORY "include/" "DESTINATION" "include/image_geometry")
+ament_cmake_symlink_install_directory("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" DIRECTORY "include/" "DESTINATION" "include/image_geometry")
 
-# install(FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/image_geometry" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/image_geometry" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/image_geometry" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/image_geometry" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/image_geometry" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/image_geometry" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/image_geometry" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/image_geometry" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/image_geometry/environment")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/image_geometry/environment")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/image_geometry/environment")
 
-# install(FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/image_geometry/environment")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/image_geometry/environment")
+# install(FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/image_geometry/environment")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/image_geometry/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/image_geometry/environment")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/image_geometry/environment")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/image_geometry/environment")
 
-# install(FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/image_geometry/environment")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/image_geometry/environment")
+# install(FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/image_geometry/environment")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/image_geometry/environment")
 
-# install(FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/image_geometry")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/image_geometry")
+# install(FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/image_geometry")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/image_geometry")
 
-# install(FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/image_geometry")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/image_geometry")
+# install(FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/image_geometry")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/image_geometry")
 
-# install(FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/image_geometry")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/image_geometry")
+# install(FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/image_geometry")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/image_geometry")
 
-# install(FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/image_geometry")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/image_geometry")
+# install(FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/image_geometry")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/image_geometry")
 
-# install(FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/image_geometry")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/image_geometry")
+# install(FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/image_geometry")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/image_geometry")
 
-# install(FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_index/share/ament_index/resource_index/packages/image_geometry" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_index/share/ament_index/resource_index/packages/image_geometry" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_index/share/ament_index/resource_index/packages/image_geometry" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_index/share/ament_index/resource_index/packages/image_geometry" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/image_geometry/cmake")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/image_geometry/cmake")
+# install(FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/image_geometry/cmake")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/image_geometry/cmake")
 
-# install(FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/image_geometry/cmake")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/image_geometry/cmake")
+# install(FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/image_geometry/cmake")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/image_geometry/cmake")
 
-# install(FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_core/image_geometryConfig.cmake" "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_core/image_geometryConfig-version.cmake" "DESTINATION" "share/image_geometry/cmake")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_core/image_geometryConfig.cmake" "/home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_core/image_geometryConfig-version.cmake" "DESTINATION" "share/image_geometry/cmake")
+# install(FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_core/image_geometryConfig.cmake" "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_core/image_geometryConfig-version.cmake" "DESTINATION" "share/image_geometry/cmake")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_core/image_geometryConfig.cmake" "/home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_core/image_geometryConfig-version.cmake" "DESTINATION" "share/image_geometry/cmake")
 
-# install(FILES "/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry/package.xml" "DESTINATION" "share/image_geometry")
-ament_cmake_symlink_install_files("/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry/package.xml" "DESTINATION" "share/image_geometry")
+# install(FILES "/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry/package.xml" "DESTINATION" "share/image_geometry")
+ament_cmake_symlink_install_files("/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry" FILES "/home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry/package.xml" "DESTINATION" "share/image_geometry")

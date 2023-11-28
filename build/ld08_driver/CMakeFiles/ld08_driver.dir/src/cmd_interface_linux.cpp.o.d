@@ -1,7 +1,7 @@
 CMakeFiles/ld08_driver.dir/src/cmd_interface_linux.cpp.o: \
- /home/ros2/turtlebot3_ws/src/ld08_driver/src/cmd_interface_linux.cpp \
+ /home/maddy/turtlebot3_ws/src/ld08_driver/src/cmd_interface_linux.cpp \
  /usr/include/stdc-predef.h \
- /home/ros2/turtlebot3_ws/src/ld08_driver/src/../include/cmd_interface_linux.h \
+ /home/maddy/turtlebot3_ws/src/ld08_driver/src/../include/cmd_interface_linux.h \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \

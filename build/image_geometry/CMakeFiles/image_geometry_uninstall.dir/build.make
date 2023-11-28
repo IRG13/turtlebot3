@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry
+CMAKE_SOURCE_DIR = /home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros2/turtlebot3_ws/build/image_geometry
+CMAKE_BINARY_DIR = /home/maddy/turtlebot3_ws/build/image_geometry
 
 # Utility rule file for image_geometry_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/image_geometry_uninstall.dir/compiler_depend.make
 include CMakeFiles/image_geometry_uninstall.dir/progress.make
 
 CMakeFiles/image_geometry_uninstall:
-	/usr/bin/cmake -P /home/ros2/turtlebot3_ws/build/image_geometry/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/maddy/turtlebot3_ws/build/image_geometry/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 image_geometry_uninstall: CMakeFiles/image_geometry_uninstall
 image_geometry_uninstall: CMakeFiles/image_geometry_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/image_geometry_uninstall.dir/clean:
 .PHONY : CMakeFiles/image_geometry_uninstall.dir/clean
 
 CMakeFiles/image_geometry_uninstall.dir/depend:
-	cd /home/ros2/turtlebot3_ws/build/image_geometry && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry /home/ros2/turtlebot3_ws/src/vision_opencv/image_geometry /home/ros2/turtlebot3_ws/build/image_geometry /home/ros2/turtlebot3_ws/build/image_geometry /home/ros2/turtlebot3_ws/build/image_geometry/CMakeFiles/image_geometry_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maddy/turtlebot3_ws/build/image_geometry && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry /home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry /home/maddy/turtlebot3_ws/build/image_geometry /home/maddy/turtlebot3_ws/build/image_geometry /home/maddy/turtlebot3_ws/build/image_geometry/CMakeFiles/image_geometry_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/image_geometry_uninstall.dir/depend
 

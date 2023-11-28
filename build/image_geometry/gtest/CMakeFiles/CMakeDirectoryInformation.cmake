@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/opt/ros/humble/src/gtest_vendor")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/ros2/turtlebot3_ws/build/image_geometry")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/maddy/turtlebot3_ws/build/image_geometry")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

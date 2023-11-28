@@ -24,10 +24,10 @@ class ImagePublisher(Node):
       
     # Create the publisher. This publisher will publish an Image
     # to the video_frames topic. The queue size is 10 messages.
-    self.publisher_ = self.create_publisher(Image, 'video_frames', 10)
+    self.publisher_ = self.create_publisher(Image, '/video0', 10)
       
     # We will publish a message every 0.1 seconds
-    timer_period = 0.2  # seconds
+    timer_period = 0.1  # seconds
       
     # Create the timer
     self.timer = self.create_timer(timer_period, self.timer_callback)
@@ -48,12 +48,14 @@ class ImagePublisher(Node):
     # This method returns True/False as well
     # as the video frame.
     ret, frame = self.cap.read()
+    #cv2.imwrite(frame, frame, [cv2.IMWRITE_JPEG_QUALITY, 30])
           
     if ret == True:
       # Publish the image.
       # The 'cv2_to_imgmsg' method converts an OpenCV
       # image to a ROS 2 image message
       self.publisher_.publish(self.br.cv2_to_imgmsg(frame))
+      # self.publisher_.publish(frame)
     # Display the message on the console
       self.get_logger().info('Publishing video frame')
   

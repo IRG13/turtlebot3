@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros2/turtlebot3_ws/src/vision_opencv/cv_bridge
+CMAKE_SOURCE_DIR = /home/maddy/turtlebot3_ws/src/vision_opencv/cv_bridge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros2/turtlebot3_ws/build/cv_bridge
+CMAKE_BINARY_DIR = /home/maddy/turtlebot3_ws/build/cv_bridge
 
 # Utility rule file for ament_cmake_python_build_cv_bridge_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_cv_bridge_egg.dir/compiler_depend.ma
 include CMakeFiles/ament_cmake_python_build_cv_bridge_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_cv_bridge_egg:
-	cd /home/ros2/turtlebot3_ws/build/cv_bridge/ament_cmake_python/cv_bridge && /usr/bin/python3.10 setup.py egg_info
+	cd /home/maddy/turtlebot3_ws/build/cv_bridge/ament_cmake_python/cv_bridge && /usr/bin/python3.10 setup.py egg_info
 
 ament_cmake_python_build_cv_bridge_egg: CMakeFiles/ament_cmake_python_build_cv_bridge_egg
 ament_cmake_python_build_cv_bridge_egg: CMakeFiles/ament_cmake_python_build_cv_bridge_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_cv_bridge_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_cv_bridge_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_cv_bridge_egg.dir/depend:
-	cd /home/ros2/turtlebot3_ws/build/cv_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros2/turtlebot3_ws/src/vision_opencv/cv_bridge /home/ros2/turtlebot3_ws/src/vision_opencv/cv_bridge /home/ros2/turtlebot3_ws/build/cv_bridge /home/ros2/turtlebot3_ws/build/cv_bridge /home/ros2/turtlebot3_ws/build/cv_bridge/CMakeFiles/ament_cmake_python_build_cv_bridge_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maddy/turtlebot3_ws/build/cv_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maddy/turtlebot3_ws/src/vision_opencv/cv_bridge /home/maddy/turtlebot3_ws/src/vision_opencv/cv_bridge /home/maddy/turtlebot3_ws/build/cv_bridge /home/maddy/turtlebot3_ws/build/cv_bridge /home/maddy/turtlebot3_ws/build/cv_bridge/CMakeFiles/ament_cmake_python_build_cv_bridge_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_cv_bridge_egg.dir/depend
 

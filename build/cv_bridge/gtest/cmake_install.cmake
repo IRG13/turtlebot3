@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros2/turtlebot3_ws/install/cv_bridge")
+  set(CMAKE_INSTALL_PREFIX "/home/maddy/turtlebot3_ws/install/cv_bridge")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
