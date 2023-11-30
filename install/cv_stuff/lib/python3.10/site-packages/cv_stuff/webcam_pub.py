@@ -49,7 +49,7 @@ class ImagePublisher(Node):
     # as the video frame.
     ret, frame = self.cap.read()
     #cv2.imwrite(frame, frame, [cv2.IMWRITE_JPEG_QUALITY, 30])
-          
+    frame = cv2.resize(frame, None, fx=0.4, fy=0.4)      
     if ret == True:
       # Publish the image.
       # The 'cv2_to_imgmsg' method converts an OpenCV
