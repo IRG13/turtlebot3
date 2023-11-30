@@ -1,0 +1,26 @@
+[3.558s] Invoking command in '/home/maddy/turtlebot3_ws/src/sound_player': PYTHONPATH=/home/maddy/turtlebot3_ws/build/sound_player/prefix_override:/home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sound_player build --build-base /home/maddy/turtlebot3_ws/build/sound_player/build install --record /home/maddy/turtlebot3_ws/build/sound_player/install.log --single-version-externally-managed
+[4.522s] running egg_info
+[4.524s] writing ../../build/sound_player/sound_player.egg-info/PKG-INFO
+[8.521s] writing dependency_links to ../../build/sound_player/sound_player.egg-info/dependency_links.txt
+[8.523s] writing entry points to ../../build/sound_player/sound_player.egg-info/entry_points.txt
+[8.524s] writing requirements to ../../build/sound_player/sound_player.egg-info/requires.txt
+[8.526s] writing top-level names to ../../build/sound_player/sound_player.egg-info/top_level.txt
+[12.776s] reading manifest file '../../build/sound_player/sound_player.egg-info/SOURCES.txt'
+[13.571s] writing manifest file '../../build/sound_player/sound_player.egg-info/SOURCES.txt'
+[13.572s] running build
+[13.572s] running build_py
+[13.897s] copying sound_player/player.py -> /home/maddy/turtlebot3_ws/build/sound_player/build/lib/sound_player
+[13.901s] running install
+[13.903s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.904s]   warnings.warn(
+[13.906s] running install_lib
+[13.912s] copying /home/maddy/turtlebot3_ws/build/sound_player/build/lib/sound_player/player.py -> /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player
+[13.917s] byte-compiling /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player/player.py to player.cpython-310.pyc
+[13.921s] running install_data
+[13.998s] running install_egg_info
+[14.011s] removing '/home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player-0.0.0-py3.10.egg-info' (and everything under it)
+[14.012s] Copying ../../build/sound_player/sound_player.egg-info to /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player-0.0.0-py3.10.egg-info
+[14.018s] running install_scripts
+[14.100s] Installing sound_player script to /home/maddy/turtlebot3_ws/install/sound_player/lib/sound_player
+[14.103s] writing list of installed files to '/home/maddy/turtlebot3_ws/build/sound_player/install.log'
+[14.215s] Invoked command in '/home/maddy/turtlebot3_ws/src/sound_player' returned '0': PYTHONPATH=/home/maddy/turtlebot3_ws/build/sound_player/prefix_override:/home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sound_player build --build-base /home/maddy/turtlebot3_ws/build/sound_player/build install --record /home/maddy/turtlebot3_ws/build/sound_player/install.log --single-version-externally-managed

@@ -1,0 +1,3 @@
+[console_scripts]
+pub_vid = image_pub.pub:main
+

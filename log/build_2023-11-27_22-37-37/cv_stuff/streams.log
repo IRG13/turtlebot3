@@ -1,0 +1,27 @@
+[16.374s] Invoking command in '/home/maddy/turtlebot3_ws/src/cv_stuff': CMAKE_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/audio_common_msgs LD_LIBRARY_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/maddy/turtlebot3_ws/build/cv_stuff/prefix_override:/home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_stuff build --build-base /home/maddy/turtlebot3_ws/build/cv_stuff/build install --record /home/maddy/turtlebot3_ws/build/cv_stuff/install.log --single-version-externally-managed
+[17.314s] running egg_info
+[17.317s] writing ../../build/cv_stuff/cv_stuff.egg-info/PKG-INFO
+[17.319s] writing dependency_links to ../../build/cv_stuff/cv_stuff.egg-info/dependency_links.txt
+[17.320s] writing entry points to ../../build/cv_stuff/cv_stuff.egg-info/entry_points.txt
+[17.321s] writing requirements to ../../build/cv_stuff/cv_stuff.egg-info/requires.txt
+[17.322s] writing top-level names to ../../build/cv_stuff/cv_stuff.egg-info/top_level.txt
+[17.329s] reading manifest file '../../build/cv_stuff/cv_stuff.egg-info/SOURCES.txt'
+[17.335s] writing manifest file '../../build/cv_stuff/cv_stuff.egg-info/SOURCES.txt'
+[17.336s] running build
+[17.336s] running build_py
+[17.340s] copying cv_stuff/webcam_pub.py -> /home/maddy/turtlebot3_ws/build/cv_stuff/build/lib/cv_stuff
+[17.342s] running install
+[17.344s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[17.344s]   warnings.warn(
+[17.345s] running install_lib
+[17.349s] copying /home/maddy/turtlebot3_ws/build/cv_stuff/build/lib/cv_stuff/webcam_pub.py -> /home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff
+[17.353s] byte-compiling /home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff/webcam_pub.py to webcam_pub.cpython-310.pyc
+[17.356s] running install_data
+[17.358s] running install_egg_info
+[17.366s] removing '/home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff-0.0.0-py3.10.egg-info' (and everything under it)
+[17.367s] Copying ../../build/cv_stuff/cv_stuff.egg-info to /home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff-0.0.0-py3.10.egg-info
+[17.374s] running install_scripts
+[17.455s] Installing img_publisher script to /home/maddy/turtlebot3_ws/install/cv_stuff/lib/cv_stuff
+[17.456s] Installing img_subscriber script to /home/maddy/turtlebot3_ws/install/cv_stuff/lib/cv_stuff
+[17.457s] writing list of installed files to '/home/maddy/turtlebot3_ws/build/cv_stuff/install.log'
+[17.570s] Invoked command in '/home/maddy/turtlebot3_ws/src/cv_stuff' returned '0': CMAKE_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/audio_common_msgs LD_LIBRARY_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/maddy/turtlebot3_ws/build/cv_stuff/prefix_override:/home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_stuff build --build-base /home/maddy/turtlebot3_ws/build/cv_stuff/build install --record /home/maddy/turtlebot3_ws/build/cv_stuff/install.log --single-version-externally-managed

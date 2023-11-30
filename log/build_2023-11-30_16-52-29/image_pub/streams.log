@@ -1,0 +1,31 @@
+[3.271s] Invoking command in '/home/maddy/turtlebot3_ws/src/image_pub': PYTHONPATH=/home/maddy/turtlebot3_ws/build/image_pub/prefix_override:/home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/image_pub build --build-base /home/maddy/turtlebot3_ws/build/image_pub/build install --record /home/maddy/turtlebot3_ws/build/image_pub/install.log --single-version-externally-managed
+[4.346s] running egg_info
+[4.349s] writing ../../build/image_pub/image_pub.egg-info/PKG-INFO
+[4.350s] writing dependency_links to ../../build/image_pub/image_pub.egg-info/dependency_links.txt
+[4.351s] writing entry points to ../../build/image_pub/image_pub.egg-info/entry_points.txt
+[4.351s] writing requirements to ../../build/image_pub/image_pub.egg-info/requires.txt
+[4.352s] writing top-level names to ../../build/image_pub/image_pub.egg-info/top_level.txt
+[4.360s] reading manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+[4.363s] writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+[4.364s] running build
+[4.364s] running build_py
+[4.365s] copying image_pub/pub.py -> /home/maddy/turtlebot3_ws/build/image_pub/build/lib/image_pub
+[4.366s] running install
+[4.367s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.367s]   warnings.warn(
+[4.368s] running install_lib
+[4.371s] copying /home/maddy/turtlebot3_ws/build/image_pub/build/lib/image_pub/pub.py -> /home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages/image_pub
+[4.374s] byte-compiling /home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages/image_pub/pub.py to pub.cpython-310.pyc
+[4.376s]   File "/home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages/image_pub/pub.py", line 80
+[4.376s]     frame = block_reduce(frame, block_size= (3,3,1)func=np.mean)
+[4.377s]                                             ^^^^^^^^^^^
+[4.377s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[4.377s] 
+[4.378s] running install_data
+[4.378s] running install_egg_info
+[4.385s] removing '/home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info' (and everything under it)
+[4.387s] Copying ../../build/image_pub/image_pub.egg-info to /home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info
+[4.392s] running install_scripts
+[4.473s] Installing pub_vid script to /home/maddy/turtlebot3_ws/install/image_pub/lib/image_pub
+[4.475s] writing list of installed files to '/home/maddy/turtlebot3_ws/build/image_pub/install.log'
+[4.582s] Invoked command in '/home/maddy/turtlebot3_ws/src/image_pub' returned '0': PYTHONPATH=/home/maddy/turtlebot3_ws/build/image_pub/prefix_override:/home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/image_pub build --build-base /home/maddy/turtlebot3_ws/build/image_pub/build install --record /home/maddy/turtlebot3_ws/build/image_pub/install.log --single-version-externally-managed

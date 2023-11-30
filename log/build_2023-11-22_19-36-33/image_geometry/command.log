@@ -1,0 +1,6 @@
+Invoking command in '/home/maddy/turtlebot3_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/image_geometry
+Invoked command in '/home/maddy/turtlebot3_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maddy/turtlebot3_ws/src/vision_opencv/image_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/image_geometry
+Invoking command in '/home/maddy/turtlebot3_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maddy/turtlebot3_ws/build/image_geometry -- -j4 -l4
+Invoked command in '/home/maddy/turtlebot3_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maddy/turtlebot3_ws/build/image_geometry -- -j4 -l4
+Invoking command in '/home/maddy/turtlebot3_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maddy/turtlebot3_ws/build/image_geometry
+Invoked command in '/home/maddy/turtlebot3_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maddy/turtlebot3_ws/build/image_geometry

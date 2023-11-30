@@ -1,0 +1,30 @@
+[2.657s] Invoking command in '/home/maddy/turtlebot3_ws/build/opencv_tests': AMENT_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge LD_LIBRARY_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maddy/turtlebot3_ws/build/opencv_tests/prefix_override:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/maddy/turtlebot3_ws/build/opencv_tests/build --no-deps install_data
+[3.604s] running develop
+[3.605s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.606s]   warnings.warn(
+[3.610s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.610s]   warnings.warn(
+[4.135s] running egg_info
+[4.135s] creating opencv_tests.egg-info
+[4.136s] writing opencv_tests.egg-info/PKG-INFO
+[4.136s] writing dependency_links to opencv_tests.egg-info/dependency_links.txt
+[4.137s] writing entry points to opencv_tests.egg-info/entry_points.txt
+[4.138s] writing requirements to opencv_tests.egg-info/requires.txt
+[4.138s] writing top-level names to opencv_tests.egg-info/top_level.txt
+[4.139s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[4.145s] reading manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[4.148s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[4.153s] running build_ext
+[4.154s] Creating /home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv-tests.egg-link (link to .)
+[4.157s] Installing broadcast script to /home/maddy/turtlebot3_ws/install/opencv_tests/lib/opencv_tests
+[4.158s] Installing rosfacedetect script to /home/maddy/turtlebot3_ws/install/opencv_tests/lib/opencv_tests
+[4.159s] Installing source script to /home/maddy/turtlebot3_ws/install/opencv_tests/lib/opencv_tests
+[4.160s] 
+[4.160s] Installed /home/maddy/turtlebot3_ws/build/opencv_tests
+[4.161s] running install_data
+[4.161s] creating /home/maddy/turtlebot3_ws/install/opencv_tests/share/ament_index
+[4.162s] creating /home/maddy/turtlebot3_ws/install/opencv_tests/share/ament_index/resource_index
+[4.162s] creating /home/maddy/turtlebot3_ws/install/opencv_tests/share/ament_index/resource_index/packages
+[4.162s] copying resource/opencv_tests -> /home/maddy/turtlebot3_ws/install/opencv_tests/share/ament_index/resource_index/packages
+[4.163s] copying package.xml -> /home/maddy/turtlebot3_ws/install/opencv_tests/share/opencv_tests
+[4.285s] Invoked command in '/home/maddy/turtlebot3_ws/build/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge LD_LIBRARY_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maddy/turtlebot3_ws/build/opencv_tests/prefix_override:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/maddy/turtlebot3_ws/build/opencv_tests/build --no-deps install_data

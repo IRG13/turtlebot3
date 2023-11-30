@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating cv_stuff.egg-info
+writing cv_stuff.egg-info/PKG-INFO
+writing dependency_links to cv_stuff.egg-info/dependency_links.txt
+writing entry points to cv_stuff.egg-info/entry_points.txt
+writing requirements to cv_stuff.egg-info/requires.txt
+writing top-level names to cv_stuff.egg-info/top_level.txt
+writing manifest file 'cv_stuff.egg-info/SOURCES.txt'
+reading manifest file 'cv_stuff.egg-info/SOURCES.txt'
+writing manifest file 'cv_stuff.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv-stuff.egg-link (link to .)
+Installing img_publisher script to /home/maddy/turtlebot3_ws/install/cv_stuff/lib/cv_stuff
+Installing img_subscriber script to /home/maddy/turtlebot3_ws/install/cv_stuff/lib/cv_stuff
+
+Installed /home/maddy/turtlebot3_ws/build/cv_stuff
+running install_data
+creating /home/maddy/turtlebot3_ws/install/cv_stuff/share/ament_index
+creating /home/maddy/turtlebot3_ws/install/cv_stuff/share/ament_index/resource_index
+creating /home/maddy/turtlebot3_ws/install/cv_stuff/share/ament_index/resource_index/packages
+copying resource/cv_stuff -> /home/maddy/turtlebot3_ws/install/cv_stuff/share/ament_index/resource_index/packages
+copying package.xml -> /home/maddy/turtlebot3_ws/install/cv_stuff/share/cv_stuff

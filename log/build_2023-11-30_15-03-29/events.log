@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.001450] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.002033] (-) JobUnselected: {'identifier': 'cv_stuff'}
+[0.002299] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.002456] (-) JobUnselected: {'identifier': 'image_pub'}
+[0.002761] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.002888] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.002974] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.003139] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.003278] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.003501] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.003728] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.003960] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.004060] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.004158] (sound_player) JobQueued: {'identifier': 'sound_player', 'dependencies': OrderedDict()}
+[0.004246] (sound_player) JobStarted: {'identifier': 'sound_player'}
+[0.099054] (-) TimerEvent: {}
+[0.199898] (-) TimerEvent: {}
+[0.302664] (-) TimerEvent: {}
+[0.403315] (-) TimerEvent: {}
+[0.503915] (-) TimerEvent: {}
+[0.604520] (-) TimerEvent: {}
+[0.705147] (-) TimerEvent: {}
+[0.805730] (-) TimerEvent: {}
+[0.906314] (-) TimerEvent: {}
+[1.006946] (-) TimerEvent: {}
+[1.107533] (-) TimerEvent: {}
+[1.208116] (-) TimerEvent: {}
+[1.308834] (-) TimerEvent: {}
+[1.410374] (-) TimerEvent: {}
+[1.511670] (-) TimerEvent: {}
+[1.612754] (-) TimerEvent: {}
+[1.713628] (-) TimerEvent: {}
+[1.814334] (-) TimerEvent: {}
+[1.914983] (-) TimerEvent: {}
+[2.015602] (-) TimerEvent: {}
+[2.116201] (-) TimerEvent: {}
+[2.216769] (-) TimerEvent: {}
+[2.317341] (-) TimerEvent: {}
+[2.417900] (-) TimerEvent: {}
+[2.518509] (-) TimerEvent: {}
+[2.619159] (-) TimerEvent: {}
+[2.719793] (-) TimerEvent: {}
+[2.820407] (-) TimerEvent: {}
+[2.921178] (-) TimerEvent: {}
+[3.021882] (-) TimerEvent: {}
+[3.122553] (-) TimerEvent: {}
+[3.223272] (-) TimerEvent: {}
+[3.323950] (-) TimerEvent: {}
+[3.424735] (-) TimerEvent: {}
+[3.525738] (-) TimerEvent: {}
+[3.559481] (sound_player) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sound_player', 'build', '--build-base', '/home/maddy/turtlebot3_ws/build/sound_player/build', 'install', '--record', '/home/maddy/turtlebot3_ws/build/sound_player/install.log', '--single-version-externally-managed'], 'cwd': '/home/maddy/turtlebot3_ws/src/sound_player', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maddy', 'SSH_CLIENT': '192.168.142.149 58510 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/maddy', 'OLDPWD': '/home/maddy', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/maddy/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'maddy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/sound_player:/home/maddy/turtlebot3_ws/install/ros2_camera_publish:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_pub:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/audio_common_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/maddy/turtlebot3_ws/build/sound_player', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.142.149 58510 192.168.142.73 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/maddy/turtlebot3_ws/build/sound_player/prefix_override:/home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/ros2_camera_publish/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/opencv_tests:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/audio_common_msgs'}, 'shell': False}
+[3.625891] (-) TimerEvent: {}
+[3.726499] (-) TimerEvent: {}
+[3.827133] (-) TimerEvent: {}
+[3.927766] (-) TimerEvent: {}
+[4.028411] (-) TimerEvent: {}
+[4.129024] (-) TimerEvent: {}
+[4.229615] (-) TimerEvent: {}
+[4.330196] (-) TimerEvent: {}
+[4.430815] (-) TimerEvent: {}
+[4.525763] (sound_player) StdoutLine: {'line': b'running egg_info\n'}
+[4.528411] (sound_player) StdoutLine: {'line': b'writing ../../build/sound_player/sound_player.egg-info/PKG-INFO\n'}
+[4.530909] (-) TimerEvent: {}
+[4.631470] (-) TimerEvent: {}
+[4.732424] (-) TimerEvent: {}
+[4.833318] (-) TimerEvent: {}
+[4.934187] (-) TimerEvent: {}
+[5.035074] (-) TimerEvent: {}
+[5.136030] (-) TimerEvent: {}
+[5.236909] (-) TimerEvent: {}
+[5.337780] (-) TimerEvent: {}
+[5.438656] (-) TimerEvent: {}
+[5.539547] (-) TimerEvent: {}
+[5.640378] (-) TimerEvent: {}
+[5.741226] (-) TimerEvent: {}
+[5.842055] (-) TimerEvent: {}
+[5.942991] (-) TimerEvent: {}
+[6.043994] (-) TimerEvent: {}
+[6.144928] (-) TimerEvent: {}
+[6.245846] (-) TimerEvent: {}
+[6.346685] (-) TimerEvent: {}
+[6.447585] (-) TimerEvent: {}
+[6.548444] (-) TimerEvent: {}
+[6.649311] (-) TimerEvent: {}
+[6.750132] (-) TimerEvent: {}
+[6.850983] (-) TimerEvent: {}
+[6.951837] (-) TimerEvent: {}
+[7.052591] (-) TimerEvent: {}
+[7.153476] (-) TimerEvent: {}
+[7.254326] (-) TimerEvent: {}
+[7.355232] (-) TimerEvent: {}
+[7.456057] (-) TimerEvent: {}
+[7.556931] (-) TimerEvent: {}
+[7.657807] (-) TimerEvent: {}
+[7.758642] (-) TimerEvent: {}
+[7.859537] (-) TimerEvent: {}
+[7.960392] (-) TimerEvent: {}
+[8.061274] (-) TimerEvent: {}
+[8.162174] (-) TimerEvent: {}
+[8.263052] (-) TimerEvent: {}
+[8.363917] (-) TimerEvent: {}
+[8.464774] (-) TimerEvent: {}
+[8.524783] (sound_player) StdoutLine: {'line': b'writing dependency_links to ../../build/sound_player/sound_player.egg-info/dependency_links.txt\n'}
+[8.526432] (sound_player) StdoutLine: {'line': b'writing entry points to ../../build/sound_player/sound_player.egg-info/entry_points.txt\n'}
+[8.527850] (sound_player) StdoutLine: {'line': b'writing requirements to ../../build/sound_player/sound_player.egg-info/requires.txt\n'}
+[8.529208] (sound_player) StdoutLine: {'line': b'writing top-level names to ../../build/sound_player/sound_player.egg-info/top_level.txt\n'}
+[8.564972] (-) TimerEvent: {}
+[12.779609] (sound_player) StdoutLine: {'line': b"reading manifest file '../../build/sound_player/sound_player.egg-info/SOURCES.txt'\n"}
+[12.780669] (-) TimerEvent: {}
+[12.881576] (-) TimerEvent: {}
+[12.982522] (-) TimerEvent: {}
+[13.083448] (-) TimerEvent: {}
+[13.184356] (-) TimerEvent: {}
+[13.285223] (-) TimerEvent: {}
+[13.386088] (-) TimerEvent: {}
+[13.486986] (-) TimerEvent: {}
+[13.574343] (sound_player) StdoutLine: {'line': b"writing manifest file '../../build/sound_player/sound_player.egg-info/SOURCES.txt'\n"}
+[13.575815] (sound_player) StdoutLine: {'line': b'running build\n'}
+[13.576442] (sound_player) StdoutLine: {'line': b'running build_py\n'}
+[13.587075] (-) TimerEvent: {}
+[13.687665] (-) TimerEvent: {}
+[13.788632] (-) TimerEvent: {}
+[13.889545] (-) TimerEvent: {}
+[13.900547] (sound_player) StdoutLine: {'line': b'copying sound_player/player.py -> /home/maddy/turtlebot3_ws/build/sound_player/build/lib/sound_player\n'}
+[13.904429] (sound_player) StdoutLine: {'line': b'running install\n'}
+[13.906952] (sound_player) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[13.907984] (sound_player) StderrLine: {'line': b'  warnings.warn(\n'}
+[13.909347] (sound_player) StdoutLine: {'line': b'running install_lib\n'}
+[13.916370] (sound_player) StdoutLine: {'line': b'copying /home/maddy/turtlebot3_ws/build/sound_player/build/lib/sound_player/player.py -> /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player\n'}
+[13.920797] (sound_player) StdoutLine: {'line': b'byte-compiling /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player/player.py to player.cpython-310.pyc\n'}
+[13.924921] (sound_player) StdoutLine: {'line': b'running install_data\n'}
+[13.989787] (-) TimerEvent: {}
+[14.001342] (sound_player) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.014715] (sound_player) StdoutLine: {'line': b"removing '/home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[14.016346] (sound_player) StdoutLine: {'line': b'Copying ../../build/sound_player/sound_player.egg-info to /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player-0.0.0-py3.10.egg-info\n'}
+[14.022055] (sound_player) StdoutLine: {'line': b'running install_scripts\n'}
+[14.089917] (-) TimerEvent: {}
+[14.104397] (sound_player) StdoutLine: {'line': b'Installing sound_player script to /home/maddy/turtlebot3_ws/install/sound_player/lib/sound_player\n'}
+[14.106897] (sound_player) StdoutLine: {'line': b"writing list of installed files to '/home/maddy/turtlebot3_ws/build/sound_player/install.log'\n"}
+[14.190255] (-) TimerEvent: {}
+[14.218424] (sound_player) CommandEnded: {'returncode': 0}
+[14.290800] (-) TimerEvent: {}
+[14.391880] (-) TimerEvent: {}
+[14.493009] (-) TimerEvent: {}
+[14.594023] (-) TimerEvent: {}
+[14.694999] (-) TimerEvent: {}
+[14.795736] (-) TimerEvent: {}
+[14.896759] (-) TimerEvent: {}
+[14.924271] (sound_player) JobEnded: {'identifier': 'sound_player', 'rc': 0}
+[14.927916] (-) EventReactorShutdown: {}

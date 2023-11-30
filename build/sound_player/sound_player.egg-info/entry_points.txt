@@ -1,0 +1,3 @@
+[console_scripts]
+sound_player = sound_player.play_sounds:main
+

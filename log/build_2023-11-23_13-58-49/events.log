@@ -1,0 +1,874 @@
+[0.000000] (-) TimerEvent: {}
+[0.001493] (-) JobUnselected: {'identifier': 'audio_common'}
+[0.002018] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.002104] (-) JobUnselected: {'identifier': 'cv_stuff'}
+[0.002362] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.002512] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.002592] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.002893] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.002981] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.003068] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.003221] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.003298] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.003377] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.003501] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.003723] (audio_common_msgs) JobQueued: {'identifier': 'audio_common_msgs', 'dependencies': OrderedDict()}
+[0.003871] (audio_capture) JobQueued: {'identifier': 'audio_capture', 'dependencies': OrderedDict([('audio_common_msgs', '/home/maddy/turtlebot3_ws/install/audio_common_msgs')])}
+[0.004139] (audio_play) JobQueued: {'identifier': 'audio_play', 'dependencies': OrderedDict([('audio_common_msgs', '/home/maddy/turtlebot3_ws/install/audio_common_msgs')])}
+[0.004234] (sound_play) JobQueued: {'identifier': 'sound_play', 'dependencies': OrderedDict([('audio_common_msgs', '/home/maddy/turtlebot3_ws/install/audio_common_msgs')])}
+[0.004317] (audio_common_msgs) JobStarted: {'identifier': 'audio_common_msgs'}
+[0.099045] (-) TimerEvent: {}
+[0.200136] (-) TimerEvent: {}
+[0.224033] (audio_common_msgs) JobProgress: {'identifier': 'audio_common_msgs', 'progress': 'cmake'}
+[0.224910] (audio_common_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/maddy/turtlebot3_ws/src/audio_common/audio_common_msgs', '-DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/audio_common_msgs'], 'cwd': '/home/maddy/turtlebot3_ws/build/audio_common_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maddy'), ('SSH_CLIENT', '192.168.142.187 59929 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/maddy'), ('OLDPWD', '/home/maddy'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maddy/turtlebot3_ws/build/audio_common_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.142.187 59929 192.168.142.51 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maddy/turtlebot3_ws/build/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/opencv_tests:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/build/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble')]), 'shell': False}
+[0.300401] (-) TimerEvent: {}
+[0.401345] (-) TimerEvent: {}
+[0.502204] (-) TimerEvent: {}
+[0.603013] (-) TimerEvent: {}
+[0.703909] (-) TimerEvent: {}
+[0.804832] (-) TimerEvent: {}
+[0.905720] (-) TimerEvent: {}
+[1.006510] (-) TimerEvent: {}
+[1.107421] (-) TimerEvent: {}
+[1.208179] (-) TimerEvent: {}
+[1.309088] (-) TimerEvent: {}
+[1.323957] (audio_common_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.409336] (-) TimerEvent: {}
+[1.510402] (-) TimerEvent: {}
+[1.611327] (-) TimerEvent: {}
+[1.712260] (-) TimerEvent: {}
+[1.813248] (-) TimerEvent: {}
+[1.914280] (-) TimerEvent: {}
+[2.015112] (-) TimerEvent: {}
+[2.054605] (audio_common_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.102191] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.115275] (-) TimerEvent: {}
+[2.215961] (-) TimerEvent: {}
+[2.316912] (-) TimerEvent: {}
+[2.417983] (-) TimerEvent: {}
+[2.488341] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.513821] (audio_common_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.516303] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.518082] (-) TimerEvent: {}
+[2.520482] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.535338] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.618299] (-) TimerEvent: {}
+[2.719092] (-) TimerEvent: {}
+[2.819869] (-) TimerEvent: {}
+[2.896055] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.920036] (-) TimerEvent: {}
+[2.924269] (audio_common_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.925249] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.926785] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.975549] (audio_common_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.020207] (-) TimerEvent: {}
+[3.120905] (-) TimerEvent: {}
+[3.221618] (-) TimerEvent: {}
+[3.322299] (-) TimerEvent: {}
+[3.422939] (-) TimerEvent: {}
+[3.523740] (-) TimerEvent: {}
+[3.624817] (-) TimerEvent: {}
+[3.725436] (-) TimerEvent: {}
+[3.826246] (-) TimerEvent: {}
+[3.923983] (audio_common_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[3.926413] (-) TimerEvent: {}
+[4.027090] (-) TimerEvent: {}
+[4.127706] (-) TimerEvent: {}
+[4.228410] (-) TimerEvent: {}
+[4.329284] (-) TimerEvent: {}
+[4.429950] (-) TimerEvent: {}
+[4.530578] (-) TimerEvent: {}
+[4.631219] (-) TimerEvent: {}
+[4.683414] (audio_common_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.731209] (audio_common_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.731729] (-) TimerEvent: {}
+[4.830470] (audio_common_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.831856] (-) TimerEvent: {}
+[4.932514] (-) TimerEvent: {}
+[5.033173] (-) TimerEvent: {}
+[5.133825] (-) TimerEvent: {}
+[5.234503] (-) TimerEvent: {}
+[5.275174] (audio_common_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.334664] (-) TimerEvent: {}
+[5.435289] (-) TimerEvent: {}
+[5.535986] (-) TimerEvent: {}
+[5.613165] (audio_common_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[5.636150] (-) TimerEvent: {}
+[5.736801] (-) TimerEvent: {}
+[5.837476] (-) TimerEvent: {}
+[5.938156] (-) TimerEvent: {}
+[6.038814] (-) TimerEvent: {}
+[6.139401] (-) TimerEvent: {}
+[6.240065] (-) TimerEvent: {}
+[6.340734] (-) TimerEvent: {}
+[6.441440] (-) TimerEvent: {}
+[6.542111] (-) TimerEvent: {}
+[6.642782] (-) TimerEvent: {}
+[6.743452] (-) TimerEvent: {}
+[6.844349] (-) TimerEvent: {}
+[6.945473] (-) TimerEvent: {}
+[7.046162] (-) TimerEvent: {}
+[7.146861] (-) TimerEvent: {}
+[7.247523] (-) TimerEvent: {}
+[7.250321] (audio_common_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[7.347700] (-) TimerEvent: {}
+[7.448403] (-) TimerEvent: {}
+[7.549147] (-) TimerEvent: {}
+[7.649728] (-) TimerEvent: {}
+[7.750354] (-) TimerEvent: {}
+[7.850945] (-) TimerEvent: {}
+[7.951512] (-) TimerEvent: {}
+[8.052167] (-) TimerEvent: {}
+[8.152823] (-) TimerEvent: {}
+[8.253601] (-) TimerEvent: {}
+[8.354629] (-) TimerEvent: {}
+[8.377352] (audio_common_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.454872] (-) TimerEvent: {}
+[8.555663] (-) TimerEvent: {}
+[8.656312] (-) TimerEvent: {}
+[8.756977] (-) TimerEvent: {}
+[8.857782] (-) TimerEvent: {}
+[8.958463] (-) TimerEvent: {}
+[9.059300] (-) TimerEvent: {}
+[9.160046] (-) TimerEvent: {}
+[9.260786] (-) TimerEvent: {}
+[9.361415] (-) TimerEvent: {}
+[9.462018] (-) TimerEvent: {}
+[9.562613] (-) TimerEvent: {}
+[9.663205] (-) TimerEvent: {}
+[9.742247] (audio_common_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.763413] (-) TimerEvent: {}
+[9.858926] (audio_common_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[9.863511] (-) TimerEvent: {}
+[9.887746] (audio_common_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[9.963704] (-) TimerEvent: {}
+[10.025745] (audio_common_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[10.026710] (audio_common_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.027233] (audio_common_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[10.028074] (audio_common_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[10.063867] (-) TimerEvent: {}
+[10.136954] (audio_common_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[10.164048] (-) TimerEvent: {}
+[10.264661] (-) TimerEvent: {}
+[10.365308] (-) TimerEvent: {}
+[10.431053] (audio_common_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.465480] (-) TimerEvent: {}
+[10.566126] (-) TimerEvent: {}
+[10.613685] (audio_common_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[10.626621] (audio_common_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/maddy/turtlebot3_ws/build/audio_common_msgs\n'}
+[10.645586] (audio_common_msgs) CommandEnded: {'returncode': 0}
+[10.647422] (audio_common_msgs) JobProgress: {'identifier': 'audio_common_msgs', 'progress': 'build'}
+[10.649999] (audio_common_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maddy/turtlebot3_ws/build/audio_common_msgs', '--', '-j4', '-l4'], 'cwd': '/home/maddy/turtlebot3_ws/build/audio_common_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maddy'), ('SSH_CLIENT', '192.168.142.187 59929 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/maddy'), ('OLDPWD', '/home/maddy'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maddy/turtlebot3_ws/build/audio_common_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.142.187 59929 192.168.142.51 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maddy/turtlebot3_ws/build/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/opencv_tests:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/build/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble')]), 'shell': False}
+[10.666305] (-) TimerEvent: {}
+[10.767070] (-) TimerEvent: {}
+[10.821587] (audio_common_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.863119] (audio_common_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[10.867247] (-) TimerEvent: {}
+[10.899027] (audio_common_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_audio_common_msgs\n'}
+[10.967469] (-) TimerEvent: {}
+[11.069291] (-) TimerEvent: {}
+[11.171353] (-) TimerEvent: {}
+[11.273149] (-) TimerEvent: {}
+[11.374574] (-) TimerEvent: {}
+[11.476150] (-) TimerEvent: {}
+[11.577667] (-) TimerEvent: {}
+[11.679232] (-) TimerEvent: {}
+[11.781206] (-) TimerEvent: {}
+[11.882643] (-) TimerEvent: {}
+[11.984082] (-) TimerEvent: {}
+[12.085603] (-) TimerEvent: {}
+[12.090797] (audio_common_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[12.093491] (audio_common_msgs) StdoutLine: {'line': b'creating audio_common_msgs.egg-info\n'}
+[12.094360] (audio_common_msgs) StdoutLine: {'line': b'writing audio_common_msgs.egg-info/PKG-INFO\n'}
+[12.095260] (audio_common_msgs) StdoutLine: {'line': b'writing dependency_links to audio_common_msgs.egg-info/dependency_links.txt\n'}
+[12.096233] (audio_common_msgs) StdoutLine: {'line': b'writing top-level names to audio_common_msgs.egg-info/top_level.txt\n'}
+[12.097349] (audio_common_msgs) StdoutLine: {'line': b"writing manifest file 'audio_common_msgs.egg-info/SOURCES.txt'\n"}
+[12.110170] (audio_common_msgs) StdoutLine: {'line': b"reading manifest file 'audio_common_msgs.egg-info/SOURCES.txt'\n"}
+[12.112561] (audio_common_msgs) StdoutLine: {'line': b"writing manifest file 'audio_common_msgs.egg-info/SOURCES.txt'\n"}
+[12.185880] (-) TimerEvent: {}
+[12.245817] (audio_common_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_audio_common_msgs_egg\n'}
+[12.286025] (-) TimerEvent: {}
+[12.386711] (-) TimerEvent: {}
+[12.487379] (-) TimerEvent: {}
+[12.588224] (-) TimerEvent: {}
+[12.689816] (-) TimerEvent: {}
+[12.790777] (-) TimerEvent: {}
+[12.814480] (audio_common_msgs) StdoutLine: {'line': b'[  4%] Built target audio_common_msgs__cpp\n'}
+[12.861991] (audio_common_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.890969] (-) TimerEvent: {}
+[12.892554] (audio_common_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.898267] (audio_common_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.954681] (audio_common_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data__functions.c.o\x1b[0m\n'}
+[12.991312] (-) TimerEvent: {}
+[13.092458] (-) TimerEvent: {}
+[13.194218] (-) TimerEvent: {}
+[13.295959] (-) TimerEvent: {}
+[13.361045] (audio_common_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data_stamped__functions.c.o\x1b[0m\n'}
+[13.396276] (-) TimerEvent: {}
+[13.497118] (-) TimerEvent: {}
+[13.597856] (-) TimerEvent: {}
+[13.650791] (audio_common_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_info__functions.c.o\x1b[0m\n'}
+[13.698053] (-) TimerEvent: {}
+[13.799551] (-) TimerEvent: {}
+[13.901203] (-) TimerEvent: {}
+[13.942604] (audio_common_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libaudio_common_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[14.001362] (-) TimerEvent: {}
+[14.102572] (-) TimerEvent: {}
+[14.127391] (audio_common_msgs) StdoutLine: {'line': b'[ 19%] Built target audio_common_msgs__rosidl_generator_c\n'}
+[14.175898] (audio_common_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.202792] (-) TimerEvent: {}
+[14.303653] (-) TimerEvent: {}
+[14.404613] (-) TimerEvent: {}
+[14.507288] (-) TimerEvent: {}
+[14.609080] (-) TimerEvent: {}
+[14.645980] (audio_common_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_data__type_support.cpp.o\x1b[0m\n'}
+[14.709382] (-) TimerEvent: {}
+[14.811389] (-) TimerEvent: {}
+[14.903705] (audio_common_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_data__type_support.cpp.o\x1b[0m\n'}
+[14.911651] (-) TimerEvent: {}
+[15.012546] (-) TimerEvent: {}
+[15.040645] (audio_common_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_data__type_support.cpp.o\x1b[0m\n'}
+[15.112805] (-) TimerEvent: {}
+[15.213635] (-) TimerEvent: {}
+[15.314820] (-) TimerEvent: {}
+[15.416248] (-) TimerEvent: {}
+[15.517992] (-) TimerEvent: {}
+[15.619850] (-) TimerEvent: {}
+[15.722473] (-) TimerEvent: {}
+[15.824332] (-) TimerEvent: {}
+[15.926282] (-) TimerEvent: {}
+[16.028065] (-) TimerEvent: {}
+[16.129955] (-) TimerEvent: {}
+[16.231675] (-) TimerEvent: {}
+[16.333640] (-) TimerEvent: {}
+[16.435772] (-) TimerEvent: {}
+[16.443752] (audio_common_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_data__type_support_c.cpp.o\x1b[0m\n'}
+[16.454975] (audio_common_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_data_stamped__type_support.cpp.o\x1b[0m\n'}
+[16.536015] (-) TimerEvent: {}
+[16.638154] (-) TimerEvent: {}
+[16.740255] (-) TimerEvent: {}
+[16.841825] (-) TimerEvent: {}
+[16.943878] (-) TimerEvent: {}
+[17.045840] (-) TimerEvent: {}
+[17.147819] (-) TimerEvent: {}
+[17.250060] (-) TimerEvent: {}
+[17.352281] (-) TimerEvent: {}
+[17.398408] (audio_common_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_data_stamped__type_support.cpp.o\x1b[0m\n'}
+[17.452529] (-) TimerEvent: {}
+[17.554175] (-) TimerEvent: {}
+[17.655990] (-) TimerEvent: {}
+[17.746249] (audio_common_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_data_stamped__type_support.cpp.o\x1b[0m\n'}
+[17.756255] (-) TimerEvent: {}
+[17.857183] (-) TimerEvent: {}
+[17.958213] (-) TimerEvent: {}
+[18.059304] (-) TimerEvent: {}
+[18.069444] (audio_common_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_info__type_support.cpp.o\x1b[0m\n'}
+[18.159553] (-) TimerEvent: {}
+[18.261135] (-) TimerEvent: {}
+[18.362956] (-) TimerEvent: {}
+[18.437771] (audio_common_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_data_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[18.463220] (-) TimerEvent: {}
+[18.565062] (-) TimerEvent: {}
+[18.666569] (-) TimerEvent: {}
+[18.767955] (-) TimerEvent: {}
+[18.868904] (-) TimerEvent: {}
+[18.986571] (-) TimerEvent: {}
+[19.087914] (-) TimerEvent: {}
+[19.188916] (-) TimerEvent: {}
+[19.290297] (-) TimerEvent: {}
+[19.391515] (-) TimerEvent: {}
+[19.492542] (-) TimerEvent: {}
+[19.593691] (-) TimerEvent: {}
+[19.690665] (audio_common_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[19.693960] (-) TimerEvent: {}
+[19.725138] (audio_common_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_info__type_support.cpp.o\x1b[0m\n'}
+[19.794191] (-) TimerEvent: {}
+[19.894914] (audio_common_msgs) StdoutLine: {'line': b'[ 44%] Built target audio_common_msgs__rosidl_typesupport_cpp\n'}
+[19.895695] (-) TimerEvent: {}
+[19.936386] (audio_common_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_info__type_support_c.cpp.o\x1b[0m\n'}
+[19.995974] (-) TimerEvent: {}
+[20.097320] (-) TimerEvent: {}
+[20.100298] (audio_common_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_info__type_support.cpp.o\x1b[0m\n'}
+[20.197535] (-) TimerEvent: {}
+[20.298383] (-) TimerEvent: {}
+[20.399244] (-) TimerEvent: {}
+[20.455422] (audio_common_msgs) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[20.499467] (-) TimerEvent: {}
+[20.600901] (-) TimerEvent: {}
+[20.702689] (-) TimerEvent: {}
+[20.804427] (-) TimerEvent: {}
+[20.905324] (-) TimerEvent: {}
+[21.006497] (-) TimerEvent: {}
+[21.107550] (-) TimerEvent: {}
+[21.208499] (-) TimerEvent: {}
+[21.309473] (-) TimerEvent: {}
+[21.410437] (-) TimerEvent: {}
+[21.511507] (-) TimerEvent: {}
+[21.612458] (-) TimerEvent: {}
+[21.713535] (-) TimerEvent: {}
+[21.814660] (-) TimerEvent: {}
+[21.915801] (-) TimerEvent: {}
+[21.968636] (audio_common_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[22.011576] (audio_common_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[22.015981] (-) TimerEvent: {}
+[22.117100] (-) TimerEvent: {}
+[22.218111] (-) TimerEvent: {}
+[22.319587] (-) TimerEvent: {}
+[22.374120] (audio_common_msgs) StdoutLine: {'line': b'[ 55%] Built target audio_common_msgs__rosidl_typesupport_introspection_cpp\n'}
+[22.391653] (audio_common_msgs) StdoutLine: {'line': b'[ 55%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_c\n'}
+[22.420052] (-) TimerEvent: {}
+[22.429166] (audio_common_msgs) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[22.520254] (-) TimerEvent: {}
+[22.613741] (audio_common_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[22.620501] (-) TimerEvent: {}
+[22.707055] (audio_common_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_data__type_support.c.o\x1b[0m\n'}
+[22.709931] (audio_common_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c.o\x1b[0m\n'}
+[22.720749] (-) TimerEvent: {}
+[22.822181] (-) TimerEvent: {}
+[22.923611] (-) TimerEvent: {}
+[22.936824] (audio_common_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_info__type_support.c.o\x1b[0m\n'}
+[22.969426] (audio_common_msgs) StdoutLine: {'line': b'[ 65%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[23.023829] (-) TimerEvent: {}
+[23.110288] (audio_common_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libaudio_common_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[23.124006] (-) TimerEvent: {}
+[23.224701] (-) TimerEvent: {}
+[23.241415] (audio_common_msgs) StdoutLine: {'line': b'[ 68%] Built target audio_common_msgs__rosidl_typesupport_introspection_c\n'}
+[23.324889] (-) TimerEvent: {}
+[23.425562] (-) TimerEvent: {}
+[23.526156] (-) TimerEvent: {}
+[23.626767] (-) TimerEvent: {}
+[23.727404] (-) TimerEvent: {}
+[23.828101] (-) TimerEvent: {}
+[23.928953] (-) TimerEvent: {}
+[23.973840] (audio_common_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_data__type_support.cpp.o\x1b[0m\n'}
+[23.976855] (audio_common_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_data_stamped__type_support.cpp.o\x1b[0m\n'}
+[23.979016] (audio_common_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_info__type_support.cpp.o\x1b[0m\n'}
+[24.029149] (-) TimerEvent: {}
+[24.129188] (audio_common_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[24.129886] (-) TimerEvent: {}
+[24.230577] (-) TimerEvent: {}
+[24.290793] (audio_common_msgs) StdoutLine: {'line': b'[ 76%] Built target audio_common_msgs__rosidl_typesupport_c\n'}
+[24.330775] (-) TimerEvent: {}
+[24.381144] (audio_common_msgs) StdoutLine: {'line': b'[ 76%] Built target audio_common_msgs\n'}
+[24.430946] (-) TimerEvent: {}
+[24.467103] (audio_common_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[24.531095] (-) TimerEvent: {}
+[24.631762] (-) TimerEvent: {}
+[24.732405] (-) TimerEvent: {}
+[24.833021] (-) TimerEvent: {}
+[24.933615] (-) TimerEvent: {}
+[25.034222] (-) TimerEvent: {}
+[25.134832] (-) TimerEvent: {}
+[25.235426] (-) TimerEvent: {}
+[25.336016] (-) TimerEvent: {}
+[25.436621] (-) TimerEvent: {}
+[25.537243] (-) TimerEvent: {}
+[25.637826] (-) TimerEvent: {}
+[25.738434] (-) TimerEvent: {}
+[25.839044] (-) TimerEvent: {}
+[25.939721] (-) TimerEvent: {}
+[26.040302] (-) TimerEvent: {}
+[26.140885] (-) TimerEvent: {}
+[26.241538] (-) TimerEvent: {}
+[26.342153] (-) TimerEvent: {}
+[26.442794] (-) TimerEvent: {}
+[26.543512] (-) TimerEvent: {}
+[26.644328] (-) TimerEvent: {}
+[26.745463] (-) TimerEvent: {}
+[26.845130] (audio_common_msgs) StdoutLine: {'line': b'[ 78%] Built target audio_common_msgs__py\n'}
+[26.845881] (-) TimerEvent: {}
+[26.932076] (audio_common_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_data_s.c.o\x1b[0m\n'}
+[26.934685] (audio_common_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_data_stamped_s.c.o\x1b[0m\n'}
+[26.936549] (audio_common_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_info_s.c.o\x1b[0m\n'}
+[26.946105] (-) TimerEvent: {}
+[27.047596] (-) TimerEvent: {}
+[27.148906] (-) TimerEvent: {}
+[27.250353] (-) TimerEvent: {}
+[27.352055] (-) TimerEvent: {}
+[27.452825] (-) TimerEvent: {}
+[27.553549] (-) TimerEvent: {}
+[27.611319] (audio_common_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/audio_common_msgs/libaudio_common_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[27.653726] (-) TimerEvent: {}
+[27.754440] (-) TimerEvent: {}
+[27.802093] (audio_common_msgs) StdoutLine: {'line': b'[ 87%] Built target audio_common_msgs__rosidl_generator_py\n'}
+[27.854677] (-) TimerEvent: {}
+[27.890925] (audio_common_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[27.891921] (audio_common_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[27.896807] (audio_common_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[27.954871] (-) TimerEvent: {}
+[28.056171] (-) TimerEvent: {}
+[28.157620] (-) TimerEvent: {}
+[28.259536] (-) TimerEvent: {}
+[28.361774] (-) TimerEvent: {}
+[28.450241] (audio_common_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.451273] (audio_common_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.452320] (audio_common_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.461975] (-) TimerEvent: {}
+[28.563688] (-) TimerEvent: {}
+[28.666025] (-) TimerEvent: {}
+[28.695486] (audio_common_msgs) StdoutLine: {'line': b'[100%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[28.697124] (audio_common_msgs) StdoutLine: {'line': b'[100%] Built target audio_common_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[28.700184] (audio_common_msgs) StdoutLine: {'line': b'[100%] Built target audio_common_msgs__rosidl_typesupport_c__pyext\n'}
+[28.743531] (audio_common_msgs) CommandEnded: {'returncode': 0}
+[28.766226] (-) TimerEvent: {}
+[28.867218] (-) TimerEvent: {}
+[28.967923] (-) TimerEvent: {}
+[29.069216] (-) TimerEvent: {}
+[29.169957] (-) TimerEvent: {}
+[29.271087] (-) TimerEvent: {}
+[29.371910] (-) TimerEvent: {}
+[29.440815] (audio_common_msgs) JobProgress: {'identifier': 'audio_common_msgs', 'progress': 'install'}
+[29.472104] (-) TimerEvent: {}
+[29.480107] (audio_common_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maddy/turtlebot3_ws/build/audio_common_msgs'], 'cwd': '/home/maddy/turtlebot3_ws/build/audio_common_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maddy'), ('SSH_CLIENT', '192.168.142.187 59929 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/maddy'), ('OLDPWD', '/home/maddy'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maddy/turtlebot3_ws/build/audio_common_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.142.187 59929 192.168.142.51 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maddy/turtlebot3_ws/build/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/opencv_tests:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/build/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble')]), 'shell': False}
+[29.509201] (audio_common_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.510193] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/ament_index/resource_index/rosidl_interfaces/audio_common_msgs\n'}
+[29.511529] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs\n'}
+[29.512259] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg\n'}
+[29.512855] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail\n'}
+[29.513668] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__functions.c\n'}
+[29.514934] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__struct.h\n'}
+[29.515956] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__struct.h\n'}
+[29.517045] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__functions.h\n'}
+[29.518295] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__functions.c\n'}
+[29.519396] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__functions.h\n'}
+[29.520541] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.h\n'}
+[29.521683] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.h\n'}
+[29.522757] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__functions.c\n'}
+[29.523897] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__functions.h\n'}
+[29.525014] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__struct.h\n'}
+[29.526103] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.h\n'}
+[29.527153] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data_stamped.h\n'}
+[29.528179] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_info.h\n'}
+[29.529282] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data.h\n'}
+[29.530297] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[29.531959] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/environment/library_path.sh\n'}
+[29.533124] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/environment/library_path.dsv\n'}
+[29.534592] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_c.so\n'}
+[29.537532] (audio_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_c.so" to ""\n'}
+[29.538073] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs\n'}
+[29.538452] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg\n'}
+[29.538804] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[29.539777] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail\n'}
+[29.540269] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_fastrtps_c.h\n'}
+[29.541522] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_c.h\n'}
+[29.542746] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[29.544127] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[29.546777] (audio_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[29.547271] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs\n'}
+[29.547647] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg\n'}
+[29.548006] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail\n'}
+[29.548335] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_c.h\n'}
+[29.549617] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c\n'}
+[29.550832] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_introspection_c.h\n'}
+[29.552026] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.c\n'}
+[29.553317] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_introspection_c.h\n'}
+[29.554535] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.c\n'}
+[29.555716] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[29.557243] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_c.so\n'}
+[29.559642] (audio_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[29.560085] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_c.so\n'}
+[29.562244] (audio_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_c.so" to ""\n'}
+[29.562744] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs\n'}
+[29.563110] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg\n'}
+[29.563452] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data_stamped.hpp\n'}
+[29.564370] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail\n'}
+[29.564873] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__traits.hpp\n'}
+[29.566062] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__builder.hpp\n'}
+[29.567193] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__struct.hpp\n'}
+[29.568258] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__builder.hpp\n'}
+[29.569359] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__builder.hpp\n'}
+[29.570447] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__struct.hpp\n'}
+[29.571612] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__traits.hpp\n'}
+[29.572181] (-) TimerEvent: {}
+[29.572753] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__traits.hpp\n'}
+[29.574088] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__struct.hpp\n'}
+[29.575188] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_info.hpp\n'}
+[29.576173] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data.hpp\n'}
+[29.577303] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs\n'}
+[29.577771] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg\n'}
+[29.578126] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail\n'}
+[29.578499] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.579733] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/dds_fastrtps\n'}
+[29.580500] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.581849] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.583032] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[29.584445] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[29.587270] (audio_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[29.587780] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs\n'}
+[29.588178] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg\n'}
+[29.588537] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail\n'}
+[29.588875] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.cpp\n'}
+[29.590058] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.591269] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.cpp\n'}
+[29.592445] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.593667] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.cpp\n'}
+[29.594887] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.596348] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[29.599291] (audio_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[29.599786] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_cpp.so\n'}
+[29.601984] (audio_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[29.602482] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/environment/pythonpath.sh\n'}
+[29.603492] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/environment/pythonpath.dsv\n'}
+[29.604565] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.3.12-py3.10.egg-info\n'}
+[29.605617] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.3.12-py3.10.egg-info/SOURCES.txt\n'}
+[29.606746] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.3.12-py3.10.egg-info/dependency_links.txt\n'}
+[29.607838] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.3.12-py3.10.egg-info/PKG-INFO\n'}
+[29.608905] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.3.12-py3.10.egg-info/top_level.txt\n'}
+[29.610129] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs\n'}
+[29.610931] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[29.612204] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg\n'}
+[29.612898] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_info_s.c\n'}
+[29.614119] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data.py\n'}
+[29.615161] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data_s.c\n'}
+[29.616216] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_info.py\n'}
+[29.617315] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data_stamped_s.c\n'}
+[29.618411] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/__init__.py\n'}
+[29.619428] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data_stamped.py\n'}
+[29.620562] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[29.621961] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/libaudio_common_msgs__rosidl_generator_py.so\n'}
+[29.623237] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/__init__.py\n'}
+[29.624248] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[29.625802] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[29.627206] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[29.628648] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[29.672353] (-) TimerEvent: {}
+[29.773041] (-) TimerEvent: {}
+[29.805351] (audio_common_msgs) StdoutLine: {'line': b"Listing '/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs'...\n"}
+[29.806537] (audio_common_msgs) StdoutLine: {'line': b"Compiling '/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/__init__.py'...\n"}
+[29.807429] (audio_common_msgs) StdoutLine: {'line': b"Listing '/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg'...\n"}
+[29.808283] (audio_common_msgs) StdoutLine: {'line': b"Compiling '/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/__init__.py'...\n"}
+[29.809124] (audio_common_msgs) StdoutLine: {'line': b"Compiling '/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data.py'...\n"}
+[29.810091] (audio_common_msgs) StdoutLine: {'line': b"Compiling '/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data_stamped.py'...\n"}
+[29.810913] (audio_common_msgs) StdoutLine: {'line': b"Compiling '/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_info.py'...\n"}
+[29.828951] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[29.831573] (audio_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[29.833060] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[29.835775] (audio_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[29.837176] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[29.840361] (audio_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[29.841071] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_py.so\n'}
+[29.843777] (audio_common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_py.so" to ""\n'}
+[29.844472] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.idl\n'}
+[29.845893] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioDataStamped.idl\n'}
+[29.847086] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.idl\n'}
+[29.848270] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.msg\n'}
+[29.849369] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioDataStamped.msg\n'}
+[29.850422] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.msg\n'}
+[29.851855] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/ament_index/resource_index/package_run_dependencies/audio_common_msgs\n'}
+[29.853492] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/ament_index/resource_index/parent_prefix_path/audio_common_msgs\n'}
+[29.854714] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/environment/ament_prefix_path.sh\n'}
+[29.855884] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/environment/ament_prefix_path.dsv\n'}
+[29.857032] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/environment/path.sh\n'}
+[29.858215] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/environment/path.dsv\n'}
+[29.859302] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.bash\n'}
+[29.860410] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.sh\n'}
+[29.861585] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.zsh\n'}
+[29.862675] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.dsv\n'}
+[29.863750] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/package.dsv\n'}
+[29.865156] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/ament_index/resource_index/packages/audio_common_msgs\n'}
+[29.866691] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cExport.cmake\n'}
+[29.868049] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[29.869720] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[29.871174] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[29.872659] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[29.873072] (-) TimerEvent: {}
+[29.874244] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[29.875772] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cExport.cmake\n'}
+[29.877215] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[29.878633] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cppExport.cmake\n'}
+[29.880062] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[29.881544] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[29.883066] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[29.884463] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[29.886067] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[29.887440] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[29.888860] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_pyExport.cmake\n'}
+[29.890293] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[29.891622] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[29.892807] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.894142] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.895413] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.896674] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[29.897968] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[29.899194] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[29.900428] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgsConfig.cmake\n'}
+[29.901637] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgsConfig-version.cmake\n'}
+[29.902784] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/package.xml\n'}
+[29.909526] (audio_common_msgs) CommandEnded: {'returncode': 0}
+[29.973217] (-) TimerEvent: {}
+[30.076270] (-) TimerEvent: {}
+[30.177116] (-) TimerEvent: {}
+[30.277825] (-) TimerEvent: {}
+[30.379051] (-) TimerEvent: {}
+[30.479868] (-) TimerEvent: {}
+[30.580601] (-) TimerEvent: {}
+[30.681361] (-) TimerEvent: {}
+[30.782057] (-) TimerEvent: {}
+[30.882836] (-) TimerEvent: {}
+[30.983875] (-) TimerEvent: {}
+[31.084606] (-) TimerEvent: {}
+[31.115281] (audio_common_msgs) JobEnded: {'identifier': 'audio_common_msgs', 'rc': 0}
+[31.117997] (audio_capture) JobStarted: {'identifier': 'audio_capture'}
+[31.184771] (-) TimerEvent: {}
+[31.285358] (-) TimerEvent: {}
+[31.321710] (audio_play) JobStarted: {'identifier': 'audio_play'}
+[31.385683] (-) TimerEvent: {}
+[31.486598] (-) TimerEvent: {}
+[31.528446] (sound_play) JobStarted: {'identifier': 'sound_play'}
+[31.586781] (-) TimerEvent: {}
+[31.687537] (-) TimerEvent: {}
+[31.738868] (audio_capture) JobProgress: {'identifier': 'audio_capture', 'progress': 'cmake'}
+[31.739714] (audio_capture) Command: {'cmd': ['/usr/bin/cmake', '/home/maddy/turtlebot3_ws/src/audio_common/audio_capture', '-DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/audio_capture'], 'cwd': '/home/maddy/turtlebot3_ws/build/audio_capture', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maddy'), ('SSH_CLIENT', '192.168.142.187 59929 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib:/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/maddy'), ('OLDPWD', '/home/maddy'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maddy/turtlebot3_ws/build/audio_capture'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.142.187 59929 192.168.142.51 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/build/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/opencv_tests:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/build/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble')]), 'shell': False}
+[31.749879] (audio_play) JobProgress: {'identifier': 'audio_play', 'progress': 'cmake'}
+[31.750929] (audio_play) Command: {'cmd': ['/usr/bin/cmake', '/home/maddy/turtlebot3_ws/src/audio_common/audio_play', '-DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/audio_play'], 'cwd': '/home/maddy/turtlebot3_ws/build/audio_play', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maddy'), ('SSH_CLIENT', '192.168.142.187 59929 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib:/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/maddy'), ('OLDPWD', '/home/maddy'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maddy/turtlebot3_ws/build/audio_play'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.142.187 59929 192.168.142.51 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/build/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/opencv_tests:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/build/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble')]), 'shell': False}
+[31.767949] (sound_play) JobProgress: {'identifier': 'sound_play', 'progress': 'cmake'}
+[31.774731] (sound_play) Command: {'cmd': ['/usr/bin/cmake', '/home/maddy/turtlebot3_ws/src/audio_common/sound_play', '-DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/sound_play'], 'cwd': '/home/maddy/turtlebot3_ws/build/sound_play', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maddy'), ('SSH_CLIENT', '192.168.142.187 59929 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib:/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/maddy'), ('OLDPWD', '/home/maddy'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maddy/turtlebot3_ws/build/sound_play'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.142.187 59929 192.168.142.51 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/build/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/opencv_tests:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/build/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble')]), 'shell': False}
+[31.787802] (-) TimerEvent: {}
+[31.890880] (-) TimerEvent: {}
+[31.993398] (-) TimerEvent: {}
+[32.031660] (audio_capture) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[32.042651] (audio_play) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[32.068038] (sound_play) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[32.093600] (-) TimerEvent: {}
+[32.194479] (-) TimerEvent: {}
+[32.296154] (-) TimerEvent: {}
+[32.316290] (audio_capture) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[32.326636] (audio_play) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[32.348822] (audio_capture) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[32.350884] (sound_play) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[32.356649] (audio_play) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[32.379372] (sound_play) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[32.396404] (-) TimerEvent: {}
+[32.497682] (-) TimerEvent: {}
+[32.598674] (-) TimerEvent: {}
+[32.696269] (audio_capture) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[32.698897] (-) TimerEvent: {}
+[32.702238] (audio_play) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[32.723490] (audio_capture) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[32.724329] (audio_capture) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[32.726032] (audio_capture) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[32.726585] (sound_play) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[32.728186] (audio_play) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[32.729476] (audio_play) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[32.731741] (audio_play) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[32.738152] (audio_capture) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[32.743474] (audio_play) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[32.751223] (sound_play) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[32.752002] (sound_play) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[32.753777] (sound_play) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[32.766177] (sound_play) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[32.799209] (-) TimerEvent: {}
+[32.901100] (-) TimerEvent: {}
+[33.002541] (-) TimerEvent: {}
+[33.104400] (-) TimerEvent: {}
+[33.120811] (audio_capture) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[33.134992] (audio_play) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[33.150513] (audio_capture) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[33.151490] (audio_capture) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[33.153250] (audio_capture) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[33.155363] (sound_play) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[33.161082] (audio_play) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[33.162029] (audio_play) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[33.163638] (audio_play) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[33.180451] (sound_play) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[33.181701] (sound_play) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[33.183320] (sound_play) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[33.187066] (audio_capture) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[33.197030] (audio_play) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[33.204508] (-) TimerEvent: {}
+[33.216578] (sound_play) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[33.304771] (-) TimerEvent: {}
+[33.406296] (-) TimerEvent: {}
+[33.507698] (-) TimerEvent: {}
+[33.609141] (-) TimerEvent: {}
+[33.710794] (-) TimerEvent: {}
+[33.813263] (-) TimerEvent: {}
+[33.915085] (-) TimerEvent: {}
+[34.017172] (-) TimerEvent: {}
+[34.136824] (-) TimerEvent: {}
+[34.239006] (-) TimerEvent: {}
+[34.316997] (audio_capture) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[34.339175] (-) TimerEvent: {}
+[34.341087] (audio_play) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[34.374665] (sound_play) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[34.439385] (-) TimerEvent: {}
+[34.540166] (-) TimerEvent: {}
+[34.641174] (-) TimerEvent: {}
+[34.742195] (-) TimerEvent: {}
+[34.843289] (-) TimerEvent: {}
+[34.944434] (-) TimerEvent: {}
+[35.045650] (-) TimerEvent: {}
+[35.147078] (-) TimerEvent: {}
+[35.220991] (sound_play) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[35.227599] (audio_play) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[35.228157] (audio_capture) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[35.247239] (-) TimerEvent: {}
+[35.260167] (sound_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[35.346908] (sound_play) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[35.347498] (-) TimerEvent: {}
+[35.448922] (-) TimerEvent: {}
+[35.550317] (-) TimerEvent: {}
+[35.651638] (-) TimerEvent: {}
+[35.657305] (audio_capture) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[35.657909] (audio_play) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[35.715892] (sound_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[35.718101] (audio_play) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[35.718668] (audio_capture) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[35.751811] (-) TimerEvent: {}
+[35.793326] (audio_capture) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[35.793968] (audio_play) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[35.852025] (-) TimerEvent: {}
+[35.891536] (audio_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[35.892164] (audio_capture) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[35.952184] (-) TimerEvent: {}
+[35.983268] (sound_play) StdoutLine: {'line': b'-- Found audio_common_msgs: 0.3.12 (/home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake)\n'}
+[36.034490] (audio_capture) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[36.035054] (audio_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[36.052356] (-) TimerEvent: {}
+[36.153759] (-) TimerEvent: {}
+[36.255215] (-) TimerEvent: {}
+[36.356889] (-) TimerEvent: {}
+[36.458559] (-) TimerEvent: {}
+[36.559963] (-) TimerEvent: {}
+[36.564755] (sound_play) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[36.570661] (audio_capture) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[36.571340] (audio_play) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[36.611672] (audio_capture) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[36.612206] (audio_play) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[36.660199] (-) TimerEvent: {}
+[36.761457] (-) TimerEvent: {}
+[36.862162] (-) TimerEvent: {}
+[36.962888] (-) TimerEvent: {}
+[37.064459] (-) TimerEvent: {}
+[37.166564] (-) TimerEvent: {}
+[37.271015] (-) TimerEvent: {}
+[37.301258] (audio_capture) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[37.302419] (audio_play) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[37.371309] (-) TimerEvent: {}
+[37.472172] (-) TimerEvent: {}
+[37.482905] (audio_capture) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[37.483588] (audio_play) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[37.572361] (-) TimerEvent: {}
+[37.673715] (-) TimerEvent: {}
+[37.775064] (-) TimerEvent: {}
+[37.800722] (audio_capture) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[37.801413] (audio_play) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[37.875310] (-) TimerEvent: {}
+[37.929014] (audio_capture) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[37.929704] (audio_play) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[37.975537] (-) TimerEvent: {}
+[38.076880] (-) TimerEvent: {}
+[38.178311] (-) TimerEvent: {}
+[38.279157] (-) TimerEvent: {}
+[38.295524] (audio_play) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[38.298968] (audio_play) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[38.319387] (audio_capture) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[38.321164] (audio_capture) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[38.353207] (sound_play) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[38.379365] (-) TimerEvent: {}
+[38.480784] (-) TimerEvent: {}
+[38.583080] (-) TimerEvent: {}
+[38.646368] (audio_play) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[38.651734] (audio_play) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[38.663880] (audio_capture) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[38.667702] (audio_capture) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[38.683223] (-) TimerEvent: {}
+[38.783993] (-) TimerEvent: {}
+[38.885838] (-) TimerEvent: {}
+[38.987604] (-) TimerEvent: {}
+[39.089020] (-) TimerEvent: {}
+[39.190713] (-) TimerEvent: {}
+[39.292367] (-) TimerEvent: {}
+[39.393791] (-) TimerEvent: {}
+[39.483911] (audio_capture) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[39.484562] (audio_play) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[39.494023] (-) TimerEvent: {}
+[39.594798] (-) TimerEvent: {}
+[39.636794] (sound_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[39.695003] (-) TimerEvent: {}
+[39.796534] (-) TimerEvent: {}
+[39.888379] (audio_play) StdoutLine: {'line': b'-- Found audio_common_msgs: 0.3.12 (/home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake)\n'}
+[39.889726] (audio_capture) StdoutLine: {'line': b'-- Found audio_common_msgs: 0.3.12 (/home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake)\n'}
+[39.896776] (-) TimerEvent: {}
+[39.998799] (-) TimerEvent: {}
+[40.082760] (audio_play) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[40.084418] (audio_capture) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[40.086364] (audio_play) StdoutLine: {'line': b"-- Checking for module 'gstreamer-1.0'\n"}
+[40.087467] (audio_capture) StdoutLine: {'line': b"-- Checking for module 'gstreamer-1.0'\n"}
+[40.098821] (audio_play) StdoutLine: {'line': b"--   No package 'gstreamer-1.0' found\n"}
+[40.099395] (-) TimerEvent: {}
+[40.101469] (audio_capture) StdoutLine: {'line': b"--   No package 'gstreamer-1.0' found\n"}
+[40.102129] (audio_capture) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:603 (message):\n'}
+[40.102642] (audio_capture) StderrLine: {'line': b'  A required package was not found\n'}
+[40.103069] (audio_capture) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[40.103459] (audio_capture) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:825 (_pkg_check_modules_internal)\n'}
+[40.103898] (audio_capture) StderrLine: {'line': b'  CMakeLists.txt:17 (pkg_check_modules)\n'}
+[40.104414] (audio_capture) StderrLine: {'line': b'\n'}
+[40.104877] (audio_capture) StderrLine: {'line': b'\x1b[0m\n'}
+[40.105828] (audio_play) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[40.106830] (audio_play) StdoutLine: {'line': b'See also "/home/maddy/turtlebot3_ws/build/audio_play/CMakeFiles/CMakeOutput.log".\n'}
+[40.107908] (audio_play) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:603 (message):\n'}
+[40.109949] (audio_play) StderrLine: {'line': b'  A required package was not found\n'}
+[40.111351] (audio_play) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[40.112547] (audio_play) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:825 (_pkg_check_modules_internal)\n'}
+[40.113640] (audio_play) StderrLine: {'line': b'  CMakeLists.txt:17 (pkg_check_modules)\n'}
+[40.114281] (audio_play) StderrLine: {'line': b'\n'}
+[40.114848] (audio_play) StderrLine: {'line': b'\x1b[0m\n'}
+[40.115437] (audio_capture) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[40.116165] (audio_capture) StdoutLine: {'line': b'See also "/home/maddy/turtlebot3_ws/build/audio_capture/CMakeFiles/CMakeOutput.log".\n'}
+[40.149269] (audio_capture) CommandEnded: {'returncode': 1}
+[40.158578] (audio_play) CommandEnded: {'returncode': 1}
+[40.199644] (-) TimerEvent: {}
+[40.301156] (-) TimerEvent: {}
+[40.348103] (audio_capture) JobEnded: {'identifier': 'audio_capture', 'rc': 1}
+[40.351563] (audio_play) JobEnded: {'identifier': 'audio_play', 'rc': 'SIGINT'}
+[40.401418] (-) TimerEvent: {}
+[40.502401] (-) TimerEvent: {}
+[40.603161] (-) TimerEvent: {}
+[40.703768] (-) TimerEvent: {}
+[40.804414] (-) TimerEvent: {}
+[40.905089] (-) TimerEvent: {}
+[41.005745] (-) TimerEvent: {}
+[41.106451] (-) TimerEvent: {}
+[41.119576] (sound_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[41.206602] (-) TimerEvent: {}
+[41.237721] (sound_play) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[41.267151] (sound_play) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[41.306757] (-) TimerEvent: {}
+[41.396084] (sound_play) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[41.396809] (sound_play) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[41.397271] (sound_play) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[41.397606] (sound_play) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[41.407051] (-) TimerEvent: {}
+[41.503889] (sound_play) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[41.507179] (-) TimerEvent: {}
+[41.607787] (-) TimerEvent: {}
+[41.708428] (-) TimerEvent: {}
+[41.772726] (sound_play) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:122 (add_custom_target):\n'}
+[41.773387] (sound_play) StderrLine: {'line': b'  add_custom_target cannot create target "ament_cmake_python_copy_sound_play"\n'}
+[41.773729] (sound_play) StderrLine: {'line': b'  because another target with the same name already exists.  The existing\n'}
+[41.774029] (sound_play) StderrLine: {'line': b'  target is a custom target created in source directory\n'}
+[41.774314] (sound_play) StderrLine: {'line': b'  "/home/maddy/turtlebot3_ws/src/audio_common/sound_play".  See documentation\n'}
+[41.774601] (sound_play) StderrLine: {'line': b'  for policy CMP0002 for more details.\n'}
+[41.774896] (sound_play) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[41.775183] (sound_play) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[41.775523] (sound_play) StderrLine: {'line': b'  CMakeLists.txt:36 (ament_python_install_package)\n'}
+[41.775815] (sound_play) StderrLine: {'line': b'\n'}
+[41.776072] (sound_play) StderrLine: {'line': b'\x1b[0m\n'}
+[41.776347] (sound_play) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:141 (add_custom_target):\n'}
+[41.776629] (sound_play) StderrLine: {'line': b'  add_custom_target cannot create target\n'}
+[41.776906] (sound_play) StderrLine: {'line': b'  "ament_cmake_python_build_sound_play_egg" because another target with the\n'}
+[41.777337] (sound_play) StderrLine: {'line': b'  same name already exists.  The existing target is a custom target created\n'}
+[41.777610] (sound_play) StderrLine: {'line': b'  in source directory\n'}
+[41.777879] (sound_play) StderrLine: {'line': b'  "/home/maddy/turtlebot3_ws/src/audio_common/sound_play".  See documentation\n'}
+[41.778156] (sound_play) StderrLine: {'line': b'  for policy CMP0002 for more details.\n'}
+[41.778428] (sound_play) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[41.778715] (sound_play) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[41.779002] (sound_play) StderrLine: {'line': b'  CMakeLists.txt:36 (ament_python_install_package)\n'}
+[41.779275] (sound_play) StderrLine: {'line': b'\n'}
+[41.779547] (sound_play) StderrLine: {'line': b'\x1b[0m\n'}
+[41.808595] (-) TimerEvent: {}
+[41.810794] (sound_play) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[41.811308] (sound_play) StdoutLine: {'line': b'See also "/home/maddy/turtlebot3_ws/build/sound_play/CMakeFiles/CMakeOutput.log".\n'}
+[41.844050] (sound_play) JobEnded: {'identifier': 'sound_play', 'rc': 'SIGINT'}
+[41.847390] (-) EventReactorShutdown: {}

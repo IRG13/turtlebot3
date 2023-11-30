@@ -1,0 +1,191 @@
+[0.950s] Invoking command in '/home/maddy/turtlebot3_ws/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble /usr/bin/cmake --build /home/maddy/turtlebot3_ws/build/audio_common_msgs -- -j4 -l4
+[1.671s] [  2%] Built target audio_common_msgs__cpp
+[1.709s] [35m[1mConsolidate compiler generated dependencies of target audio_common_msgs__rosidl_generator_c[0m
+[1.843s] [35m[1mConsolidate compiler generated dependencies of target audio_common_msgs__rosidl_typesupport_cpp[0m
+[1.875s] [  2%] Built target ament_cmake_python_copy_audio_common_msgs
+[1.925s] [ 12%] Built target audio_common_msgs__rosidl_generator_c
+[1.982s] [35m[1mConsolidate compiler generated dependencies of target audio_common_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.039s] [35m[1mConsolidate compiler generated dependencies of target audio_common_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.171s] [ 23%] Built target audio_common_msgs__rosidl_typesupport_cpp
+[2.183s] [ 34%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_cpp
+[2.252s] [ 44%] Built target audio_common_msgs__rosidl_typesupport_introspection_cpp
+[2.325s] [35m[1mConsolidate compiler generated dependencies of target audio_common_msgs__rosidl_typesupport_introspection_c[0m
+[2.353s] [35m[1mConsolidate compiler generated dependencies of target audio_common_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.423s] [35m[1mConsolidate compiler generated dependencies of target audio_common_msgs__rosidl_typesupport_c[0m
+[2.482s] [ 55%] Built target audio_common_msgs__rosidl_typesupport_introspection_c
+[2.571s] [ 65%] Built target audio_common_msgs__rosidl_typesupport_c
+[2.586s] [ 76%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_c
+[2.905s] [ 76%] Built target audio_common_msgs
+[3.126s] [ 78%] Built target audio_common_msgs__py
+[3.226s] [35m[1mConsolidate compiler generated dependencies of target audio_common_msgs__rosidl_generator_py[0m
+[3.451s] [ 87%] Built target audio_common_msgs__rosidl_generator_py
+[3.635s] [35m[1mConsolidate compiler generated dependencies of target audio_common_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.646s] [35m[1mConsolidate compiler generated dependencies of target audio_common_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[3.668s] [35m[1mConsolidate compiler generated dependencies of target audio_common_msgs__rosidl_typesupport_c__pyext[0m
+[3.814s] [ 91%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.843s] [ 95%] Built target audio_common_msgs__rosidl_typesupport_introspection_c__pyext
+[3.857s] [100%] Built target audio_common_msgs__rosidl_typesupport_c__pyext
+[3.890s] running egg_info
+[3.893s] writing audio_common_msgs.egg-info/PKG-INFO
+[3.895s] writing dependency_links to audio_common_msgs.egg-info/dependency_links.txt
+[3.896s] writing top-level names to audio_common_msgs.egg-info/top_level.txt
+[3.911s] reading manifest file 'audio_common_msgs.egg-info/SOURCES.txt'
+[3.917s] writing manifest file 'audio_common_msgs.egg-info/SOURCES.txt'
+[4.145s] [100%] Built target ament_cmake_python_build_audio_common_msgs_egg
+[4.217s] Invoked command in '/home/maddy/turtlebot3_ws/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble /usr/bin/cmake --build /home/maddy/turtlebot3_ws/build/audio_common_msgs -- -j4 -l4
+[5.734s] Invoking command in '/home/maddy/turtlebot3_ws/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble /usr/bin/cmake --install /home/maddy/turtlebot3_ws/build/audio_common_msgs
+[5.777s] -- Install configuration: ""
+[5.781s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/ament_index/resource_index/rosidl_interfaces/audio_common_msgs
+[5.785s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[5.790s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[5.791s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[5.794s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__functions.c
+[5.794s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__struct.h
+[5.795s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__struct.h
+[5.796s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__functions.h
+[5.797s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__functions.c
+[5.798s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__functions.h
+[5.798s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.h
+[5.799s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.h
+[5.799s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__functions.c
+[5.800s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__functions.h
+[5.801s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__struct.h
+[5.801s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.h
+[5.802s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data_stamped.h
+[5.802s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_info.h
+[5.803s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data.h
+[5.803s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.803s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/environment/library_path.sh
+[5.804s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/environment/library_path.dsv
+[5.807s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_c.so
+[5.808s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[5.809s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[5.810s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.811s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[5.812s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_fastrtps_c.h
+[5.812s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_c.h
+[5.813s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_fastrtps_c.h
+[5.820s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so
+[5.825s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[5.827s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[5.829s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[5.833s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_c.h
+[5.835s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c
+[5.835s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_introspection_c.h
+[5.836s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.c
+[5.836s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_introspection_c.h
+[5.837s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.c
+[5.837s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.842s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_c.so
+[5.847s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_c.so
+[5.848s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[5.850s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[5.851s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data_stamped.hpp
+[5.851s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[5.852s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__traits.hpp
+[5.853s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__builder.hpp
+[5.854s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__struct.hpp
+[5.856s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__builder.hpp
+[5.857s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__builder.hpp
+[5.858s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__struct.hpp
+[5.858s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__traits.hpp
+[5.859s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__traits.hpp
+[5.859s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__struct.hpp
+[5.860s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_info.hpp
+[5.861s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data.hpp
+[5.863s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[5.863s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[5.863s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[5.864s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[5.864s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/dds_fastrtps
+[5.865s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_cpp.hpp
+[5.867s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_fastrtps_cpp.hpp
+[5.868s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.869s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.869s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[5.870s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[5.871s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[5.872s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.cpp
+[5.872s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_introspection_cpp.hpp
+[5.873s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.cpp
+[5.873s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_cpp.hpp
+[5.873s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.cpp
+[5.874s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_introspection_cpp.hpp
+[5.874s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so
+[5.882s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_cpp.so
+[5.886s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/environment/pythonpath.sh
+[5.887s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/environment/pythonpath.dsv
+[5.888s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.3.12-py3.10.egg-info
+[5.889s] -- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.3.12-py3.10.egg-info/SOURCES.txt
+[5.889s] -- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.3.12-py3.10.egg-info/dependency_links.txt
+[5.894s] -- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.3.12-py3.10.egg-info/PKG-INFO
+[5.896s] -- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs-0.3.12-py3.10.egg-info/top_level.txt
+[5.897s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs
+[5.899s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.900s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg
+[5.901s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_info_s.c
+[5.902s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data.py
+[5.902s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data_s.c
+[5.903s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_info.py
+[5.904s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data_stamped_s.c
+[5.905s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/__init__.py
+[5.906s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg/_audio_data_stamped.py
+[5.906s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_c.c
+[5.907s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/libaudio_common_msgs__rosidl_generator_py.so
+[5.907s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/__init__.py
+[5.907s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.908s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.908s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.909s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.172s] Listing '/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs'...
+[6.173s] Listing '/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/msg'...
+[6.226s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.235s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.239s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.245s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_py.so
+[6.248s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.idl
+[6.249s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioDataStamped.idl
+[6.252s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.idl
+[6.253s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.msg
+[6.253s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioDataStamped.msg
+[6.253s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.msg
+[6.254s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/ament_index/resource_index/package_run_dependencies/audio_common_msgs
+[6.255s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/ament_index/resource_index/parent_prefix_path/audio_common_msgs
+[6.255s] -- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/environment/ament_prefix_path.sh
+[6.256s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/environment/ament_prefix_path.dsv
+[6.257s] -- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/environment/path.sh
+[6.258s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/environment/path.dsv
+[6.259s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.bash
+[6.259s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.sh
+[6.260s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.zsh
+[6.260s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.dsv
+[6.261s] -- Installing: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/package.dsv
+[6.267s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/ament_index/resource_index/packages/audio_common_msgs
+[6.269s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cExport.cmake
+[6.270s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.273s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.274s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.278s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.281s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.288s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cExport.cmake
+[6.289s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.296s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cppExport.cmake
+[6.301s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.301s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.304s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.305s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.309s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cppExport.cmake
+[6.309s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.311s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_pyExport.cmake
+[6.312s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.313s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake-extras.cmake
+[6.313s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.314s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.315s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.315s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.317s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.318s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.322s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgsConfig.cmake
+[6.322s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgsConfig-version.cmake
+[6.323s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/package.xml
+[6.761s] Invoked command in '/home/maddy/turtlebot3_ws/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble /usr/bin/cmake --install /home/maddy/turtlebot3_ws/build/audio_common_msgs

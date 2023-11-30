@@ -1,0 +1,3 @@
+[console_scripts]
+execute = ros2_camera_publish.camera_publish_function:main
+

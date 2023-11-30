@@ -1,0 +1,3 @@
+[console_scripts]
+mic_access = mic_startup.speech_converter:main
+

@@ -1,0 +1,75 @@
+[0.161s] Invoking command in '/home/maddy/turtlebot3_ws/build/ld08_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maddy/turtlebot3_ws/src/ld08_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/ld08_driver
+[0.699s] -- The C compiler identification is GNU 11.4.0
+[1.155s] -- The CXX compiler identification is GNU 11.4.0
+[1.184s] -- Detecting C compiler ABI info
+[1.550s] -- Detecting C compiler ABI info - done
+[1.576s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.577s] -- Detecting C compile features
+[1.579s] -- Detecting C compile features - done
+[1.590s] -- Detecting CXX compiler ABI info
+[1.980s] -- Detecting CXX compiler ABI info - done
+[2.008s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.009s] -- Detecting CXX compile features
+[2.011s] -- Detecting CXX compile features - done
+[2.030s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.768s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.025s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.212s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[3.458s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.489s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.534s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.259s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.581s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.597s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.278s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.428s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.694s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.750s] -- Looking for pthread.h
+[8.055s] -- Looking for pthread.h - found
+[8.057s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.370s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.374s] -- Found Threads: TRUE  
+[8.999s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.524s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[9.540s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.869s] -- Configuring done
+[9.926s] -- Generating done
+[9.933s] -- Build files have been written to: /home/maddy/turtlebot3_ws/build/ld08_driver
+[9.964s] Invoked command in '/home/maddy/turtlebot3_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maddy/turtlebot3_ws/src/ld08_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/ld08_driver
+[9.972s] Invoking command in '/home/maddy/turtlebot3_ws/build/ld08_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maddy/turtlebot3_ws/build/ld08_driver -- -j4 -l4
+[10.167s] [ 16%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/cmd_interface_linux.cpp.o[0m
+[10.169s] [ 33%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/lipkg.cpp.o[0m
+[10.172s] [ 50%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/main.cpp.o[0m
+[10.177s] [ 66%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/slbf.cpp.o[0m
+[14.323s] [ 83%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/transform.cpp.o[0m
+[28.894s] [01m[K/home/maddy/turtlebot3_ws/src/ld08_driver/src/transform.cpp:[m[K In constructor ‘[01m[KSlTransform::SlTransform(LDVersion, bool)[m[K’:
+[28.895s] [01m[K/home/maddy/turtlebot3_ws/src/ld08_driver/src/transform.cpp:30:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kto_right_hand[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.896s]    30 | SlTransform::SlTransform(LDVersion version, [01;35m[Kbool to_right_hand[m[K)
+[28.897s]       |                                             [01;35m[K~~~~~^~~~~~~~~~~~~[m[K
+[33.671s] [100%] [32m[1mLinking CXX executable ld08_driver[0m
+[35.299s] [100%] Built target ld08_driver
+[35.760s] Invoked command in '/home/maddy/turtlebot3_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maddy/turtlebot3_ws/build/ld08_driver -- -j4 -l4
+[35.938s] Invoking command in '/home/maddy/turtlebot3_ws/build/ld08_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maddy/turtlebot3_ws/build/ld08_driver
+[35.964s] -- Install configuration: ""
+[35.966s] -- Execute custom install script
+[35.968s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ld08_driver/launch/ld08.launch.py
+[36.000s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/lib/ld08_driver/ld08_driver
+[36.030s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/package_run_dependencies/ld08_driver
+[36.060s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/parent_prefix_path/ld08_driver
+[36.091s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.sh
+[36.121s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.dsv
+[36.151s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/path.sh
+[36.181s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/path.dsv
+[36.211s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.bash
+[36.241s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.sh
+[36.273s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.zsh
+[36.303s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.dsv
+[36.334s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.dsv
+[36.363s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/packages/ld08_driver
+[36.393s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.424s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.454s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig.cmake
+[36.483s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig-version.cmake
+[36.514s] -- Symlinking: /home/maddy/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.xml
+[36.549s] Invoked command in '/home/maddy/turtlebot3_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maddy/turtlebot3_ws/build/ld08_driver

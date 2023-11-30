@@ -1,0 +1,6 @@
+Invoking command in '/home/maddy/turtlebot3_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maddy/turtlebot3_ws/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/cv_bridge
+Invoked command in '/home/maddy/turtlebot3_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maddy/turtlebot3_ws/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/cv_bridge
+Invoking command in '/home/maddy/turtlebot3_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maddy/turtlebot3_ws/build/cv_bridge -- -j4 -l4
+Invoked command in '/home/maddy/turtlebot3_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maddy/turtlebot3_ws/build/cv_bridge -- -j4 -l4
+Invoking command in '/home/maddy/turtlebot3_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maddy/turtlebot3_ws/build/cv_bridge
+Invoked command in '/home/maddy/turtlebot3_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maddy/turtlebot3_ws/build/cv_bridge

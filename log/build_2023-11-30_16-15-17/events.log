@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.001038] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.001252] (-) JobUnselected: {'identifier': 'cv_stuff'}
+[0.001627] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.001720] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.001808] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.001975] (-) JobUnselected: {'identifier': 'sound_player'}
+[0.002111] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.002331] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.002427] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.002502] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.002576] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.002818] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.003058] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.003161] (image_pub) JobQueued: {'identifier': 'image_pub', 'dependencies': OrderedDict()}
+[0.003246] (image_pub) JobStarted: {'identifier': 'image_pub'}
+[0.098104] (-) TimerEvent: {}
+[0.198818] (-) TimerEvent: {}
+[0.299631] (-) TimerEvent: {}
+[0.400471] (-) TimerEvent: {}
+[0.501069] (-) TimerEvent: {}
+[0.601658] (-) TimerEvent: {}
+[0.702322] (-) TimerEvent: {}
+[0.802939] (-) TimerEvent: {}
+[0.903544] (-) TimerEvent: {}
+[1.004162] (-) TimerEvent: {}
+[1.104920] (-) TimerEvent: {}
+[1.205537] (-) TimerEvent: {}
+[1.306333] (-) TimerEvent: {}
+[1.407372] (-) TimerEvent: {}
+[1.508094] (-) TimerEvent: {}
+[1.608846] (-) TimerEvent: {}
+[1.709520] (-) TimerEvent: {}
+[1.810254] (-) TimerEvent: {}
+[1.910897] (-) TimerEvent: {}
+[2.011558] (-) TimerEvent: {}
+[2.112200] (-) TimerEvent: {}
+[2.212768] (-) TimerEvent: {}
+[2.313343] (-) TimerEvent: {}
+[2.413979] (-) TimerEvent: {}
+[2.514605] (-) TimerEvent: {}
+[2.615447] (-) TimerEvent: {}
+[2.716085] (-) TimerEvent: {}
+[2.816731] (-) TimerEvent: {}
+[2.917586] (-) TimerEvent: {}
+[2.999587] (image_pub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/image_pub', 'build', '--build-base', '/home/maddy/turtlebot3_ws/build/image_pub/build', 'install', '--record', '/home/maddy/turtlebot3_ws/build/image_pub/install.log', '--single-version-externally-managed'], 'cwd': '/home/maddy/turtlebot3_ws/src/image_pub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maddy', 'SSH_CLIENT': '192.168.142.149 58510 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/maddy', 'OLDPWD': '/home/maddy/turtlebot3_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/maddy/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'maddy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/sound_player:/home/maddy/turtlebot3_ws/install/ros2_camera_publish:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_pub:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/audio_common_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/maddy/turtlebot3_ws/build/image_pub', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.142.149 58510 192.168.142.73 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/maddy/turtlebot3_ws/build/image_pub/prefix_override:/home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/ros2_camera_publish/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/opencv_tests:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/audio_common_msgs'}, 'shell': False}
+[3.017773] (-) TimerEvent: {}
+[3.118495] (-) TimerEvent: {}
+[3.219139] (-) TimerEvent: {}
+[3.319768] (-) TimerEvent: {}
+[3.420409] (-) TimerEvent: {}
+[3.521001] (-) TimerEvent: {}
+[3.621570] (-) TimerEvent: {}
+[3.722130] (-) TimerEvent: {}
+[3.822800] (-) TimerEvent: {}
+[3.923482] (-) TimerEvent: {}
+[3.966231] (image_pub) StdoutLine: {'line': b'running egg_info\n'}
+[3.968822] (image_pub) StdoutLine: {'line': b'writing ../../build/image_pub/image_pub.egg-info/PKG-INFO\n'}
+[3.969897] (image_pub) StdoutLine: {'line': b'writing dependency_links to ../../build/image_pub/image_pub.egg-info/dependency_links.txt\n'}
+[3.970741] (image_pub) StdoutLine: {'line': b'writing entry points to ../../build/image_pub/image_pub.egg-info/entry_points.txt\n'}
+[3.971419] (image_pub) StdoutLine: {'line': b'writing requirements to ../../build/image_pub/image_pub.egg-info/requires.txt\n'}
+[3.971913] (image_pub) StdoutLine: {'line': b'writing top-level names to ../../build/image_pub/image_pub.egg-info/top_level.txt\n'}
+[3.979361] (image_pub) StdoutLine: {'line': b"reading manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'\n"}
+[3.982976] (image_pub) StdoutLine: {'line': b"writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'\n"}
+[3.983599] (image_pub) StdoutLine: {'line': b'running build\n'}
+[3.984046] (image_pub) StdoutLine: {'line': b'running build_py\n'}
+[3.984522] (image_pub) StdoutLine: {'line': b'copying image_pub/pub.py -> /home/maddy/turtlebot3_ws/build/image_pub/build/lib/image_pub\n'}
+[3.985916] (image_pub) StdoutLine: {'line': b'running install\n'}
+[3.986504] (image_pub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.986987] (image_pub) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.987677] (image_pub) StdoutLine: {'line': b'running install_lib\n'}
+[3.991185] (image_pub) StdoutLine: {'line': b'copying /home/maddy/turtlebot3_ws/build/image_pub/build/lib/image_pub/pub.py -> /home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages/image_pub\n'}
+[3.994347] (image_pub) StdoutLine: {'line': b'byte-compiling /home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages/image_pub/pub.py to pub.cpython-310.pyc\n'}
+[3.997522] (image_pub) StdoutLine: {'line': b'running install_data\n'}
+[3.999683] (image_pub) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.006473] (image_pub) StdoutLine: {'line': b"removing '/home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.008049] (image_pub) StdoutLine: {'line': b'Copying ../../build/image_pub/image_pub.egg-info to /home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info\n'}
+[4.013120] (image_pub) StdoutLine: {'line': b'running install_scripts\n'}
+[4.023647] (-) TimerEvent: {}
+[4.095701] (image_pub) StdoutLine: {'line': b'Installing pub_vid script to /home/maddy/turtlebot3_ws/install/image_pub/lib/image_pub\n'}
+[4.097324] (image_pub) StdoutLine: {'line': b"writing list of installed files to '/home/maddy/turtlebot3_ws/build/image_pub/install.log'\n"}
+[4.124024] (-) TimerEvent: {}
+[4.210693] (image_pub) CommandEnded: {'returncode': 0}
+[4.224566] (-) TimerEvent: {}
+[4.325890] (-) TimerEvent: {}
+[4.401941] (image_pub) JobEnded: {'identifier': 'image_pub', 'rc': 0}
+[4.404823] (-) EventReactorShutdown: {}

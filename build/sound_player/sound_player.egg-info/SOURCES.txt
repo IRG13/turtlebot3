@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/sound_player/sound_player.egg-info/PKG-INFO
+../../build/sound_player/sound_player.egg-info/SOURCES.txt
+../../build/sound_player/sound_player.egg-info/dependency_links.txt
+../../build/sound_player/sound_player.egg-info/entry_points.txt
+../../build/sound_player/sound_player.egg-info/requires.txt
+../../build/sound_player/sound_player.egg-info/top_level.txt
+../../build/sound_player/sound_player.egg-info/zip-safe
+resource/sound_player
+sound_player/__init__.py
+sound_player/play_sounds.py
+sound_player/player.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

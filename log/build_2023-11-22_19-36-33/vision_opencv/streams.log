@@ -1,0 +1,41 @@
+[0.174s] Invoking command in '/home/maddy/turtlebot3_ws/build/vision_opencv': AMENT_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/maddy/turtlebot3_ws/src/vision_opencv/vision_opencv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/vision_opencv
+[0.473s] -- The C compiler identification is GNU 11.4.0
+[0.715s] -- The CXX compiler identification is GNU 11.4.0
+[0.745s] -- Detecting C compiler ABI info
+[1.116s] -- Detecting C compiler ABI info - done
+[1.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.144s] -- Detecting C compile features
+[1.145s] -- Detecting C compile features - done
+[1.156s] -- Detecting CXX compiler ABI info
+[1.560s] -- Detecting CXX compiler ABI info - done
+[1.587s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.588s] -- Detecting CXX compile features
+[1.589s] -- Detecting CXX compile features - done
+[1.611s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.389s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.657s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.152s] -- Configuring done
+[3.169s] -- Generating done
+[3.173s] -- Build files have been written to: /home/maddy/turtlebot3_ws/build/vision_opencv
+[3.186s] Invoked command in '/home/maddy/turtlebot3_ws/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/maddy/turtlebot3_ws/src/vision_opencv/vision_opencv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/vision_opencv
+[3.193s] Invoking command in '/home/maddy/turtlebot3_ws/build/vision_opencv': AMENT_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/maddy/turtlebot3_ws/build/vision_opencv -- -j4 -l4
+[3.334s] Invoked command in '/home/maddy/turtlebot3_ws/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/maddy/turtlebot3_ws/build/vision_opencv -- -j4 -l4
+[3.444s] Invoking command in '/home/maddy/turtlebot3_ws/build/vision_opencv': AMENT_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/maddy/turtlebot3_ws/build/vision_opencv
+[3.472s] -- Install configuration: ""
+[3.473s] -- Execute custom install script
+[3.475s] -- Symlinking: /home/maddy/turtlebot3_ws/install/vision_opencv/share/ament_index/resource_index/package_run_dependencies/vision_opencv
+[3.507s] -- Symlinking: /home/maddy/turtlebot3_ws/install/vision_opencv/share/ament_index/resource_index/parent_prefix_path/vision_opencv
+[3.539s] -- Symlinking: /home/maddy/turtlebot3_ws/install/vision_opencv/share/vision_opencv/environment/ament_prefix_path.sh
+[3.572s] -- Symlinking: /home/maddy/turtlebot3_ws/install/vision_opencv/share/vision_opencv/environment/ament_prefix_path.dsv
+[3.604s] -- Symlinking: /home/maddy/turtlebot3_ws/install/vision_opencv/share/vision_opencv/environment/path.sh
+[3.635s] -- Symlinking: /home/maddy/turtlebot3_ws/install/vision_opencv/share/vision_opencv/environment/path.dsv
+[3.669s] -- Symlinking: /home/maddy/turtlebot3_ws/install/vision_opencv/share/vision_opencv/local_setup.bash
+[3.700s] -- Symlinking: /home/maddy/turtlebot3_ws/install/vision_opencv/share/vision_opencv/local_setup.sh
+[3.732s] -- Symlinking: /home/maddy/turtlebot3_ws/install/vision_opencv/share/vision_opencv/local_setup.zsh
+[3.765s] -- Symlinking: /home/maddy/turtlebot3_ws/install/vision_opencv/share/vision_opencv/local_setup.dsv
+[3.798s] -- Symlinking: /home/maddy/turtlebot3_ws/install/vision_opencv/share/vision_opencv/package.dsv
+[3.831s] -- Symlinking: /home/maddy/turtlebot3_ws/install/vision_opencv/share/ament_index/resource_index/packages/vision_opencv
+[3.864s] -- Symlinking: /home/maddy/turtlebot3_ws/install/vision_opencv/share/vision_opencv/cmake/vision_opencvConfig.cmake
+[3.895s] -- Symlinking: /home/maddy/turtlebot3_ws/install/vision_opencv/share/vision_opencv/cmake/vision_opencvConfig-version.cmake
+[3.927s] -- Symlinking: /home/maddy/turtlebot3_ws/install/vision_opencv/share/vision_opencv/package.xml
+[3.964s] Invoked command in '/home/maddy/turtlebot3_ws/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/maddy/turtlebot3_ws/build/vision_opencv

@@ -1,0 +1,24 @@
+[0.000000] (-) TimerEvent: {}
+[0.000971] (-) JobUnselected: {'identifier': 'audio_capture'}
+[0.001197] (-) JobUnselected: {'identifier': 'audio_common_msgs'}
+[0.001528] (-) JobUnselected: {'identifier': 'audio_play'}
+[0.001623] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.001701] (-) JobUnselected: {'identifier': 'cv_stuff'}
+[0.001810] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.001890] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.001967] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.002073] (-) JobUnselected: {'identifier': 'sound_play'}
+[0.002221] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.002310] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.002435] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.002663] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.002805] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.002882] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.003146] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.003240] (audio_common) JobQueued: {'identifier': 'audio_common', 'dependencies': OrderedDict([('audio_common_msgs', '/home/maddy/turtlebot3_ws/install/audio_common_msgs'), ('audio_capture', '/home/maddy/turtlebot3_ws/install/audio_capture'), ('audio_play', '/home/maddy/turtlebot3_ws/install/audio_play'), ('sound_play', '/home/maddy/turtlebot3_ws/install/sound_play')])}
+[0.003365] (audio_common) JobStarted: {'identifier': 'audio_common'}
+[0.098157] (-) TimerEvent: {}
+[0.200932] (-) TimerEvent: {}
+[0.301659] (-) TimerEvent: {}
+[0.327949] (audio_common) JobEnded: {'identifier': 'audio_common', 'rc': 1}
+[0.339008] (-) EventReactorShutdown: {}

@@ -1,0 +1,51 @@
+[0.168s] Invoking command in '/home/maddy/turtlebot3_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maddy/turtlebot3_ws/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/cv_bridge
+[1.069s] -- The C compiler identification is GNU 11.4.0
+[1.333s] -- The CXX compiler identification is GNU 11.4.0
+[1.381s] -- Detecting C compiler ABI info
+[1.703s] -- Detecting C compiler ABI info - done
+[1.730s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.732s] -- Detecting C compile features
+[1.736s] -- Detecting C compile features - done
+[1.755s] -- Detecting CXX compiler ABI info
+[2.088s] -- Detecting CXX compiler ABI info - done
+[2.116s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.116s] -- Detecting CXX compile features
+[2.118s] -- Detecting CXX compile features - done
+[2.136s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.970s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.265s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.808s] -- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[5.879s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: python310 
+[5.898s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[6.225s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.266s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.333s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.430s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.973s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.998s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.555s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.711s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.971s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.049s] -- Looking for pthread.h
+[8.404s] -- Looking for pthread.h - found
+[8.405s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.913s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.917s] -- Found Threads: TRUE  
+[9.639s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[10.314s] [31mCMake Error at CMakeLists.txt:54 (find_package):
+[10.314s]   Could not find a package configuration file provided by "OpenCV" (requested
+[10.315s]   version 3) with any of the following names:
+[10.315s] 
+[10.315s]     OpenCVConfig.cmake
+[10.315s]     opencv-config.cmake
+[10.316s] 
+[10.316s]   Add the installation prefix of "OpenCV" to CMAKE_PREFIX_PATH or set
+[10.316s]   "OpenCV_DIR" to a directory containing one of the above files.  If "OpenCV"
+[10.317s]   provides a separate development package or SDK, be sure it has been
+[10.318s]   installed.
+[10.318s] 
+[10.319s] [0m
+[10.319s] -- Configuring incomplete, errors occurred!
+[10.320s] See also "/home/maddy/turtlebot3_ws/build/cv_bridge/CMakeFiles/CMakeOutput.log".
+[10.352s] Invoked command in '/home/maddy/turtlebot3_ws/build/cv_bridge' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maddy/turtlebot3_ws/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/cv_bridge

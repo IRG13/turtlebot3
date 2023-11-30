@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.001469] (-) JobUnselected: {'identifier': 'audio_capture'}
+[0.002015] (-) JobUnselected: {'identifier': 'audio_common'}
+[0.002291] (-) JobUnselected: {'identifier': 'audio_common_msgs'}
+[0.002453] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.002778] (-) JobUnselected: {'identifier': 'cv_stuff'}
+[0.002929] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.003093] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.003234] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.003458] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.003602] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.003871] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.003964] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.004050] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.004195] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.004285] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.004719] (audio_play) JobQueued: {'identifier': 'audio_play', 'dependencies': OrderedDict([('audio_common_msgs', '/home/maddy/turtlebot3_ws/install/audio_common_msgs')])}
+[0.005176] (sound_play) JobQueued: {'identifier': 'sound_play', 'dependencies': OrderedDict([('audio_common_msgs', '/home/maddy/turtlebot3_ws/install/audio_common_msgs')])}
+[0.005316] (audio_play) JobStarted: {'identifier': 'audio_play'}
+[0.098944] (-) TimerEvent: {}
+[0.199968] (-) TimerEvent: {}
+[0.218230] (sound_play) JobStarted: {'identifier': 'sound_play'}
+[0.300250] (-) TimerEvent: {}
+[0.401320] (-) TimerEvent: {}
+[0.430507] (audio_play) JobProgress: {'identifier': 'audio_play', 'progress': 'cmake'}
+[0.433477] (audio_play) Command: {'cmd': ['/usr/bin/cmake', '/home/maddy/turtlebot3_ws/src/audio_common/audio_play', '-DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/audio_play'], 'cwd': '/home/maddy/turtlebot3_ws/build/audio_play', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maddy'), ('SSH_CLIENT', '192.168.142.187 59929 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib:/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/maddy'), ('OLDPWD', '/home/maddy'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maddy/turtlebot3_ws/build/audio_play'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.142.187 59929 192.168.142.51 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/build/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/opencv_tests:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/build/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble')]), 'shell': False}
+[0.452072] (sound_play) JobProgress: {'identifier': 'sound_play', 'progress': 'cmake'}
+[0.455036] (sound_play) Command: {'cmd': ['/usr/bin/cmake', '/home/maddy/turtlebot3_ws/src/audio_common/sound_play', '-DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/sound_play'], 'cwd': '/home/maddy/turtlebot3_ws/build/sound_play', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maddy'), ('SSH_CLIENT', '192.168.142.187 59929 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib:/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/maddy'), ('OLDPWD', '/home/maddy'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maddy/turtlebot3_ws/build/sound_play'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.142.187 59929 192.168.142.51 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/build/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/opencv_tests:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/build/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/maddy/turtlebot3_ws/install/audio_common_msgs:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble')]), 'shell': False}
+[0.495380] (audio_play) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.501521] (-) TimerEvent: {}
+[0.506674] (sound_play) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.601787] (-) TimerEvent: {}
+[0.702926] (-) TimerEvent: {}
+[0.803792] (-) TimerEvent: {}
+[0.904847] (-) TimerEvent: {}
+[1.005523] (-) TimerEvent: {}
+[1.106458] (-) TimerEvent: {}
+[1.207255] (-) TimerEvent: {}
+[1.278287] (audio_play) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.293301] (sound_play) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.306081] (sound_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.307389] (-) TimerEvent: {}
+[1.317733] (sound_play) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.407576] (-) TimerEvent: {}
+[1.423262] (audio_play) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.433710] (audio_play) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.457872] (audio_play) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.466719] (sound_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.504971] (audio_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.507729] (-) TimerEvent: {}
+[1.570096] (audio_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.578646] (sound_play) StdoutLine: {'line': b'-- Found audio_common_msgs: 0.3.12 (/home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake)\n'}
+[1.607919] (-) TimerEvent: {}
+[1.708640] (-) TimerEvent: {}
+[1.799831] (audio_play) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.807046] (audio_play) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.808796] (-) TimerEvent: {}
+[1.909744] (-) TimerEvent: {}
+[2.010750] (-) TimerEvent: {}
+[2.038424] (sound_play) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[2.110956] (-) TimerEvent: {}
+[2.211930] (-) TimerEvent: {}
+[2.312897] (-) TimerEvent: {}
+[2.413821] (-) TimerEvent: {}
+[2.514708] (-) TimerEvent: {}
+[2.515838] (audio_play) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.614940] (-) TimerEvent: {}
+[2.715663] (-) TimerEvent: {}
+[2.816345] (-) TimerEvent: {}
+[2.917328] (-) TimerEvent: {}
+[3.018344] (-) TimerEvent: {}
+[3.119334] (-) TimerEvent: {}
+[3.160156] (audio_play) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[3.219618] (-) TimerEvent: {}
+[3.321155] (-) TimerEvent: {}
+[3.391184] (audio_play) StdoutLine: {'line': b'-- Found audio_common_msgs: 0.3.12 (/home/maddy/turtlebot3_ws/install/audio_common_msgs/share/audio_common_msgs/cmake)\n'}
+[3.421359] (-) TimerEvent: {}
+[3.522413] (-) TimerEvent: {}
+[3.584970] (audio_play) StdoutLine: {'line': b"-- Checking for module 'gstreamer-1.0'\n"}
+[3.598996] (audio_play) StdoutLine: {'line': b"--   No package 'gstreamer-1.0' found\n"}
+[3.599905] (audio_play) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:603 (message):\n'}
+[3.600708] (audio_play) StderrLine: {'line': b'  A required package was not found\n'}
+[3.601257] (audio_play) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.601938] (audio_play) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:825 (_pkg_check_modules_internal)\n'}
+[3.602459] (audio_play) StderrLine: {'line': b'  CMakeLists.txt:17 (pkg_check_modules)\n'}
+[3.603049] (audio_play) StderrLine: {'line': b'\n'}
+[3.603471] (audio_play) StderrLine: {'line': b'\x1b[0m\n'}
+[3.603838] (audio_play) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.604283] (audio_play) StdoutLine: {'line': b'See also "/home/maddy/turtlebot3_ws/build/audio_play/CMakeFiles/CMakeOutput.log".\n'}
+[3.619269] (sound_play) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.622724] (-) TimerEvent: {}
+[3.630753] (audio_play) CommandEnded: {'returncode': 1}
+[3.723187] (-) TimerEvent: {}
+[3.823837] (audio_play) JobEnded: {'identifier': 'audio_play', 'rc': 1}
+[3.825826] (-) TimerEvent: {}
+[3.926433] (-) TimerEvent: {}
+[4.027079] (-) TimerEvent: {}
+[4.127712] (-) TimerEvent: {}
+[4.228460] (-) TimerEvent: {}
+[4.329463] (-) TimerEvent: {}
+[4.430347] (-) TimerEvent: {}
+[4.530992] (-) TimerEvent: {}
+[4.631626] (-) TimerEvent: {}
+[4.691562] (sound_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.731786] (-) TimerEvent: {}
+[4.832398] (-) TimerEvent: {}
+[4.933014] (-) TimerEvent: {}
+[5.033831] (-) TimerEvent: {}
+[5.134622] (-) TimerEvent: {}
+[5.235366] (-) TimerEvent: {}
+[5.335950] (-) TimerEvent: {}
+[5.436578] (-) TimerEvent: {}
+[5.537235] (-) TimerEvent: {}
+[5.637854] (-) TimerEvent: {}
+[5.738605] (-) TimerEvent: {}
+[5.839298] (-) TimerEvent: {}
+[5.940027] (-) TimerEvent: {}
+[6.040702] (-) TimerEvent: {}
+[6.081045] (sound_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.140842] (-) TimerEvent: {}
+[6.191234] (sound_play) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.241024] (-) TimerEvent: {}
+[6.300116] (sound_play) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.300685] (sound_play) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.300994] (sound_play) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[6.341185] (-) TimerEvent: {}
+[6.441830] (-) TimerEvent: {}
+[6.457309] (sound_play) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:122 (add_custom_target):\n'}
+[6.457917] (sound_play) StderrLine: {'line': b'  add_custom_target cannot create target "ament_cmake_python_copy_sound_play"\n'}
+[6.458257] (sound_play) StderrLine: {'line': b'  because another target with the same name already exists.  The existing\n'}
+[6.458567] (sound_play) StderrLine: {'line': b'  target is a custom target created in source directory\n'}
+[6.458920] (sound_play) StderrLine: {'line': b'  "/home/maddy/turtlebot3_ws/src/audio_common/sound_play".  See documentation\n'}
+[6.459252] (sound_play) StderrLine: {'line': b'  for policy CMP0002 for more details.\n'}
+[6.459560] (sound_play) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.459856] (sound_play) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[6.460154] (sound_play) StderrLine: {'line': b'  CMakeLists.txt:36 (ament_python_install_package)\n'}
+[6.460438] (sound_play) StderrLine: {'line': b'\n'}
+[6.460718] (sound_play) StderrLine: {'line': b'\x1b[0m\n'}
+[6.461006] (sound_play) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:141 (add_custom_target):\n'}
+[6.461354] (sound_play) StderrLine: {'line': b'  add_custom_target cannot create target\n'}
+[6.461639] (sound_play) StderrLine: {'line': b'  "ament_cmake_python_build_sound_play_egg" because another target with the\n'}
+[6.461924] (sound_play) StderrLine: {'line': b'  same name already exists.  The existing target is a custom target created\n'}
+[6.462205] (sound_play) StderrLine: {'line': b'  in source directory\n'}
+[6.462500] (sound_play) StderrLine: {'line': b'  "/home/maddy/turtlebot3_ws/src/audio_common/sound_play".  See documentation\n'}
+[6.462853] (sound_play) StderrLine: {'line': b'  for policy CMP0002 for more details.\n'}
+[6.463175] (sound_play) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.463462] (sound_play) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[6.463744] (sound_play) StderrLine: {'line': b'  CMakeLists.txt:36 (ament_python_install_package)\n'}
+[6.464035] (sound_play) StderrLine: {'line': b'\n'}
+[6.464313] (sound_play) StderrLine: {'line': b'\x1b[0m\n'}
+[6.484693] (sound_play) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.485224] (sound_play) StdoutLine: {'line': b'See also "/home/maddy/turtlebot3_ws/build/sound_play/CMakeFiles/CMakeOutput.log".\n'}
+[6.508174] (sound_play) JobEnded: {'identifier': 'sound_play', 'rc': 'SIGINT'}
+[6.511291] (-) EventReactorShutdown: {}

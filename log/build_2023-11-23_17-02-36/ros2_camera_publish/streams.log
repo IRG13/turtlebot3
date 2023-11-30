@@ -1,0 +1,46 @@
+[3.051s] Invoking command in '/home/maddy/turtlebot3_ws/src/ros2_camera_publish': PYTHONPATH=/home/maddy/turtlebot3_ws/build/ros2_camera_publish/prefix_override:/home/maddy/turtlebot3_ws/install/ros2_camera_publish/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_camera_publish build --build-base /home/maddy/turtlebot3_ws/build/ros2_camera_publish/build install --record /home/maddy/turtlebot3_ws/build/ros2_camera_publish/install.log --install-scripts $base/lib/ros2_camera_publish --single-version-externally-managed
+[3.987s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.987s]   warnings.warn(
+[4.023s] running egg_info
+[4.026s] creating ../../build/ros2_camera_publish/ros2_camera_publish.egg-info
+[4.027s] writing ../../build/ros2_camera_publish/ros2_camera_publish.egg-info/PKG-INFO
+[4.028s] writing dependency_links to ../../build/ros2_camera_publish/ros2_camera_publish.egg-info/dependency_links.txt
+[4.028s] writing entry points to ../../build/ros2_camera_publish/ros2_camera_publish.egg-info/entry_points.txt
+[4.029s] writing requirements to ../../build/ros2_camera_publish/ros2_camera_publish.egg-info/requires.txt
+[4.029s] writing top-level names to ../../build/ros2_camera_publish/ros2_camera_publish.egg-info/top_level.txt
+[4.030s] writing manifest file '../../build/ros2_camera_publish/ros2_camera_publish.egg-info/SOURCES.txt'
+[4.037s] reading manifest file '../../build/ros2_camera_publish/ros2_camera_publish.egg-info/SOURCES.txt'
+[4.038s] adding license file 'LICENSE'
+[4.041s] writing manifest file '../../build/ros2_camera_publish/ros2_camera_publish.egg-info/SOURCES.txt'
+[4.041s] running build
+[4.042s] running build_py
+[4.042s] creating /home/maddy/turtlebot3_ws/build/ros2_camera_publish/build
+[4.043s] creating /home/maddy/turtlebot3_ws/build/ros2_camera_publish/build/lib
+[4.043s] creating /home/maddy/turtlebot3_ws/build/ros2_camera_publish/build/lib/ros2_camera_publish
+[4.044s] copying ros2_camera_publish/image_subscribe_function.py -> /home/maddy/turtlebot3_ws/build/ros2_camera_publish/build/lib/ros2_camera_publish
+[4.044s] copying ros2_camera_publish/camera_publish_function.py -> /home/maddy/turtlebot3_ws/build/ros2_camera_publish/build/lib/ros2_camera_publish
+[4.045s] copying ros2_camera_publish/__init__.py -> /home/maddy/turtlebot3_ws/build/ros2_camera_publish/build/lib/ros2_camera_publish
+[4.046s] running install
+[4.047s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.047s]   warnings.warn(
+[4.048s] running install_lib
+[4.051s] creating /home/maddy/turtlebot3_ws/install/ros2_camera_publish/lib/python3.10/site-packages/ros2_camera_publish
+[4.051s] copying /home/maddy/turtlebot3_ws/build/ros2_camera_publish/build/lib/ros2_camera_publish/image_subscribe_function.py -> /home/maddy/turtlebot3_ws/install/ros2_camera_publish/lib/python3.10/site-packages/ros2_camera_publish
+[4.052s] copying /home/maddy/turtlebot3_ws/build/ros2_camera_publish/build/lib/ros2_camera_publish/camera_publish_function.py -> /home/maddy/turtlebot3_ws/install/ros2_camera_publish/lib/python3.10/site-packages/ros2_camera_publish
+[4.053s] copying /home/maddy/turtlebot3_ws/build/ros2_camera_publish/build/lib/ros2_camera_publish/__init__.py -> /home/maddy/turtlebot3_ws/install/ros2_camera_publish/lib/python3.10/site-packages/ros2_camera_publish
+[4.055s] byte-compiling /home/maddy/turtlebot3_ws/install/ros2_camera_publish/lib/python3.10/site-packages/ros2_camera_publish/image_subscribe_function.py to image_subscribe_function.cpython-310.pyc
+[4.058s] byte-compiling /home/maddy/turtlebot3_ws/install/ros2_camera_publish/lib/python3.10/site-packages/ros2_camera_publish/camera_publish_function.py to camera_publish_function.cpython-310.pyc
+[4.061s] byte-compiling /home/maddy/turtlebot3_ws/install/ros2_camera_publish/lib/python3.10/site-packages/ros2_camera_publish/__init__.py to __init__.cpython-310.pyc
+[4.062s] running install_data
+[4.064s] creating /home/maddy/turtlebot3_ws/install/ros2_camera_publish/share/ament_index
+[4.064s] creating /home/maddy/turtlebot3_ws/install/ros2_camera_publish/share/ament_index/resource_index
+[4.065s] creating /home/maddy/turtlebot3_ws/install/ros2_camera_publish/share/ament_index/resource_index/packages
+[4.065s] copying resource/ros2_camera_publish -> /home/maddy/turtlebot3_ws/install/ros2_camera_publish/share/ament_index/resource_index/packages
+[4.065s] copying package.xml -> /home/maddy/turtlebot3_ws/install/ros2_camera_publish/share/ros2_camera_publish
+[4.066s] copying settings.json -> /home/maddy/turtlebot3_ws/install/ros2_camera_publish/share/ros2_camera_publish
+[4.066s] running install_egg_info
+[4.074s] Copying ../../build/ros2_camera_publish/ros2_camera_publish.egg-info to /home/maddy/turtlebot3_ws/install/ros2_camera_publish/lib/python3.10/site-packages/ros2_camera_publish-0.0.0-py3.10.egg-info
+[4.079s] running install_scripts
+[4.162s] Installing execute script to /home/maddy/turtlebot3_ws/install/ros2_camera_publish/lib/ros2_camera_publish
+[4.164s] writing list of installed files to '/home/maddy/turtlebot3_ws/build/ros2_camera_publish/install.log'
+[4.274s] Invoked command in '/home/maddy/turtlebot3_ws/src/ros2_camera_publish' returned '0': PYTHONPATH=/home/maddy/turtlebot3_ws/build/ros2_camera_publish/prefix_override:/home/maddy/turtlebot3_ws/install/ros2_camera_publish/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_camera_publish build --build-base /home/maddy/turtlebot3_ws/build/ros2_camera_publish/build install --record /home/maddy/turtlebot3_ws/build/ros2_camera_publish/install.log --install-scripts $base/lib/ros2_camera_publish --single-version-externally-managed

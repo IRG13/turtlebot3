@@ -1,0 +1,8 @@
+{
+  "package_name": "audio_common_msgs",
+  "non_idl_tuples": [
+    "/home/maddy/turtlebot3_ws/src/audio_common/audio_common_msgs:msg/AudioData.msg",
+    "/home/maddy/turtlebot3_ws/src/audio_common/audio_common_msgs:msg/AudioDataStamped.msg",
+    "/home/maddy/turtlebot3_ws/src/audio_common/audio_common_msgs:msg/AudioInfo.msg"
+  ]
+}

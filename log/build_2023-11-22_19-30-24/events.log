@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000986] (cv_bridge) JobQueued: {'identifier': 'cv_bridge', 'dependencies': OrderedDict()}
+[0.001221] (image_geometry) JobQueued: {'identifier': 'image_geometry', 'dependencies': OrderedDict()}
+[0.001618] (ld08_driver) JobQueued: {'identifier': 'ld08_driver', 'dependencies': OrderedDict()}
+[0.001719] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.001834] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict()}
+[0.001988] (turtlebot3_node) JobQueued: {'identifier': 'turtlebot3_node', 'dependencies': OrderedDict()}
+[0.002077] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.002203] (cv_stuff) JobQueued: {'identifier': 'cv_stuff', 'dependencies': OrderedDict([('cv_bridge', '/home/maddy/turtlebot3_ws/install/cv_bridge')])}
+[0.002534] (opencv_tests) JobQueued: {'identifier': 'opencv_tests', 'dependencies': OrderedDict([('cv_bridge', '/home/maddy/turtlebot3_ws/install/cv_bridge')])}
+[0.002634] (turtlebot3_bringup) JobQueued: {'identifier': 'turtlebot3_bringup', 'dependencies': OrderedDict([('turtlebot3_description', '/home/maddy/turtlebot3_ws/install/turtlebot3_description'), ('turtlebot3_node', '/home/maddy/turtlebot3_ws/install/turtlebot3_node')])}
+[0.002730] (vision_opencv) JobQueued: {'identifier': 'vision_opencv', 'dependencies': OrderedDict([('cv_bridge', '/home/maddy/turtlebot3_ws/install/cv_bridge'), ('image_geometry', '/home/maddy/turtlebot3_ws/install/image_geometry')])}
+[0.002886] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict([('turtlebot3_description', '/home/maddy/turtlebot3_ws/install/turtlebot3_description'), ('turtlebot3_example', '/home/maddy/turtlebot3_ws/install/turtlebot3_example'), ('turtlebot3_node', '/home/maddy/turtlebot3_ws/install/turtlebot3_node'), ('turtlebot3_teleop', '/home/maddy/turtlebot3_ws/install/turtlebot3_teleop'), ('turtlebot3_bringup', '/home/maddy/turtlebot3_ws/install/turtlebot3_bringup')])}
+[0.003384] (cv_bridge) JobStarted: {'identifier': 'cv_bridge'}
+[0.099004] (-) TimerEvent: {}
+[0.160954] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'cmake'}
+[0.162070] (cv_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/maddy/turtlebot3_ws/src/vision_opencv/cv_bridge', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/maddy/turtlebot3_ws/install/cv_bridge'], 'cwd': '/home/maddy/turtlebot3_ws/build/cv_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maddy'), ('SSH_CLIENT', '192.168.2.186 62244 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/maddy'), ('OLDPWD', '/home/maddy/turtlebot3_ws/build'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maddy/turtlebot3_ws/build/cv_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.186 62244 192.168.2.163 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199212] (-) TimerEvent: {}
+[0.299913] (-) TimerEvent: {}
+[0.400711] (-) TimerEvent: {}
+[0.501769] (-) TimerEvent: {}
+[0.602746] (-) TimerEvent: {}
+[0.703649] (-) TimerEvent: {}
+[0.804727] (-) TimerEvent: {}
+[0.905756] (-) TimerEvent: {}
+[1.006571] (-) TimerEvent: {}
+[1.072161] (cv_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.106732] (-) TimerEvent: {}
+[1.207489] (-) TimerEvent: {}
+[1.308308] (-) TimerEvent: {}
+[1.335779] (cv_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.383728] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.408493] (-) TimerEvent: {}
+[1.509356] (-) TimerEvent: {}
+[1.610269] (-) TimerEvent: {}
+[1.706262] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.710391] (-) TimerEvent: {}
+[1.732957] (cv_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.735411] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.739517] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.757717] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.810648] (-) TimerEvent: {}
+[1.911623] (-) TimerEvent: {}
+[2.012454] (-) TimerEvent: {}
+[2.091047] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.112623] (-) TimerEvent: {}
+[2.118651] (cv_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.119567] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.121130] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.139279] (cv_bridge) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.212824] (-) TimerEvent: {}
+[2.313614] (-) TimerEvent: {}
+[2.414277] (-) TimerEvent: {}
+[2.515052] (-) TimerEvent: {}
+[2.615775] (-) TimerEvent: {}
+[2.716448] (-) TimerEvent: {}
+[2.817055] (-) TimerEvent: {}
+[2.917720] (-) TimerEvent: {}
+[2.972979] (cv_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[3.017888] (-) TimerEvent: {}
+[3.118511] (-) TimerEvent: {}
+[3.219128] (-) TimerEvent: {}
+[3.268430] (cv_bridge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.319313] (-) TimerEvent: {}
+[3.420062] (-) TimerEvent: {}
+[3.520862] (-) TimerEvent: {}
+[3.621962] (-) TimerEvent: {}
+[3.723010] (-) TimerEvent: {}
+[3.823807] (-) TimerEvent: {}
+[3.924541] (-) TimerEvent: {}
+[4.025369] (-) TimerEvent: {}
+[4.126070] (-) TimerEvent: {}
+[4.226842] (-) TimerEvent: {}
+[4.327993] (-) TimerEvent: {}
+[4.429012] (-) TimerEvent: {}
+[4.529655] (-) TimerEvent: {}
+[4.630365] (-) TimerEvent: {}
+[4.731277] (-) TimerEvent: {}
+[4.832067] (-) TimerEvent: {}
+[4.932963] (-) TimerEvent: {}
+[5.033657] (-) TimerEvent: {}
+[5.134377] (-) TimerEvent: {}
+[5.235136] (-) TimerEvent: {}
+[5.336086] (-) TimerEvent: {}
+[5.437221] (-) TimerEvent: {}
+[5.537896] (-) TimerEvent: {}
+[5.638529] (-) TimerEvent: {}
+[5.739253] (-) TimerEvent: {}
+[5.811116] (cv_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development NumPy Interpreter Development.Module Development.Embed \n'}
+[5.839419] (-) TimerEvent: {}
+[5.882305] (cv_bridge) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: python310 \n'}
+[5.901484] (cv_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.939674] (-) TimerEvent: {}
+[6.040351] (-) TimerEvent: {}
+[6.141069] (-) TimerEvent: {}
+[6.227743] (cv_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.241272] (-) TimerEvent: {}
+[6.268997] (cv_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.335941] (cv_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.341388] (-) TimerEvent: {}
+[6.433400] (cv_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.441551] (-) TimerEvent: {}
+[6.542226] (-) TimerEvent: {}
+[6.558520] (cv_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.642404] (-) TimerEvent: {}
+[6.743127] (-) TimerEvent: {}
+[6.843807] (-) TimerEvent: {}
+[6.944602] (-) TimerEvent: {}
+[6.976246] (cv_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.000907] (cv_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.044767] (-) TimerEvent: {}
+[7.145459] (-) TimerEvent: {}
+[7.246177] (-) TimerEvent: {}
+[7.346951] (-) TimerEvent: {}
+[7.447871] (-) TimerEvent: {}
+[7.548736] (-) TimerEvent: {}
+[7.558247] (cv_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.648933] (-) TimerEvent: {}
+[7.713557] (cv_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.749177] (-) TimerEvent: {}
+[7.849908] (-) TimerEvent: {}
+[7.950662] (-) TimerEvent: {}
+[7.974419] (cv_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.050853] (-) TimerEvent: {}
+[8.051549] (cv_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.151096] (-) TimerEvent: {}
+[8.251918] (-) TimerEvent: {}
+[8.352836] (-) TimerEvent: {}
+[8.406761] (cv_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.408022] (cv_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.453009] (-) TimerEvent: {}
+[8.553901] (-) TimerEvent: {}
+[8.654866] (-) TimerEvent: {}
+[8.756005] (-) TimerEvent: {}
+[8.857196] (-) TimerEvent: {}
+[8.916181] (cv_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.920308] (cv_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.957405] (-) TimerEvent: {}
+[9.058146] (-) TimerEvent: {}
+[9.158842] (-) TimerEvent: {}
+[9.259529] (-) TimerEvent: {}
+[9.360205] (-) TimerEvent: {}
+[9.460875] (-) TimerEvent: {}
+[9.561583] (-) TimerEvent: {}
+[9.641787] (cv_bridge) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[9.661739] (-) TimerEvent: {}
+[9.762388] (-) TimerEvent: {}
+[9.863057] (-) TimerEvent: {}
+[9.963708] (-) TimerEvent: {}
+[10.064420] (-) TimerEvent: {}
+[10.165091] (-) TimerEvent: {}
+[10.265776] (-) TimerEvent: {}
+[10.316442] (cv_bridge) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:54 (find_package):\n'}
+[10.317376] (cv_bridge) StderrLine: {'line': b'  Could not find a package configuration file provided by "OpenCV" (requested\n'}
+[10.317791] (cv_bridge) StderrLine: {'line': b'  version 3) with any of the following names:\n'}
+[10.318093] (cv_bridge) StderrLine: {'line': b'\n'}
+[10.318378] (cv_bridge) StderrLine: {'line': b'    OpenCVConfig.cmake\n'}
+[10.318658] (cv_bridge) StderrLine: {'line': b'    opencv-config.cmake\n'}
+[10.318958] (cv_bridge) StderrLine: {'line': b'\n'}
+[10.319344] (cv_bridge) StderrLine: {'line': b'  Add the installation prefix of "OpenCV" to CMAKE_PREFIX_PATH or set\n'}
+[10.319710] (cv_bridge) StderrLine: {'line': b'  "OpenCV_DIR" to a directory containing one of the above files.  If "OpenCV"\n'}
+[10.320018] (cv_bridge) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[10.320528] (cv_bridge) StderrLine: {'line': b'  installed.\n'}
+[10.321186] (cv_bridge) StderrLine: {'line': b'\n'}
+[10.321704] (cv_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[10.322059] (cv_bridge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[10.322581] (cv_bridge) StdoutLine: {'line': b'See also "/home/maddy/turtlebot3_ws/build/cv_bridge/CMakeFiles/CMakeOutput.log".\n'}
+[10.354448] (cv_bridge) CommandEnded: {'returncode': 1}
+[10.365951] (-) TimerEvent: {}
+[10.466720] (-) TimerEvent: {}
+[10.519063] (cv_bridge) JobEnded: {'identifier': 'cv_bridge', 'rc': 1}
+[10.530596] (image_geometry) JobSkipped: {'identifier': 'image_geometry'}
+[10.530790] (ld08_driver) JobSkipped: {'identifier': 'ld08_driver'}
+[10.530874] (turtlebot3_description) JobSkipped: {'identifier': 'turtlebot3_description'}
+[10.530951] (turtlebot3_example) JobSkipped: {'identifier': 'turtlebot3_example'}
+[10.531025] (turtlebot3_node) JobSkipped: {'identifier': 'turtlebot3_node'}
+[10.531098] (turtlebot3_teleop) JobSkipped: {'identifier': 'turtlebot3_teleop'}
+[10.531172] (cv_stuff) JobSkipped: {'identifier': 'cv_stuff'}
+[10.531244] (opencv_tests) JobSkipped: {'identifier': 'opencv_tests'}
+[10.531342] (turtlebot3_bringup) JobSkipped: {'identifier': 'turtlebot3_bringup'}
+[10.531515] (vision_opencv) JobSkipped: {'identifier': 'vision_opencv'}
+[10.531688] (turtlebot3) JobSkipped: {'identifier': 'turtlebot3'}
+[10.531863] (-) EventReactorShutdown: {}

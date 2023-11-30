@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/image_pub/image_pub.egg-info
+writing ../../build/image_pub/image_pub.egg-info/PKG-INFO
+writing dependency_links to ../../build/image_pub/image_pub.egg-info/dependency_links.txt
+writing entry points to ../../build/image_pub/image_pub.egg-info/entry_points.txt
+writing requirements to ../../build/image_pub/image_pub.egg-info/requires.txt
+writing top-level names to ../../build/image_pub/image_pub.egg-info/top_level.txt
+writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+reading manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/maddy/turtlebot3_ws/build/image_pub/build
+creating /home/maddy/turtlebot3_ws/build/image_pub/build/lib
+creating /home/maddy/turtlebot3_ws/build/image_pub/build/lib/image_pub
+copying image_pub/pub.py -> /home/maddy/turtlebot3_ws/build/image_pub/build/lib/image_pub
+copying image_pub/__init__.py -> /home/maddy/turtlebot3_ws/build/image_pub/build/lib/image_pub
+running install
+running install_lib
+creating /home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages/image_pub
+copying /home/maddy/turtlebot3_ws/build/image_pub/build/lib/image_pub/pub.py -> /home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages/image_pub
+copying /home/maddy/turtlebot3_ws/build/image_pub/build/lib/image_pub/__init__.py -> /home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages/image_pub
+byte-compiling /home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages/image_pub/pub.py to pub.cpython-310.pyc
+byte-compiling /home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages/image_pub/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/maddy/turtlebot3_ws/install/image_pub/share/ament_index
+creating /home/maddy/turtlebot3_ws/install/image_pub/share/ament_index/resource_index
+creating /home/maddy/turtlebot3_ws/install/image_pub/share/ament_index/resource_index/packages
+copying resource/image_pub -> /home/maddy/turtlebot3_ws/install/image_pub/share/ament_index/resource_index/packages
+copying package.xml -> /home/maddy/turtlebot3_ws/install/image_pub/share/image_pub
+running install_egg_info
+Copying ../../build/image_pub/image_pub.egg-info to /home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pub_vid script to /home/maddy/turtlebot3_ws/install/image_pub/lib/image_pub
+writing list of installed files to '/home/maddy/turtlebot3_ws/build/image_pub/install.log'
