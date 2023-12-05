@@ -1,1 +1,0 @@
-/home/maddy/turtlebot3_ws/src/vision_opencv/opencv_tests/setup.py

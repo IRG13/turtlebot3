@@ -1,0 +1,56 @@
+[1.173s] Invoking command in '/home/maddy/turtlebot3_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/sound_player:/home/maddy/turtlebot3_ws/install/ros2_camera_publish:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/mic_startup:/home/maddy/turtlebot3_ws/install/image_pub:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble /usr/bin/cmake --build /home/maddy/turtlebot3_ws/build/cv_bridge -- -j4 -l4
+[4.618s] [  0%] Built target ament_cmake_python_symlink_cv_bridge
+[4.620s] [ 11%] Built target gtest_main
+[4.622s] [ 22%] Built target gtest
+[4.623s] [ 44%] Built target cv_bridge
+[4.623s] [ 83%] Built target cv_bridge-utest
+[4.624s] [100%] Built target cv_bridge_boost
+[4.625s] running egg_info
+[4.625s] writing cv_bridge.egg-info/PKG-INFO
+[4.626s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[4.626s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[4.627s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[4.627s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[4.627s] [100%] Built target ament_cmake_python_build_cv_bridge_egg
+[4.649s] Invoked command in '/home/maddy/turtlebot3_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/sound_player:/home/maddy/turtlebot3_ws/install/ros2_camera_publish:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/mic_startup:/home/maddy/turtlebot3_ws/install/image_pub:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble /usr/bin/cmake --build /home/maddy/turtlebot3_ws/build/cv_bridge -- -j4 -l4
+[4.879s] Invoking command in '/home/maddy/turtlebot3_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/sound_player:/home/maddy/turtlebot3_ws/install/ros2_camera_publish:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/mic_startup:/home/maddy/turtlebot3_ws/install/image_pub:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble /usr/bin/cmake --install /home/maddy/turtlebot3_ws/build/cv_bridge
+[4.916s] -- Install configuration: ""
+[4.922s] -- Execute custom install script
+[4.926s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[4.927s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[4.930s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.4.0-py3.10.egg-info/PKG-INFO
+[4.934s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.4.0-py3.10.egg-info/SOURCES.txt
+[4.938s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.4.0-py3.10.egg-info/dependency_links.txt
+[4.942s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.4.0-py3.10.egg-info/top_level.txt
+[4.950s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py
+[4.953s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py
+[4.959s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[4.965s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost//cv_bridge_boost.so
+[4.970s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp
+[4.973s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_mat_sensor_msgs_image_type_adapter.hpp
+[4.976s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.hpp
+[4.979s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/include/cv_bridge/cv_bridge/visibility_control.h
+[4.985s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/lib/libcv_bridge.so
+[4.988s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[4.991s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[4.995s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[4.997s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[5.000s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/environment/path.sh
+[5.003s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[5.006s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/local_setup.bash
+[5.009s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/local_setup.sh
+[5.012s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[5.015s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[5.017s] -- Symlinking: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/package.dsv
+[5.075s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[5.075s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[5.076s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.077s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[5.079s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[5.080s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[5.082s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/package.xml
+[5.320s] Listing '/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge'...
+[5.322s] Listing '/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost'...
+[5.368s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[5.369s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[5.669s] Invoked command in '/home/maddy/turtlebot3_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/sound_player:/home/maddy/turtlebot3_ws/install/ros2_camera_publish:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/mic_startup:/home/maddy/turtlebot3_ws/install/image_pub:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble /usr/bin/cmake --install /home/maddy/turtlebot3_ws/build/cv_bridge

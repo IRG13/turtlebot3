@@ -10,30 +10,30 @@ def run():
 
     path = "/home/maddy/turtlebot3_ws/src/sound_player/cursed-sounds/"
     alerts = [path + '1.wav',
-#              path + '2.wav',
+              path + '2.wav',
               path + '3.wav',
               path + '4.wav',
- #             path + '5.wav',
-  #            path + '6.wav',
-#              path + '7.wav',
- #             path + '8.wav',
-  #            path + '9.wav',
-   #           path + '10.wav',
-    #          path + '11.wav',
-     #         path + '12.wav',
-      #        path + '13.wav',
-       #       path + '14.wav',
-        #      path + '15.wav',
-         #     path + '16.wav',
-          #    path + '17.wav',
-           #   path + '18.wav',
-            #  path + '19.wav',
-             # path + '20.wav',
-#              path + '21.wav',
- #             path + '22.wav',
-  #            path + '23.wav',
-   #           path + '24.wav',
-    #          path + '25.wav',
+              path + '5.wav',
+              path + '6.wav',
+              path + '7.wav',
+              path + '8.wav',
+              path + '9.wav',
+              path + '10.wav',
+              path + '11.wav',
+              path + '12.wav',
+              path + '13.wav',
+              path + '14.wav',
+              path + '15.wav',
+              path + '16.wav',
+              path + '17.wav',
+              path + '18.wav',
+              path + '19.wav',
+              path + '20.wav',
+              path + '21.wav',
+              path + '22.wav',
+              path + '23.wav',
+              path + '24.wav',
+              path + '25.wav',
 ]
     fname = choice(alerts)
     wavefp = wave.open(fname)
@@ -72,7 +72,7 @@ def run():
     state = al.ALint(0)
     al.alGetSourcei(source, al.AL_SOURCE_STATE, state)
     z = 10
-    while z > -10:
+    while z > 4:
         time.sleep(1)
         al.alSource3f(source, al.AL_POSITION, 0, 0, 0)
         z -= 1

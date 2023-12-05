@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
         	'sound_player = sound_player.play_sounds:main',
+                'sound_publisher = sound_player.sound_publisher:main',
         ],
     },
 )

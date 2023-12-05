@@ -12,6 +12,7 @@ resource/sound_player
 sound_player/__init__.py
 sound_player/play_sounds.py
 sound_player/player.py
+sound_player/sound_publisher.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

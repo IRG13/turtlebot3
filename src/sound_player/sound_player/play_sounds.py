@@ -20,10 +20,14 @@ class ShoeDetectorNode(Node):
         self._sub = self.create_subscription(
             Bool, "shoe_detected", self.detected, 10
 	        )
+        self.publisher_ = self.create_publisher(Bool, '/explore/resume', 10)
 
     def detected(self, msg):
         if msg.data == False:
             player.run()
+            msg = Bool()
+            msg.data = True
+            self.publisher_.publish(msg)
 
 def main():
     rclpy.init()

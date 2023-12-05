@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/sound_player/sound_player.egg-info/PKG-INFO
+writing dependency_links to ../../build/sound_player/sound_player.egg-info/dependency_links.txt
+writing entry points to ../../build/sound_player/sound_player.egg-info/entry_points.txt
+writing requirements to ../../build/sound_player/sound_player.egg-info/requires.txt
+writing top-level names to ../../build/sound_player/sound_player.egg-info/top_level.txt
+reading manifest file '../../build/sound_player/sound_player.egg-info/SOURCES.txt'
+writing manifest file '../../build/sound_player/sound_player.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sound_player/sound_publisher.py -> /home/maddy/turtlebot3_ws/build/sound_player/build/lib/sound_player
+copying sound_player/player.py -> /home/maddy/turtlebot3_ws/build/sound_player/build/lib/sound_player
+copying sound_player/__init__.py -> /home/maddy/turtlebot3_ws/build/sound_player/build/lib/sound_player
+copying sound_player/play_sounds.py -> /home/maddy/turtlebot3_ws/build/sound_player/build/lib/sound_player
+running install
+running install_lib
+copying /home/maddy/turtlebot3_ws/build/sound_player/build/lib/sound_player/sound_publisher.py -> /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player
+byte-compiling /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player/sound_publisher.py to sound_publisher.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/sound_player/sound_player.egg-info to /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sound_player script to /home/maddy/turtlebot3_ws/install/sound_player/lib/sound_player
+Installing sound_publisher script to /home/maddy/turtlebot3_ws/install/sound_player/lib/sound_player
+writing list of installed files to '/home/maddy/turtlebot3_ws/build/sound_player/install.log'

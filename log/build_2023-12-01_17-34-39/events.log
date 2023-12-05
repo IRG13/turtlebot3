@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.001521] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.002273] (-) JobUnselected: {'identifier': 'cv_stuff'}
+[0.002440] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.002745] (-) JobUnselected: {'identifier': 'image_pub'}
+[0.002836] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.002924] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.003084] (-) JobUnselected: {'identifier': 'sound_player'}
+[0.003206] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.003338] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.003572] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.003812] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.004056] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.004145] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.004233] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.004465] (mic_startup) JobQueued: {'identifier': 'mic_startup', 'dependencies': OrderedDict()}
+[0.004568] (mic_startup) JobStarted: {'identifier': 'mic_startup'}
+[0.098602] (-) TimerEvent: {}
+[0.199566] (-) TimerEvent: {}
+[0.300318] (-) TimerEvent: {}
+[0.401141] (-) TimerEvent: {}
+[0.501836] (-) TimerEvent: {}
+[0.602500] (-) TimerEvent: {}
+[0.703118] (-) TimerEvent: {}
+[0.803811] (-) TimerEvent: {}
+[0.904402] (-) TimerEvent: {}
+[1.004998] (-) TimerEvent: {}
+[1.105649] (-) TimerEvent: {}
+[1.206229] (-) TimerEvent: {}
+[1.306827] (-) TimerEvent: {}
+[1.407465] (-) TimerEvent: {}
+[1.508255] (-) TimerEvent: {}
+[1.609416] (-) TimerEvent: {}
+[1.710170] (-) TimerEvent: {}
+[1.811218] (-) TimerEvent: {}
+[1.911897] (-) TimerEvent: {}
+[2.012534] (-) TimerEvent: {}
+[2.113148] (-) TimerEvent: {}
+[2.213749] (-) TimerEvent: {}
+[2.314380] (-) TimerEvent: {}
+[2.414959] (-) TimerEvent: {}
+[2.515598] (-) TimerEvent: {}
+[2.616168] (-) TimerEvent: {}
+[2.716745] (-) TimerEvent: {}
+[2.817370] (-) TimerEvent: {}
+[2.917961] (-) TimerEvent: {}
+[3.018555] (-) TimerEvent: {}
+[3.119234] (-) TimerEvent: {}
+[3.219810] (-) TimerEvent: {}
+[3.320544] (-) TimerEvent: {}
+[3.421600] (-) TimerEvent: {}
+[3.428635] (mic_startup) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mic_startup', 'build', '--build-base', '/home/maddy/turtlebot3_ws/build/mic_startup/build', 'install', '--record', '/home/maddy/turtlebot3_ws/build/mic_startup/install.log', '--single-version-externally-managed'], 'cwd': '/home/maddy/turtlebot3_ws/src/mic_startup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maddy', 'SSH_CLIENT': '192.168.2.227 55510 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/maddy', 'OLDPWD': '/home/maddy', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/maddy/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'maddy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/maddy/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/sound_player:/home/maddy/turtlebot3_ws/install/ros2_camera_publish:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/mic_startup:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_pub:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_stuff:/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/audio_common_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/maddy/turtlebot3_ws/build/mic_startup', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.227 55510 192.168.2.142 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/maddy/turtlebot3_ws/build/mic_startup/prefix_override:/home/maddy/turtlebot3_ws/install/mic_startup/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/ros2_camera_publish/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/build/opencv_tests:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/mic_startup/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/image_pub/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:/home/maddy/turtlebot3_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/maddy/turtlebot3_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/audio_common_msgs'}, 'shell': False}
+[3.521799] (-) TimerEvent: {}
+[3.622441] (-) TimerEvent: {}
+[3.723046] (-) TimerEvent: {}
+[3.823729] (-) TimerEvent: {}
+[3.924313] (-) TimerEvent: {}
+[4.024910] (-) TimerEvent: {}
+[4.125483] (-) TimerEvent: {}
+[4.226096] (-) TimerEvent: {}
+[4.326696] (-) TimerEvent: {}
+[4.427285] (-) TimerEvent: {}
+[4.527890] (-) TimerEvent: {}
+[4.549948] (mic_startup) StdoutLine: {'line': b'running egg_info\n'}
+[4.552637] (mic_startup) StdoutLine: {'line': b'writing ../../build/mic_startup/mic_startup.egg-info/PKG-INFO\n'}
+[4.553697] (mic_startup) StdoutLine: {'line': b'writing dependency_links to ../../build/mic_startup/mic_startup.egg-info/dependency_links.txt\n'}
+[4.554487] (mic_startup) StdoutLine: {'line': b'writing entry points to ../../build/mic_startup/mic_startup.egg-info/entry_points.txt\n'}
+[4.555194] (mic_startup) StdoutLine: {'line': b'writing requirements to ../../build/mic_startup/mic_startup.egg-info/requires.txt\n'}
+[4.555854] (mic_startup) StdoutLine: {'line': b'writing top-level names to ../../build/mic_startup/mic_startup.egg-info/top_level.txt\n'}
+[4.563711] (mic_startup) StdoutLine: {'line': b"reading manifest file '../../build/mic_startup/mic_startup.egg-info/SOURCES.txt'\n"}
+[4.568084] (mic_startup) StdoutLine: {'line': b"writing manifest file '../../build/mic_startup/mic_startup.egg-info/SOURCES.txt'\n"}
+[4.568718] (mic_startup) StdoutLine: {'line': b'running build\n'}
+[4.569155] (mic_startup) StdoutLine: {'line': b'running build_py\n'}
+[4.570268] (mic_startup) StdoutLine: {'line': b'copying mic_startup/speech_converter.py -> /home/maddy/turtlebot3_ws/build/mic_startup/build/lib/mic_startup\n'}
+[4.571971] (mic_startup) StdoutLine: {'line': b'running install\n'}
+[4.572581] (mic_startup) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.573055] (mic_startup) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.573696] (mic_startup) StdoutLine: {'line': b'running install_lib\n'}
+[4.577449] (mic_startup) StdoutLine: {'line': b'copying /home/maddy/turtlebot3_ws/build/mic_startup/build/lib/mic_startup/speech_converter.py -> /home/maddy/turtlebot3_ws/install/mic_startup/lib/python3.10/site-packages/mic_startup\n'}
+[4.581172] (mic_startup) StdoutLine: {'line': b'byte-compiling /home/maddy/turtlebot3_ws/install/mic_startup/lib/python3.10/site-packages/mic_startup/speech_converter.py to speech_converter.cpython-310.pyc\n'}
+[4.584251] (mic_startup) StdoutLine: {'line': b'running install_data\n'}
+[4.586625] (mic_startup) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.593452] (mic_startup) StdoutLine: {'line': b"removing '/home/maddy/turtlebot3_ws/install/mic_startup/lib/python3.10/site-packages/mic_startup-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.595045] (mic_startup) StdoutLine: {'line': b'Copying ../../build/mic_startup/mic_startup.egg-info to /home/maddy/turtlebot3_ws/install/mic_startup/lib/python3.10/site-packages/mic_startup-0.0.0-py3.10.egg-info\n'}
+[4.600038] (mic_startup) StdoutLine: {'line': b'running install_scripts\n'}
+[4.628053] (-) TimerEvent: {}
+[4.683344] (mic_startup) StdoutLine: {'line': b'Installing mic_access script to /home/maddy/turtlebot3_ws/install/mic_startup/lib/mic_startup\n'}
+[4.685138] (mic_startup) StdoutLine: {'line': b"writing list of installed files to '/home/maddy/turtlebot3_ws/build/mic_startup/install.log'\n"}
+[4.728341] (-) TimerEvent: {}
+[4.800545] (mic_startup) CommandEnded: {'returncode': 0}
+[4.828440] (-) TimerEvent: {}
+[4.929722] (-) TimerEvent: {}
+[5.020085] (mic_startup) JobEnded: {'identifier': 'mic_startup', 'rc': 0}
+[5.022871] (-) EventReactorShutdown: {}

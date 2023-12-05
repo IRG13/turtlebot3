@@ -21,7 +21,6 @@ import cv2
 import json
 import numpy as np
 from skimage.measure import block_reduce
-from scipy import ndimage
 
 import rclpy
 from rclpy.node import Node
@@ -34,15 +33,6 @@ DEVICE_INDEX = 0 # specifies which camera
 TOPIC = 'video0'
 QUEUE_SIZE = 1
 PERIOD = 0.1  # seconds
-
-def block_mean(ar, fact):
-    assert isinstance(fact, int), type(fact)
-    sx, sy = ar.shape
-    X, Y = np.ogrid[0:sx, 0:sy]
-    regions = sy//fact * (X//fact) + Y//fact
-    res = ndimage.mean(ar, labels=regions, index=np.arange(regions.max() + 1))
-    res.shape = (sx//fact, sy//fact)
-    return res
 
 #__Classes:
 class CameraPublisher(Node):
@@ -85,17 +75,15 @@ class CameraPublisher(Node):
             
             # reads image data
             ret, frame = self.capture.read()
-            # print(frame)
-            # frame = block_reduce(frame, block_size= (1, 1, 1), func=np.mean)
+            print(frame)
             # processes image data and converts to ros 2 message
-            frame = block_mean(frame, 5).shape
             msg = Image()
             msg.header.stamp = Node.get_clock(self).now().to_msg()
             # msg.header.frame_id = 'ANI717'
             msg.height = np.shape(frame)[0]
             msg.width = np.shape(frame)[1]
             # msg.encoding = "bgr8"
-            msg.encoding = "mono8"
+            msg.encoding = "bgr8"
             msg.is_bigendian = False
             msg.step = np.shape(frame)[2] * np.shape(frame)[1]
             msg.data = np.array(frame).tobytes()

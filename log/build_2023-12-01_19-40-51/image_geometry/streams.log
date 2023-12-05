@@ -1,0 +1,50 @@
+[0.366s] Invoking command in '/home/maddy/turtlebot3_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/sound_player:/home/maddy/turtlebot3_ws/install/ros2_camera_publish:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/mic_startup:/home/maddy/turtlebot3_ws/install/image_pub:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble /usr/bin/cmake --build /home/maddy/turtlebot3_ws/build/image_geometry -- -j4 -l4
+[0.815s] [ 22%] Built target gtest
+[0.848s] [ 22%] Built target ament_cmake_python_symlink_image_geometry
+[0.854s] [ 55%] Built target image_geometry
+[0.874s] [ 77%] Built target gtest_main
+[1.059s] [100%] Built target image_geometry-utest
+[2.718s] running egg_info
+[2.721s] writing image_geometry.egg-info/PKG-INFO
+[2.722s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[2.724s] writing top-level names to image_geometry.egg-info/top_level.txt
+[2.733s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[2.791s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[2.931s] [100%] Built target ament_cmake_python_build_image_geometry_egg
+[4.191s] Invoked command in '/home/maddy/turtlebot3_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/sound_player:/home/maddy/turtlebot3_ws/install/ros2_camera_publish:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/mic_startup:/home/maddy/turtlebot3_ws/install/image_pub:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble /usr/bin/cmake --build /home/maddy/turtlebot3_ws/build/image_geometry -- -j4 -l4
+[7.155s] Invoking command in '/home/maddy/turtlebot3_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/sound_player:/home/maddy/turtlebot3_ws/install/ros2_camera_publish:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/mic_startup:/home/maddy/turtlebot3_ws/install/image_pub:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble /usr/bin/cmake --install /home/maddy/turtlebot3_ws/build/image_geometry
+[7.183s] -- Install configuration: ""
+[7.185s] -- Execute custom install script
+[7.188s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[7.190s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[7.193s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.4.0-py3.10.egg-info/PKG-INFO
+[7.197s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.4.0-py3.10.egg-info/SOURCES.txt
+[7.199s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.4.0-py3.10.egg-info/dependency_links.txt
+[7.202s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.4.0-py3.10.egg-info/top_level.txt
+[7.206s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/__init__.py
+[7.208s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/cameramodels.py
+[7.225s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.hpp
+[7.230s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.hpp
+[7.235s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[7.237s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[7.251s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[7.257s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[7.258s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[7.264s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[7.268s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[7.271s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[7.278s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[7.281s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[7.282s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[7.283s] -- Symlinking: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/package.dsv
+[7.324s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[7.335s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[7.341s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.348s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[7.353s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[7.359s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/package.xml
+[7.617s] Listing '/home/maddy/turtlebot3_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry'...
+[7.657s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/image_geometry/lib/libimage_geometry.so
+[7.668s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[7.669s] -- Up-to-date: /home/maddy/turtlebot3_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake
+[7.689s] Invoked command in '/home/maddy/turtlebot3_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/sound_player:/home/maddy/turtlebot3_ws/install/ros2_camera_publish:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/mic_startup:/home/maddy/turtlebot3_ws/install/image_pub:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble /usr/bin/cmake --install /home/maddy/turtlebot3_ws/build/image_geometry

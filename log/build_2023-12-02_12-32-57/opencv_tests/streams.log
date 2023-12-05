@@ -1,0 +1,25 @@
+[6.216s] Invoking command in '/home/maddy/turtlebot3_ws/src/vision_opencv/opencv_tests': CMAKE_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/audio_common_msgs LD_LIBRARY_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/maddy/turtlebot3_ws/build/opencv_tests/prefix_override:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/maddy/turtlebot3_ws/build/opencv_tests/build install --record /home/maddy/turtlebot3_ws/build/opencv_tests/install.log --single-version-externally-managed
+[7.677s] running egg_info
+[7.681s] writing ../../../build/opencv_tests/opencv_tests.egg-info/PKG-INFO
+[7.683s] writing dependency_links to ../../../build/opencv_tests/opencv_tests.egg-info/dependency_links.txt
+[7.684s] writing entry points to ../../../build/opencv_tests/opencv_tests.egg-info/entry_points.txt
+[7.687s] writing requirements to ../../../build/opencv_tests/opencv_tests.egg-info/requires.txt
+[7.687s] writing top-level names to ../../../build/opencv_tests/opencv_tests.egg-info/top_level.txt
+[7.697s] reading manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[7.725s] writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[7.726s] running build
+[7.726s] running build_py
+[7.741s] running install
+[7.741s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.742s]   warnings.warn(
+[7.743s] running install_lib
+[7.749s] running install_data
+[7.753s] running install_egg_info
+[7.763s] removing '/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests-3.4.0-py3.10.egg-info' (and everything under it)
+[7.766s] Copying ../../../build/opencv_tests/opencv_tests.egg-info to /home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests-3.4.0-py3.10.egg-info
+[7.775s] running install_scripts
+[7.905s] Installing broadcast script to /home/maddy/turtlebot3_ws/install/opencv_tests/lib/opencv_tests
+[7.908s] Installing rosfacedetect script to /home/maddy/turtlebot3_ws/install/opencv_tests/lib/opencv_tests
+[7.911s] Installing source script to /home/maddy/turtlebot3_ws/install/opencv_tests/lib/opencv_tests
+[7.914s] writing list of installed files to '/home/maddy/turtlebot3_ws/build/opencv_tests/install.log'
+[8.457s] Invoked command in '/home/maddy/turtlebot3_ws/src/vision_opencv/opencv_tests' returned '0': CMAKE_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/audio_common_msgs LD_LIBRARY_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/maddy/turtlebot3_ws/build/opencv_tests/prefix_override:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/maddy/turtlebot3_ws/build/opencv_tests/build install --record /home/maddy/turtlebot3_ws/build/opencv_tests/install.log --single-version-externally-managed

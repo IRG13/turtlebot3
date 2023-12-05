@@ -1,0 +1,30 @@
+[3.478s] Invoking command in '/home/maddy/turtlebot3_ws/src/mic_startup': PYTHONPATH=/home/maddy/turtlebot3_ws/build/mic_startup/prefix_override:/home/maddy/turtlebot3_ws/install/mic_startup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mic_startup build --build-base /home/maddy/turtlebot3_ws/build/mic_startup/build install --record /home/maddy/turtlebot3_ws/build/mic_startup/install.log --single-version-externally-managed
+[4.595s] running egg_info
+[4.598s] writing ../../build/mic_startup/mic_startup.egg-info/PKG-INFO
+[5.219s] writing dependency_links to ../../build/mic_startup/mic_startup.egg-info/dependency_links.txt
+[5.220s] writing entry points to ../../build/mic_startup/mic_startup.egg-info/entry_points.txt
+[5.222s] writing requirements to ../../build/mic_startup/mic_startup.egg-info/requires.txt
+[5.223s] writing top-level names to ../../build/mic_startup/mic_startup.egg-info/top_level.txt
+[5.234s] reading manifest file '../../build/mic_startup/mic_startup.egg-info/SOURCES.txt'
+[5.333s] writing manifest file '../../build/mic_startup/mic_startup.egg-info/SOURCES.txt'
+[5.579s] running build
+[5.580s] running build_py
+[5.664s] copying mic_startup/play_sound.py -> /home/maddy/turtlebot3_ws/build/mic_startup/build/lib/mic_startup
+[5.668s] copying mic_startup/speech_exporter.py -> /home/maddy/turtlebot3_ws/build/mic_startup/build/lib/mic_startup
+[5.669s] copying mic_startup/speech_input.py -> /home/maddy/turtlebot3_ws/build/mic_startup/build/lib/mic_startup
+[5.672s] copying mic_startup/speech_converter.py -> /home/maddy/turtlebot3_ws/build/mic_startup/build/lib/mic_startup
+[5.673s] copying mic_startup/__init__.py -> /home/maddy/turtlebot3_ws/build/mic_startup/build/lib/mic_startup
+[5.675s] running install
+[5.677s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.677s]   warnings.warn(
+[5.678s] running install_lib
+[5.682s] copying /home/maddy/turtlebot3_ws/build/mic_startup/build/lib/mic_startup/speech_converter.py -> /home/maddy/turtlebot3_ws/install/mic_startup/lib/python3.10/site-packages/mic_startup
+[5.686s] byte-compiling /home/maddy/turtlebot3_ws/install/mic_startup/lib/python3.10/site-packages/mic_startup/speech_converter.py to speech_converter.cpython-310.pyc
+[5.689s] running install_data
+[5.692s] running install_egg_info
+[5.699s] removing '/home/maddy/turtlebot3_ws/install/mic_startup/lib/python3.10/site-packages/mic_startup-0.0.0-py3.10.egg-info' (and everything under it)
+[5.700s] Copying ../../build/mic_startup/mic_startup.egg-info to /home/maddy/turtlebot3_ws/install/mic_startup/lib/python3.10/site-packages/mic_startup-0.0.0-py3.10.egg-info
+[5.707s] running install_scripts
+[5.791s] Installing mic_access script to /home/maddy/turtlebot3_ws/install/mic_startup/lib/mic_startup
+[5.793s] writing list of installed files to '/home/maddy/turtlebot3_ws/build/mic_startup/install.log'
+[5.909s] Invoked command in '/home/maddy/turtlebot3_ws/src/mic_startup' returned '0': PYTHONPATH=/home/maddy/turtlebot3_ws/build/mic_startup/prefix_override:/home/maddy/turtlebot3_ws/install/mic_startup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mic_startup build --build-base /home/maddy/turtlebot3_ws/build/mic_startup/build install --record /home/maddy/turtlebot3_ws/build/mic_startup/install.log --single-version-externally-managed

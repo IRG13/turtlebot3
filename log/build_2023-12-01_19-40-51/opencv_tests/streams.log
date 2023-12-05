@@ -1,0 +1,48 @@
+[6.898s] Invoking command in '/home/maddy/turtlebot3_ws/build/opencv_tests': CMAKE_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/audio_common_msgs LD_LIBRARY_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/maddy/turtlebot3_ws/build/opencv_tests/prefix_override:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/maddy/turtlebot3_ws/build/opencv_tests/build
+[8.731s] running develop
+[8.737s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.738s]   warnings.warn(
+[8.744s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.744s]   warnings.warn(
+[9.724s] Removing /home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv-tests.egg-link (link to .)
+[10.028s] Invoked command in '/home/maddy/turtlebot3_ws/build/opencv_tests' returned '0': CMAKE_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/audio_common_msgs LD_LIBRARY_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/maddy/turtlebot3_ws/build/opencv_tests/prefix_override:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/maddy/turtlebot3_ws/build/opencv_tests/build
+[10.037s] Invoking command in '/home/maddy/turtlebot3_ws/src/vision_opencv/opencv_tests': CMAKE_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/audio_common_msgs LD_LIBRARY_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/maddy/turtlebot3_ws/build/opencv_tests/prefix_override:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/maddy/turtlebot3_ws/build/opencv_tests/build install --record /home/maddy/turtlebot3_ws/build/opencv_tests/install.log --single-version-externally-managed
+[11.136s] running egg_info
+[11.139s] writing ../../../build/opencv_tests/opencv_tests.egg-info/PKG-INFO
+[11.140s] writing dependency_links to ../../../build/opencv_tests/opencv_tests.egg-info/dependency_links.txt
+[11.141s] writing entry points to ../../../build/opencv_tests/opencv_tests.egg-info/entry_points.txt
+[11.142s] writing requirements to ../../../build/opencv_tests/opencv_tests.egg-info/requires.txt
+[11.142s] writing top-level names to ../../../build/opencv_tests/opencv_tests.egg-info/top_level.txt
+[11.151s] reading manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[11.156s] writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[11.156s] running build
+[11.156s] running build_py
+[11.157s] creating /home/maddy/turtlebot3_ws/build/opencv_tests/build
+[11.157s] creating /home/maddy/turtlebot3_ws/build/opencv_tests/build/lib
+[11.158s] creating /home/maddy/turtlebot3_ws/build/opencv_tests/build/lib/opencv_tests
+[11.158s] copying opencv_tests/source.py -> /home/maddy/turtlebot3_ws/build/opencv_tests/build/lib/opencv_tests
+[11.160s] copying opencv_tests/rosfacedetect.py -> /home/maddy/turtlebot3_ws/build/opencv_tests/build/lib/opencv_tests
+[11.162s] copying opencv_tests/__init__.py -> /home/maddy/turtlebot3_ws/build/opencv_tests/build/lib/opencv_tests
+[11.162s] copying opencv_tests/broadcast.py -> /home/maddy/turtlebot3_ws/build/opencv_tests/build/lib/opencv_tests
+[11.164s] running install
+[11.165s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.165s]   warnings.warn(
+[11.166s] running install_lib
+[11.169s] creating /home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[11.169s] copying /home/maddy/turtlebot3_ws/build/opencv_tests/build/lib/opencv_tests/source.py -> /home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[11.170s] copying /home/maddy/turtlebot3_ws/build/opencv_tests/build/lib/opencv_tests/rosfacedetect.py -> /home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[11.171s] copying /home/maddy/turtlebot3_ws/build/opencv_tests/build/lib/opencv_tests/__init__.py -> /home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[11.172s] copying /home/maddy/turtlebot3_ws/build/opencv_tests/build/lib/opencv_tests/broadcast.py -> /home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[11.175s] byte-compiling /home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/source.py to source.cpython-310.pyc
+[11.178s] byte-compiling /home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/rosfacedetect.py to rosfacedetect.cpython-310.pyc
+[11.182s] byte-compiling /home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/__init__.py to __init__.cpython-310.pyc
+[11.183s] byte-compiling /home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/broadcast.py to broadcast.cpython-310.pyc
+[11.185s] running install_data
+[11.188s] running install_egg_info
+[11.195s] Copying ../../../build/opencv_tests/opencv_tests.egg-info to /home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests-3.4.0-py3.10.egg-info
+[11.201s] running install_scripts
+[11.284s] Installing broadcast script to /home/maddy/turtlebot3_ws/install/opencv_tests/lib/opencv_tests
+[11.285s] Installing rosfacedetect script to /home/maddy/turtlebot3_ws/install/opencv_tests/lib/opencv_tests
+[11.285s] Installing source script to /home/maddy/turtlebot3_ws/install/opencv_tests/lib/opencv_tests
+[11.287s] writing list of installed files to '/home/maddy/turtlebot3_ws/build/opencv_tests/install.log'
+[11.403s] Invoked command in '/home/maddy/turtlebot3_ws/src/vision_opencv/opencv_tests' returned '0': CMAKE_PREFIX_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge:/home/maddy/turtlebot3_ws/install/vision_opencv:/home/maddy/turtlebot3_ws/install/turtlebot3:/home/maddy/turtlebot3_ws/install/turtlebot3_bringup:/home/maddy/turtlebot3_ws/install/turtlebot3_node:/home/maddy/turtlebot3_ws/install/turtlebot3_description:/home/maddy/turtlebot3_ws/install/ld08_driver:/home/maddy/turtlebot3_ws/install/image_geometry:/home/maddy/turtlebot3_ws/install/audio_common_msgs LD_LIBRARY_PATH=/home/maddy/turtlebot3_ws/install/cv_bridge/lib:/home/maddy/turtlebot3_ws/install/image_geometry/lib:/home/maddy/turtlebot3_ws/install/audio_common_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/maddy/turtlebot3_ws/build/opencv_tests/prefix_override:/home/maddy/turtlebot3_ws/install/opencv_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/maddy/turtlebot3_ws/build/opencv_tests/build install --record /home/maddy/turtlebot3_ws/build/opencv_tests/install.log --single-version-externally-managed

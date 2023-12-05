@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/maddy/turtlebot3_ws/install/mic_startup/lib/python3.10/site-packages/mic_startup/speech_converter.py", line 33
+    subprocess.run(espeak "Hello" 2>/dev/null)
+                          ^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

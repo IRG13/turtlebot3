@@ -1,0 +1,28 @@
+[1.199s] Invoking command in '/home/maddy/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/sound_player:/home/maddy/turtlebot3_ws/install/ros2_camera_publish:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/mic_startup:/home/maddy/turtlebot3_ws/install/image_pub:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble /usr/bin/cmake --build /home/maddy/turtlebot3_ws/build/turtlebot3_node -- -j4 -l4
+[1.842s] [ 85%] Built target turtlebot3_node_lib
+[2.041s] [100%] Built target turtlebot3_ros
+[2.096s] Invoked command in '/home/maddy/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/sound_player:/home/maddy/turtlebot3_ws/install/ros2_camera_publish:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/mic_startup:/home/maddy/turtlebot3_ws/install/image_pub:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble /usr/bin/cmake --build /home/maddy/turtlebot3_ws/build/turtlebot3_node -- -j4 -l4
+[2.473s] Invoking command in '/home/maddy/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/sound_player:/home/maddy/turtlebot3_ws/install/ros2_camera_publish:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/mic_startup:/home/maddy/turtlebot3_ws/install/image_pub:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble /usr/bin/cmake --install /home/maddy/turtlebot3_ws/build/turtlebot3_node
+[2.520s] -- Install configuration: ""
+[2.526s] -- Execute custom install script
+[2.532s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[2.535s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[2.538s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[2.545s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[2.547s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[2.550s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[2.552s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[2.553s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[2.555s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[2.556s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[2.558s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[2.561s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[2.565s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[2.567s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[2.569s] -- Symlinking: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[2.617s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[2.621s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.625s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[2.629s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[2.632s] -- Up-to-date symlink: /home/maddy/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[2.649s] Invoked command in '/home/maddy/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maddy/turtlebot3_ws/install/turtlebot3_teleop:/home/maddy/turtlebot3_ws/install/turtlebot3_example:/home/maddy/turtlebot3_ws/install/sound_player:/home/maddy/turtlebot3_ws/install/ros2_camera_publish:/home/maddy/turtlebot3_ws/install/opencv_tests:/home/maddy/turtlebot3_ws/install/mic_startup:/home/maddy/turtlebot3_ws/install/image_pub:/home/maddy/turtlebot3_ws/install/cv_stuff:/opt/ros/humble /usr/bin/cmake --install /home/maddy/turtlebot3_ws/build/turtlebot3_node

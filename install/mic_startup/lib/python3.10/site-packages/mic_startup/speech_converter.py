@@ -3,46 +3,37 @@ import rclpy
 from rclpy.node import Node
 
 from sensor_msgs.msg import Image
-from std_msgs.msg import Bool
 import sounddevice as sd
 import numpy as np
 import wave
-import pygame
+from num2words import num2words
+from subprocess import call
 
 
-
-class StartBot(Node):
+class startmic(Node):
 
     def __init__(self) -> None:
-        super().__init__("StartBot")
+        super().__init__("mic_running")
          
-        # initializes and creates a publisher saying bot has not yet started
-        self._pub = self.create_publisher(Bool, 'bot_started', 10)
-        self.pub = Bool()
-
         self.r = sr.Recognizer()
         self.CHANNELS = 1
         self.RATE = 44100
         self.DTYPE = np.int16
-        self.RECORD_SECONDS = 10
+        self.RECORD_SECONDS = 5
         self.FILENAME = "/home/maddy/turtlebot3_ws/src/mic_startup/mic_startup/output.wav"
+        self.responses = {
+                     "hello" : "hello there",
+                     "hey" : "hey there",
+                     "you suck" : "and you swallow",
+                     "tell me a joke" : "look into a mirror",
+                     }
+        
+    def play_response(self, key) -> None:
+        print(key)
+        cmd = f'espeak "{self.responses[key]}" 2>/dev/null -s30'
+        call([cmd], shell=True)
 
-        self._sub = self.create_subscription(Bool, 'bot_started', self.speech_stuff, 10)
-        print("Hello")
-    def boot(self) -> None:
-        self.pub.data = False
-        self._pub.publish(self.pub)
-    def play_sound(self) -> None:
-        pygame.mixer.init()
-        sound = pygame.mixer.Sound('/home/maddy/turtlebot3_ws/src/mic_startup/mic_startup/17.wav')
-        playing = sound.play()
-        while playing.get_busy():
-            pygame.time.delay(100)
-        pygame.quit()
 
-    def speech_stuff(self, msg: Bool) -> None:
-        if msg.data == False:
-            self.speech_exporter()
     # if finally, we publish true started
     def speech_exporter(self) -> None:
 
@@ -54,39 +45,27 @@ class StartBot(Node):
             wf.setframerate(self.RATE)
             wf.writeframes(audio_data.tobytes())
 
-        print("Recording finished. Audio saved to", self.FILENAME)
-
+        self.get_logger().info("recorded")
         with sr.AudioFile(self.FILENAME) as source:
     # listen for the data (load audio to memory)
             audio_data_temp = self.r.record(source)
     # recognize (convert from speech to text)
-            if audio_data_temp:
+            try:
                 text = self.r.recognize_google(audio_data_temp)
-                print(text)
+                self.get_logger().info(text)
 
-        if "roll out" in text.lower():
-            self.pub.data = True
-            self.play_sound()
-        elif "rollout" in text.lower():
-            self.pub.data = True
-            self.play_sound()
-        elif "rolls out" in text.lower():
-            self.pub.data = True
-            self.play_sound()
-        elif "roll outs" in text.lower():
-            self.pub.data = True
-            self.play_sound()
-        elif "rolls outs" in text.lower():
-            self.pub.data = True
-            self.play_sound()
-        else:
-            self.pub.data = False
-        self._pub.publish(self.pub)
+            except:
+                text = "nah"
+        for key in self.responses:
+            if key in text.lower():
+                self.play_response(key)
 
 def main():
     rclpy.init()
-    node = StartBot()
-    node.boot()
+    node = startmic()
+    
+    while True:
+        node.speech_exporter()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()

@@ -1,6 +1,8 @@
+/home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player/sound_publisher.py
 /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player/player.py
 /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player/__init__.py
 /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player/play_sounds.py
+/home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player/__pycache__/sound_publisher.cpython-310.pyc
 /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player/__pycache__/player.cpython-310.pyc
 /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player/__pycache__/__init__.cpython-310.pyc
 /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player/__pycache__/play_sounds.cpython-310.pyc
@@ -14,3 +16,4 @@
 /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player-0.0.0-py3.10.egg-info/requires.txt
 /home/maddy/turtlebot3_ws/install/sound_player/lib/python3.10/site-packages/sound_player-0.0.0-py3.10.egg-info/top_level.txt
 /home/maddy/turtlebot3_ws/install/sound_player/lib/sound_player/sound_player
+/home/maddy/turtlebot3_ws/install/sound_player/lib/sound_player/sound_publisher
